@@ -6,18 +6,6 @@
   </v-app>
 </template>
 
-<script lang="ts">
+<script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-
-  components: {
-    HelloWorld,
-  },
-
-  data: () => ({
-    //
-  }),
-}
 </script>
