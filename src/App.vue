@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app :theme="darkTheme ? 'dark' : 'light'">
     <v-navigation-drawer v-model="drawer" app>
       <v-card flat color="amber-lighten-5" height="12em">
         <v-img
@@ -49,6 +49,14 @@
     <v-app-bar density="compact" flat color="primary" app>
       <v-app-bar-nav-icon @click="drawer = !drawer" color="primary"></v-app-bar-nav-icon>
       <v-app-bar-title>MLPDS</v-app-bar-title>
+      <v-spacer/>
+      <v-switch
+        v-model="darkTheme"
+        inset
+        compact
+        hide-details
+        class="flex-grow-0"
+      />
     </v-app-bar>
 
     <v-main>
@@ -63,9 +71,11 @@
 </template>
 
 <script setup lang="ts">
+import { useStoredRef } from './refs'
 import { socialMediaLinks, externalLinks } from './links'
 import logo from '@/assets/mlpds-icon.png'
 import { ref } from 'vue'
 
 const drawer = ref(false);
+const darkTheme = useStoredRef(false, 'useDarkTheme');
 </script>
