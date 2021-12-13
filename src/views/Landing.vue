@@ -68,7 +68,7 @@
 
 <script setup lang="ts">
 import { socialMediaLinks, externalLinks } from '@/links'
-import logo from '../assets/mlpds-icon.png'
+import logo from '@/assets/mlpds-icon.png'
 
 import fluffyxaiFineline1 from '@/assets/fineline/fluffyxai-fineline-1.png'
 import vexFineline1 from '@/assets/fineline/vex-fineline-1.jpg'
