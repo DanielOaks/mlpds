@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
+import staticPageRoutes from "~pages";
 
-export const routes: RouteRecordRaw[] = [
+export const routes = staticPageRoutes.concat([
   {
     name: 'main',
     path: '/',
@@ -11,7 +12,7 @@ export const routes: RouteRecordRaw[] = [
 //     path: '/landing',
 //     component: () => import('@/views/Landing.vue'),
 //   },
-]
+])
 
 const router = createRouter({
   history: createWebHistory(),
