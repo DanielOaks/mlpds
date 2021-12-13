@@ -13,8 +13,8 @@ const mlpdsLightTheme: ThemeDefinition = {
   colors: {
     background: '#FFFFFF',
     surface: '#FFFFFF',
-    primary: colors.deepPurple.base,
-    'primary-darken-1': colors.deepPurple.darken1,
+    primary: colors.purple.base,
+    'primary-darken-1': colors.purple.darken1,
     secondary: colors.pink.base,
     'secondary-darken-1': colors.pink.darken1,
     error: '#B00020',
@@ -27,12 +27,12 @@ const mlpdsLightTheme: ThemeDefinition = {
 }
 
 const mlpdsDarkTheme: ThemeDefinition = {
-  dark: false,
+  dark: true,
   colors: {
     background: colors.grey.darken4,
     surface: colors.blueGrey.darken4,
-    primary: colors.deepPurple.base,
-    'primary-darken-1': colors.deepPurple.darken1,
+    primary: colors.purple.base,
+    'primary-darken-1': colors.purple.darken1,
     secondary: colors.pink.base,
     'secondary-darken-1': colors.pink.darken1,
     error: '#B00020',
