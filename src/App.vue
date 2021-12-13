@@ -12,8 +12,9 @@
       <v-list dense nav>
         <v-list-item key="logo">
           <v-list-item-content>
-            <h3>MLP Drawing School</h3>
-            <subtitle>A supportive and nurturing art community.</subtitle>
+            <v-img alt="MLP Drawing School" class="mlpdsBanner" :src="mlpdsBanner"/>
+            <!-- <h3>MLP Drawing School</h3> -->
+            <subtitle>We're a supportive and nurturing art community.</subtitle>
           </v-list-item-content>
         </v-list-item>
         <v-list-item
@@ -72,10 +73,21 @@
   </v-app>
 </template>
 
+<style lang="scss">
+.mlpdsBanner {
+  margin-left: -1.05em;
+  margin-bottom: .3em;
+}
+.v-application.v-theme--dark .mlpdsBanner {
+  filter: invert(1);
+}
+</style>
+
 <script setup lang="ts">
 import { useStoredRef } from './refs'
 import { socialMediaLinks, externalLinks } from './links'
-import logo from '@/assets/mlpds-icon.png'
+import logo from '@/assets/logo.png'
+import mlpdsBanner from '@/assets/mlpds-banner-dark.png'
 import { ref } from 'vue'
 
 const drawer = ref(false);
