@@ -26,7 +26,9 @@ export default defineConfig({
       extensions: ['vue', 'ts', 'js', 'md'],
     }),
     // https://github.com/antfu/vite-plugin-md
-    markdown(),
+    markdown({
+      wrapperComponent: 'MarkdownWrapper',
+    }),
   ],
   define: { 'process.env': {} },
   resolve: {
