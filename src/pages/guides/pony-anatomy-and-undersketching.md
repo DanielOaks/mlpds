@@ -1,5 +1,5 @@
 ---
-title: The basics. Pony anatomy and undersketching.
+title: Pony anatomy and undersketching.
 author: viwrastupr
 type: guide
 ---
@@ -9,18 +9,14 @@ Hello everypony.
 <!-- [](https://www.reddit.com/fluttersrs "ah, screw it.") -->
 I'm here to teach you some stuff about how ponies are put together in the show. Or, at least the basics.
 
-Ponies are put together with an undersketch. What's an undersketch?
-<!-- [Well, they look like this](http://imgur.com/a/BTVfB). -->
-It looks like crap, doesn't it? Well, it is supposed to, its not the final piece. You see, what an undersketch does is provide the *foundation* on which the rest of the pony's body, placement, angles, proportions, and everything really depends on.
+Ponies are put together with an undersketch. What's an undersketch? [Well, they look like this](http://imgur.com/a/BTVfB). It looks like crap, doesn't it? Well, it is supposed to, its not the final piece. You see, what an undersketch does is provide the _foundation_ on which the rest of the pony's body, placement, angles, proportions, and everything really depends on.
 
-Now let's take a closer look at that undersketch. A pony body is made up of two *intersecting* circles. A larger one for the rump and a smaller one for the chest. Now what about the limbs, where do those lines come from?
-<!-- [I link to this guide a lot and the limbs are why](http://vertrev.deviantart.com/art/AMG-so-much-pony-201791308). -->
-Each line represents a pony's bone and where they change direction, a joint. By placing these lines in first, you can figure out the placement and proportions of the legs and their joints.
+Now let's take a closer look at that undersketch. A pony body is made up of two _**intersecting**_ circles. A larger one for the rump and a smaller one for the chest. Now what about the limbs, where do those lines come from? [I link to this guide a lot and the limbs are why](http://vertrev.deviantart.com/art/AMG-so-much-pony-201791308). Each line represents a pony's bone and where they change direction, a joint. By placing these lines in first, you can figure out the placement and proportions of the legs and their joints.
 
 By doing these simple few lines and circles, you let yourself be able to draw and recorrect, draw and recorrect until its in the right spot and at the right place.
 <!-- [](https://www.reddit.com/fluttershy "Correct, recorrect... got it.  But how?") -->
 
-Let's take the back legs for instance. They have an angle that is difficult for most to see on their first few pony arts. Look at [the angle the back line of the back leg is making in these pictures](http://imgur.com/a/vzBB8). It comes out. *Not in*. Out. In all flatfooted situations in the show this is the case. Back legs are neither straight nor forward, they come out, away from the body.--- This creates untold interest, it leads the viewer into the body instead of down away from it.
+Let's take the back legs for instance. They have an angle that is difficult for most to see on their first few pony arts. Look at [the angle the back line of the back leg is making in these pictures](http://imgur.com/a/vzBB8). It comes out. _Not in_. Out. In all flatfooted situations in the show this is the case. **Back legs are neither straight nor forward, they come out, away from the body.**--- This creates untold interest, it leads the viewer into the body instead of down away from it.
 
 Now that we know this, let's apply it to the undersketch. [Take a look at the next iteration](http://imgur.com/5KGD3). We used the leg undersketch, and what we know about angles to map in the next part. But what's with all those random lines? That is measuring. When drawing from a reference, in order to make sure you're getting the angle right hold a pencil up to the reference and measure angles between various outside points. Part of the undersketch can be mapping out these angles. This really helps you to nail placement and proportions.
 <!-- [](https://www.reddit.com/fluttershh "This doesn't seem so bad... wait, is this how we recorrect?") -->
@@ -48,8 +44,7 @@ Some notes on pony proportions and general anatomy tips:
 
 -   Ponies have very small and rounded muzzles. There is no point at the end and to make a point draws attention away from the eyes in a way that is very... sad. They're also barely there, just a bump at the bottom of the eyes.
 
--   Their ears are not a triangle like a cat's, but more like a football with a quarter of it missing where it attaches. The inside of a pony's ear is [about half as long as the outside](http://imgur.com/DcCZ6) in most views.
-<!-- [](https://www.reddit.com/twismile "So very much to learn!") -->
+-   Their ears are not a triangle like a cat's, but more like a football with a quarter of it missing where it attaches. The inside of a pony's ear is [about half as long as the outside](http://imgur.com/DcCZ6) in most views. <!--[](https://www.reddit.com/twismile "So very much to learn!")-->
 
 -   Pony eyes are quite distinct. They are elliptical, and at an angle, and when in 3/4 view they loose width, but not height. Check out the twismile emote. Her far eye is very thin, and her near eye not a circle, but an interesting series of curves... Hence why we map things out.
 

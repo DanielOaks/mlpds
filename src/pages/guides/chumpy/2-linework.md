@@ -1,5 +1,5 @@
 ---
-title: "Lesson 2: Linework".
+title: "Lesson 2: Linework."
 author: mynameischumpy
 type: guide
 ---

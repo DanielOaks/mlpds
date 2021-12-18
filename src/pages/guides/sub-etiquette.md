@@ -11,7 +11,7 @@ Hello, and welcome to the MLP Drawing School! We provide resources and critique 
 
 -----
 
-General sub etiquette.
+**General sub etiquette.**
 
 - Read the guidelines in the sidebar. [Also, if you're curious as to what tags mean click here](http://www.reddit.com/r/MLPdrawingschool/comments/rhars/).
 
@@ -25,11 +25,11 @@ General sub etiquette.
 
 - [The bi-weekly challenges are always open](http://www.reddit.com/r/MLPdrawingschool/comments/q693h/). They are here for you to improve, make use of them. Create a piece, make a new post and we'll critique! And we could always use more emotes.
 
-- Please give back to the community. If you get critiques, give critiques. It can be as simple as stating the obvious anatomical errors or as complex as an in depth analysis. Link to a guide that helped you, talk with the peoples. We're all human and this is about My Little Pony, getting better at art and and flooding the world with pony art. Play.
+- **Please give back to the community.** If you get critiques, give critiques. It can be as simple as stating the obvious anatomical errors or as complex as an in depth analysis. Link to a guide that helped you, talk with the peoples. We're all human and this is about My Little Pony, getting better at art and and flooding the world with pony art. Play.
 
 <!-- [](https://www.reddit.com/flutterfear "So this is the infinityth guide I've made... oh, first stop?") -->
 <!-- [](https://www.reddit.com/fluttershy "Probably should've made this first... sorry.") -->
 <!-- [](https://www.reddit.com/twismile "Critics, link to guides!  They go in depth so you don't have to every time.") -->
 <!-- [](https://www.reddit.com/twiquery "Anything else that should be in here or that I've forgotten/left out?") -->
 
-EDIT: Spread awareness. Tell others that they can link to guides. Give out tips, not orders. Spread the culture of the sub. Knowledge isn't magic. Communicate!
+**EDIT:** Spread awareness. Tell others that they can link to guides. Give out tips, not orders. Spread the culture of the sub. Knowledge isn't magic. Communicate!
