@@ -3,7 +3,7 @@ type Author = {
   reddit?: string;
   twitter?: string;
   homepage?: string;
-  icon?: typeof import('*.png');
+  icon?: string;
 }
 
 interface AuthorMap {
@@ -27,12 +27,12 @@ export const authors: AuthorMap = {
     name: 'pixienop',
     twitter: 'pixienop',
     homepage: 'https://pixienop.net/',
-    icon: await import('@/assets/authors/pixienop.png'),
+    icon: '/authors/pixienop.png',
   },
   viwrastupr: {
     name: 'viwrastupr',
     reddit: 'viwrastupr',
-    icon: await import('@/assets/authors/viwrastupr.png'),
+    icon: '/authors/viwrastupr.png',
   },
 }
 
