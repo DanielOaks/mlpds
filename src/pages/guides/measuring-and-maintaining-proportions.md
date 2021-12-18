@@ -105,9 +105,6 @@ Something that crops up in many beginners' drawings that involve lots of curves 
 <Ponymote mote="twismile" text="I know this is a giant wall of text, but all the stuff that's here is important (except the jokes and asides) and it's stuff that might not ever get mentioned to you. I've even put some emotes in to help break it up and bolded the key points, but you shouldn't skim this. I hope this guide proves useful to at least a few people."/>
 
 <script setup lang="ts">
-import Ponymote from '@/components/Ponymote.vue'
-import GuideFullWidthImage from '@/components/GuideFullWidthImage.vue'
-
 import VertreVimg from './VertreV-201791308.jpg'
 import AlignmentLinesSketch from './alignmentlines-sketch.jpg'
 </script>

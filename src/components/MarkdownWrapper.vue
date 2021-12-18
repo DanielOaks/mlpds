@@ -47,19 +47,14 @@
 }
 </style>
 
-<script lang="ts">
-export default {
-    props: ['frontmatter'],
-    // mounted() {
-    //     let utterancesScript = document.createElement('script');
-    //     utterancesScript.setAttribute('src', 'https://utteranc.es/client.js');
-    //     utterancesScript.setAttribute('repo', 'cdgeass/cdgeass.github.io');
-    //     utterancesScript.setAttribute('issue-term', 'pathname');
-    //     utterancesScript.setAttribute('label', 'Comments');
-    //     utterancesScript.setAttribute('theme', 'github-light');
-    //     utterancesScript.setAttribute('crossorigin', 'anonymous');
-    //     utterancesScript.setAttribute('async', 'true');
-    //     document.getElementsByClassName('post-wrapper').item(0)?.appendChild(utterancesScript);
-    // }
-}
+<script setup lang="ts">
+
+import { useRoute } from 'vue-router'
+const route = useRoute()
+const guidePath = route.path.replace(/^(\/guides\/)/,'')
+console.log(guidePath)
+
+const props = defineProps({
+  frontmatter: {},
+})
 </script>

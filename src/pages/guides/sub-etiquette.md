@@ -27,9 +27,9 @@ Hello, and welcome to the MLP Drawing School! We provide resources and critique 
 
 - **Please give back to the community.** If you get critiques, give critiques. It can be as simple as stating the obvious anatomical errors or as complex as an in depth analysis. Link to a guide that helped you, talk with the peoples. We're all human and this is about My Little Pony, getting better at art and and flooding the world with pony art. Play.
 
-<!-- [](https://www.reddit.com/flutterfear "So this is the infinityth guide I've made... oh, first stop?") -->
-<!-- [](https://www.reddit.com/fluttershy "Probably should've made this first... sorry.") -->
-<!-- [](https://www.reddit.com/twismile "Critics, link to guides!  They go in depth so you don't have to every time.") -->
-<!-- [](https://www.reddit.com/twiquery "Anything else that should be in here or that I've forgotten/left out?") -->
+<Ponymote mote="flutterfear" text="So this is the infinityth guide I've made... oh, first stop?"/>
+<Ponymote mote="fluttershy" text="Probably should've made this first... sorry."/>
+<Ponymote mote="twismile" text="Critics, link to guides!  They go in depth so you don't have to every time."/>
+<Ponymote mote="twiquery" text="Anything else that should be in here or that I've forgotten/left out?"/>
 
 **EDIT:** Spread awareness. Tell others that they can link to guides. Give out tips, not orders. Spread the culture of the sub. Knowledge isn't magic. Communicate!
