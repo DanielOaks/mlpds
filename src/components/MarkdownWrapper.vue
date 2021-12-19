@@ -6,7 +6,7 @@
     <div class="homeLinks" v-if="prevPage || home || nextPage">
       <router-link v-if="prevPage" :to="guidesPrefix+prevPage" v-text="'Previous Page'"/>
       <span v-if="!prevPage" v-text="'Previous Page'"/>
-      <router-link v-if="home" :to="guidesPrefix+home" v-text="'Home'"/>
+      <router-link :to="guidesPrefix+home" v-text="'Home'"/>
       <router-link v-if="nextPage" :to="guidesPrefix+nextPage" v-text="'Next Page'"/>
       <span v-if="!nextPage" v-text="'Next Page'"/>
     </div>

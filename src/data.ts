@@ -105,7 +105,7 @@ export const guides = {
 
 export const guideLists = {
   'default': {
-    home: '/guides/',
+    home: '',
     pages: [
       {
         name: 'Introductions',
@@ -128,7 +128,7 @@ export const guideLists = {
     ],
   },
   'chumpys': {
-    home: '/guides/chumpy/',
+    home: 'chumpy/',
     pages: [
       {
         name: "The Guides",
