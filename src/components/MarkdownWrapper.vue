@@ -26,6 +26,9 @@
   .homeLinks {
     margin: .2em 0 .3em;
     text-align: center;
+    position: sticky;
+    top: 3em;
+    background: rgb(var(--v-theme-background));
     a, span {
       display: inline-block;
       padding: .5em;
