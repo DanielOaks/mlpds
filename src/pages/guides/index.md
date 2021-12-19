@@ -1,6 +1,6 @@
 ---
 title: Guides
-type: guide
+type: guideindex
 ---
 Here are guides
 

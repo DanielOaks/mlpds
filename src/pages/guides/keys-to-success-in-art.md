@@ -5,7 +5,7 @@ type: guide
 ---
 There are three key steps to success in art and they are as follows:
 
------
+<br>
 
 1. **Study** From getting feedback and critique, to [working through guides](http://redd.it/s8kxz) over and over again, to looking at what others do and how they approach their work. Asking questions is very important here. Knowledge doesn't only come from practice, but also from openly wondering and asking. Your critics are here to help you, take advantage.
 

@@ -2,6 +2,7 @@
 title: "Lesson 5: Common anatomy errors."
 author: mynameischumpy
 type: guide
+list: chumpys
 ---
 Hello and welcome to another Thursday weekly lesson. This one is fairly simple and straight forward. Common anatomical errors! What do we often do wrong or not think to consider when drawing ponies?
 

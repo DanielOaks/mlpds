@@ -2,6 +2,7 @@
 title: "Lesson 4: Basic Pony Shading and Lighting."
 author: mynameischumpy
 type: guide
+list: chumpys
 ---
 Although this is a weekly 'Thursday' lesson, i'll try to answer your questions well after this is over. Don't hesitate to leave a comment!
 

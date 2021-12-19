@@ -2,6 +2,7 @@
 title: "Lesson 1: Sketching Technique."
 author: mynameischumpy
 type: guide
+list: chumpys
 ---
 _EDIT: Although this is a weekly 'Thursday' lesson, i'll try to answer your questions well after this is over. Don't hesitate to leave a comment!_
 

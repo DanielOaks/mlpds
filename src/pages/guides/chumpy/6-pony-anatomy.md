@@ -1,7 +1,8 @@
-[---
+---
 title: "Lesson 6: Pony Anatomy."
 author: mynameischumpy
 type: guide
+list: chumpys
 ---
 **Hey, mlpdrawingschool peeps, this is my anatomy lesson for the week. I'm not super happy with it at the moment but like an idiot I didn't seek out some of y'all's advice sooner. So, if you can offer me some critique on my lesson here. I know it's rough and there are probably some very unclear parts that need to be clarified. Or perhaps there's some parts I go too in depth with. Perhaps one of my example pictures is too messy to read. Please let me know so I can get this thing fixed up and have it be a nice proper lesson on the same level as the last 5.**
 

@@ -1,6 +1,6 @@
 <template>
   <div class="guideList">
-    <template v-for="section in guideLists[list]">
+    <template v-for="section in guideLists[list].pages">
       <h2 v-text="section.name" v-if="titles !== 'none'"/>
       <div class="guideLink" v-for="p in section.pages">
         <router-link :to="g(p).link || '/guides/'+p" v-text="g(p).name"/>

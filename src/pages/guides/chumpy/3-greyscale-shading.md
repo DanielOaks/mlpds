@@ -2,6 +2,7 @@
 title: "Lesson 3: Grayscale shading."
 author: mynameischumpy
 type: guide
+list: chumpys
 ---
 Lighting and shade is a tough subject to cover. There are so many things to consider, but we'll go over the basics and things will start to take shape eventually. This will be split into two parts. The next will be a separate post on its own.
 

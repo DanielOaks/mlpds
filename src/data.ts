@@ -104,37 +104,43 @@ export const guides = {
 }
 
 export const guideLists = {
-  'default': [
-    {
-      name: 'Introductions',
-      pages: [
-        'sub-etiquette',
-        'measuring-and-maintaining-proportions',
-        'keys-to-success-in-art',
-      ],
-    },
-    {
-      name: 'The Basics',
-      pages: [
-        'pony-anatomy-and-undersketching',
-        'understanding-references',
-        'measuring-and-comparing',
-        'pose-building-in-action',
-        'chumpy/',
-      ]
-    }
-  ],
-  'chumpys': [
-    {
-      name: "The Guides",
-      pages: [
-        'chumpy/1-sketching',
-        'chumpy/2-linework',
-        'chumpy/3-greyscale-shading',
-        'chumpy/4-pony-shading-and-lighting',
-        'chumpy/5-common-anatomy-errors',
-        'chumpy/6-pony-anatomy',
-      ],
-    },
-  ],
+  'default': {
+    home: '/guides/',
+    pages: [
+      {
+        name: 'Introductions',
+        pages: [
+          'sub-etiquette',
+          'measuring-and-maintaining-proportions',
+          'keys-to-success-in-art',
+        ],
+      },
+      {
+        name: 'The Basics',
+        pages: [
+          'pony-anatomy-and-undersketching',
+          'understanding-references',
+          'measuring-and-comparing',
+          'pose-building-in-action',
+          'chumpy/',
+        ]
+      }
+    ],
+  },
+  'chumpys': {
+    home: '/guides/chumpy/',
+    pages: [
+      {
+        name: "The Guides",
+        pages: [
+          'chumpy/1-sketching',
+          'chumpy/2-linework',
+          'chumpy/3-greyscale-shading',
+          'chumpy/4-pony-shading-and-lighting',
+          'chumpy/5-common-anatomy-errors',
+          'chumpy/6-pony-anatomy',
+        ],
+      },
+    ],
+  },
 }
