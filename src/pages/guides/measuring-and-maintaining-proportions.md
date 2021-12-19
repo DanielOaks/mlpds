@@ -62,7 +62,7 @@ An undersketch is… oh gods, how do you describe an undersketch?
 Okay, so.
 <Ponymote mote="c23" text="Here's the Earth..."/>
 
-**Ponies are made out of circles**, mostly. Circles and legs. You can see this in the top left corner of the [Holy Pony Anatomy Guide](http://vertrev.deviantart.com/gallery/?offset=24#/d3c5364) (we call it that around here because it gets posted all the time):
+**Ponies are made out of circles**, mostly. Circles and legs. You can see this in the top left corner of the Holy Pony Anatomy Guide (we call it that around here because it gets posted all the time):
 
 <GuideFullWidthImage :src="VertreVimg" href="https://www.deviantart.com/vertrev/art/AMG-so-much-pony-VertreV-201791308" artist="VertreV"/>
 

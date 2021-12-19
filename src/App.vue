@@ -81,6 +81,11 @@
 .v-application.v-theme--dark .mlpdsBanner {
   filter: invert(1);
 }
+// fix vuetify setting bad link colours
+// on the dark theme :<
+.v-application.v-theme--dark a {
+  color: rgb(139, 191, 247);
+}
 </style>
 
 <script setup lang="ts">
