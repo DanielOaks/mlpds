@@ -53,6 +53,7 @@ const fixedMotes: {[key: string]: string} = {
   'b24': 'squintyjack',
   'c04': 'ajfrown',
   'c23': 'derpyhappy',
+  'c28': 'angel',
   'e07': 'ajconfused',
   'rb11': 'ajsly',
 }

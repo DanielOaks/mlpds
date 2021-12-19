@@ -4,44 +4,36 @@ author: mynameischumpy
 type: guide
 list: chumpys
 ---
-_EDIT: Although this is a weekly 'Thursday' lesson, i'll try to answer your questions well after this is over. Don't hesitate to leave a comment!_
+Welcome to this first lesson! These are meant to teach y'all the fundamentals of art.
 
-[Lesson 2 is here.](http://redd.it/yc37a)
+Whether you're already experienced or just starting out, the fundamentals never lose their importance. We'll have a couple of activities down below, so keep your pencil or tablet handy.
 
-[Lesson 3 is here.](http://redd.it/yq7cp)
 
-[Lesson 4 is here.](http://redd.it/z3bne)
+## The Undersketch
 
-[Lesson 5 is here.](http://redd.it/zhek6)
+When starting art, we usually begin with an under-sketch. It is an essential part of the planning stage of your art piece. This is where you put down lots and lots of lines and try things. You should erase freely and indiscriminately. Look at this nice sketch:
+<GuideFullWidthImage :src="StupjamSketch" artist="stupjam"/>
 
-[Lesson 6 is here.](http://redd.it/zulhs)
+It's not immensely detailed, but the magic of a sketch is that it's a fantastic way to quickly test things out before you commit to any single idea.
 
-Welcome to the lesson post number one! (You should probably use [RES](http://redditenhancementsuite.com/) for this. Lots of picture links in this one.)
+At this stage, you can afford to change things at a moments notice, so use this to your advantage! As a beginner, you might think that your sketch lines are permanent. Once a line is laid down, you shouldn't change it. Nope. That's stinkin thinkin. Like the tides and the seasons, _no line is permanent, and you should not hesitate to change things if they look wrong_.
 
-These lesson posts are meant to teach you guys the fundamentals of art. Note that whether you're already experienced or just starting out, the fundamentals never lose their importance. We'll have a couple of activities down below, so keep your pencil or tablet handy.
+<GuideNote>
+The sketch is not the final product, but don't assume that your linework/painting is! Although changing things in the sketch phase is a lot easier, don't be afraid to change things up further along your piece. The magic of digital art is that you can change things without worrying about permanence. (Sorry, non-charcoal traditional artists.)
+</GuideNote>
 
-_The ☨ labels are footnotes for your further reading. I've not many words to put in this post so everything is in the comments._
 
-_I'll be here to try to answer as many questions you guys have, so leave a comment if you feel confused or unsure._
+## Swooshy Lines
 
------
+<Ponymote mote="c28" text="That isn't even a word!"/>
 
-**The Undersketch**
-
-When starting art, we usually begin with an under-sketch. It is an essential part of the planning stage of your art piece. This is where you put down lots and lots of lines and try things. You should erase freely and indiscriminately. [Look at this nice sketch by stupjam](http://24.media.tumblr.com/tumblr_m8gskeGZ0g1ra1vfao3_1280.png) Its not immensely detailed, but the magic of a sketch is that its a fantastic way to quickly test things out before you commit to any single idea. At this stage, you can afford to change things at a moments notice, so -
-
-Use this to your advantage! As a beginner, you might think that your sketch lines are permanent. Once a line is laid down, you shouldn't change it. Nope. That's stinkin thinkin. Like the tides and the seasons, _no line is permanent, and you should not hesitate to change things if they look wrong_. [☨^1](http://i.imgur.com/3Lsq4.jpg)
-
-**Swooshy Lines**
-
-<!-- [](https://www.reddit.com/c28 "That isn't even a word!") -->
 In its essence, sketches are flowy, loose things. How you make them flow is by letting your _lines_ flow as well. Use _quick, long swooshy_ strokes rather than short scratchy ones. I feel this a very important part of sketching.
 
-[Loose swooshy lines by TexDraws](http://24.media.tumblr.com/tumblr_lyh4dkXmLm1qfj55yo1_1280.png).
+For example, this sketch with lots of loose, swooshy lines:
+<GuideFullWidthImage :src="TexDrawsSketch" artist="TexDraws"/>
 
-Lots of beginners wrongly use short lines for sketching, and its a bad habit to keep. Whether your strokes are quick and decisive, or swishy and flowy, or short and timid, it will reflect in your work.
-
-[Linetype Examples](http://i.imgur.com/l8o6I.jpg)
+Lots of beginners use short lines for sketching, and it's a bad habit to keep. Whether your strokes are quick and decisive, or swishy and flowy, or short and timid, it will reflect in your work:
+<GuideFullWidthImage :src="LineExamples"/>
 
 Also, use BIG strokes! Don't sketch a teeny pony like the doodles people leave on the top of their exam papers. You've got an entire sheet of paper to doodle on. GO BIG.
 
@@ -55,19 +47,19 @@ Now, I want you to draw BIG circles. Make as many as you can, and as big as you 
 
 If you've got a sketchbook or a nice piece of A4 paper, fill dat page up. For digital users open up a file and make a big canvas (around 3000x1500 pixels will do), and have it fill your entire screen. Fill it up.
 
-What you'll want to do is use your _shoulder_ to draw those circles. Sound scary? It's really not. Think of it as a ['wax on, wax off' motion](http://www.youtube.com/watch?v=3PycZtfns_U#t=01m37s/). What do you mean you've never seen Karate Kid? Get to drawing, you.
+What you'll want to do is use your _shoulder_ to draw those circles. Sound scary? It's really not. Think of it as a ['wax on, wax off' motion](https://www.youtube.com/watch?v=3PycZtfns_U#t=01m37s). What do you mean you've never seen Karate Kid? Get to drawing, you.
 
-You should end up with something like this: [Link](http://i.imgur.com/UAWAu.jpg/).
+You should end up with something like this:
+<GuideFullWidthImage :src="LooseSketch"/>
 
-Remember, breathe deep, breathe out. Wax on, wax off.
-
-_Post the finished sheet in the comments so I know you're not cheating._
+Remember: breathe deep, breathe out. Wax on, wax off.
 
 -----
 
 Had fun? Carrying on -
 
-**General to Specific**
+
+## General to Specific
 
 With sketches, we want to get the general impression of what the final piece will look like. So, it is good procedure to go from _big general lines_ to _specific, precise lines_. With general lines, you should be thinking 'This leg _kinda_ goes here, but i'll be able to change this if it looks weird. This hair _roughly_ should flow this way.'
 
@@ -75,13 +67,15 @@ The idea behind this is to get your idea down on paper quick. People tend to be 
 
 When you've got the general lines down you can move on to more specific lines. 'This leg should be right here. This mess of lines is an ear.' [Specific lines example](http://i.imgur.com/FiNSS.jpg) _Keep in mind that this is still not your finished product._ If something looks wrong, keep refining things! [Even more specific by Cooley](http://fc01.deviantart.net/fs71/f/2012/222/5/f/ponyponypony_cooley_by_cooley-d5annw9.jpg)
 
-**Messiness.**
+
+## Messiness.
 
 Be messy! How messy you'll want to be is up to you, though. Don't be shy. Sketches are _meant_ to be imperfect things. No one will judge you. If you're judging yourself, stop it, you. Remember that the idea is merely your idea fleshed out on paper, and not your final piece. Look at how messy [Lauren (Faust)'s sketches were](http://fc01.deviantart.net/fs71/i/2011/268/9/4/big_baddie_by_fyre_flye-d4axlhy.jpg).
 
 [☨^3](http://i.imgur.com/dAhTQ.jpg)
 
-**But hey, some people don't even use undersketches!**
+
+## But hey, some people don't even use undersketches!
 
 Ah, but we do sometimes see artists pull nice clean lines out of nowhere without no under-sketch in sight. Somehow 5 minutes later they have a pony. What's up with that? Why do I need one then?
 
@@ -219,8 +213,6 @@ For bone references: [Vertev's pony anatomy reference](http://vertrev.deviantart
 
 **Footnotes**
 
-☨1 The sketch is not the final product, but don't assume that your linework/painting is! Although changing things in the sketch phase is a lot easier, don't be afraid to change things up further along your piece. The magic of digital art is that you can change things without worrying about permanence. (Sorry, non-charcoal traditional artists.)
-
 ☨2 There is some method to this madness. Sometimes people work in lots of detail into individual parts in sketches, while everything else is left undone. Is bad practice. When drawing a piece it's important to note that _everything is drawn in relation to everything else_. 'That leg needs to be yay big in comparison to the other, or Twi will look like she's tilting sideways.' Nothing is solitary in a picture. If you approach each individual body part separately, things will look weird.
 
 ☨3 Traditional artists: Given that sketches are basically messy throwaway napkins, light pencil strokes during the sketch phase help to keep your final product (when you dish out the pens/darker pencils) looking cleaner. A lighter grade pencil will help lots with this. For digital artists, this is equivalent to setting your opacity/density lower. I personally like to keep it at around 75.
@@ -228,3 +220,10 @@ For bone references: [Vertev's pony anatomy reference](http://vertrev.deviantart
 **Extra footnote:**
 
 The sketch is not the only thing you can use to flesh out ideas. In digital painting, some people enjoy starting off a piece with large brushes because of how easy it is to define shape with it. That's a perfectly fine thing to do. I can't go too deeply into this because it's not something I fully understand. I hesitate to give out information that I can't back up without a reasonable experience and understanding of the subject.
+
+<script setup lang="ts">
+import StupjamSketch from './stupjam-sketch.png'
+import TexDrawsSketch from './texdraws-sketch.png'
+import LineExamples from './line-examples.jpg'
+import LooseSketch from './loose-sketch.jpg'
+</script>

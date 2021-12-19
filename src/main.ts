@@ -6,6 +6,7 @@ import { loadFonts } from './plugins/webfontloader'
 import MarkdownWrapper from './components/MarkdownWrapper.vue'
 import Ponymote from '@/components/Ponymote.vue'
 import GuideFullWidthImage from '@/components/GuideFullWidthImage.vue'
+import GuideNote from '@/components/GuideNote.vue'
 
 import router from './routes'
 
@@ -17,4 +18,5 @@ createApp(App)
   .component('MarkdownWrapper', MarkdownWrapper)
   .component('Ponymote', Ponymote)
   .component('GuideFullWidthImage', GuideFullWidthImage)
+  .component('GuideNote', GuideNote)
   .mount('#app')

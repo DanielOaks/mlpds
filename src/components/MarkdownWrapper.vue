@@ -34,6 +34,11 @@
     background-color: rgb(var(--v-theme-secondary));
   }
 }
+.wrapper-guide {
+  hr:first-of-type {
+    margin-bottom: 1em;
+  }
+}
 .wrapper-guide, .wrapper-guideindex {
   width: 54em;
   max-width: 90%;
@@ -84,7 +89,7 @@
   }
   h2 {
     font-size: 1.4em;
-    margin-top: .9em;
+    margin-top: 1.5em;
   }
 
   .post-wrapper {
