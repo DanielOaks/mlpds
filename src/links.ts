@@ -24,7 +24,8 @@ export const externalLinks = [
     icon: 'mdi-compass',
     iconColor: 'amber',
     title: 'Beginner Guides',
-    link: 'https://www.reddit.com/r/MLPdrawingschool/wiki/guides',
+    link: '/guides/',
+    inlineLink: true,
   },
   {
     icon: 'mdi-link-variant',
@@ -35,7 +36,7 @@ export const externalLinks = [
   {
     icon: 'mdi-text-box-check',
     iconColor: 'teal',
-    title: 'Giving and Getting Critique',
+    title: 'Critique Guide',
     link: 'https://www.reddit.com/r/MLPdrawingschool/comments/p93po/how_to_critique_for_critics_and_artists_alike/',
   },
   {

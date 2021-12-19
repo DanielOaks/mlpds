@@ -37,7 +37,7 @@
           :key="item.title"
           link
           :href="item.link"
-          target="_blank"
+          :target="item.inlineLink ? '' : '_blank'"
         >
           <v-list-item-icon>
             <v-icon :color="item.iconColor">{{ item.icon }}</v-icon>

@@ -33,6 +33,30 @@
       </v-col>
 
       <v-col class="mt-5" cols="12">
+        <v-row justify="center">
+          <v-card
+            v-for="item in externalLinks"
+            elevation="2"
+            tile
+            class="lpGalleryCard lpLinksCard rounded-b-xl rounded-t-xl"
+          >
+            <v-sheet class="fill-height img">
+              <a
+                link
+                :href="item.link"
+                :target="item.inlineLink ? '' : '_blank'"
+              >
+                <v-icon size="70" :color="item.iconColor">{{ item.icon }}</v-icon>
+              </a>
+            </v-sheet>
+            <v-card-subtitle class="subtitle">
+              <a :href="item.link">{{ item.title }}</a>
+            </v-card-subtitle>
+          </v-card>
+        </v-row>
+      </v-col>
+
+      <v-col class="mt-5" cols="12">
         <h2 class="headline mb-4">
           Fineline
         </h2>
@@ -93,6 +117,13 @@ subtitle {
 .lpLink {
   text-decoration: none;
   margin: 0 .5em;
+}
+.lpLinksCard {
+  width: 10em;
+  box-shadow: none !important;
+  .img {
+    margin: 1em 0;
+  }
 }
 .lpGalleryCard {
   margin: 0.5em;

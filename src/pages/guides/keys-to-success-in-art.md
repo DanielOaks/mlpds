@@ -13,6 +13,8 @@ There are three key steps to success in art and they are as follows:
 
 3. **Don't quit, do change and work above your fear.** This one is complex but it all stems from the same thing. All of us as people occasionally are frustrated, get stubborn, or are worried about stuff. These are normal reactions to everyday life.
 
+-----
+
 - **On Quitting:** If you quit arting at all you aren't going to get better. But you will still be plagued with the creative energies, the desire to capture your imagination and bring it into reality. For individual pieces... sometimes it is best to set things aside and come back to them later. Other times it is best to work through the frustrations. It is up to you to judge which of these is true.
 
 - **On Change:** It is only natural to love how you art. But improvement, by definition means to change. Your critics are going to tell you to do things that you're uncomfortable with, especially if you use the [Assign](http://redd.it/suj4w) tag. But all these things add to your library of knowledge and they all intermingle. Knowledge of hatching applies to shadows as shape. Knowledge of composition applies to... everything. How your critics push you is going to make you change how you approach art, but it is for the better and where you're pushed to isn't permanent, but *the knowledge of the experience is*.
