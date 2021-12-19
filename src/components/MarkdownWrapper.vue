@@ -29,6 +29,7 @@
     position: sticky;
     top: 3em;
     background: rgb(var(--v-theme-background));
+    z-index: 1;
     a, span {
       display: inline-block;
       padding: .5em;
