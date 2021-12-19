@@ -1,9 +1,8 @@
 ---
 title: Guides
 type: guideindex
+banner: 1
 ---
-Here are guides
-
 <GuideList list="default"/>
 
 <script setup lang="ts">
