@@ -32,4 +32,6 @@ Hello, and welcome to the MLP Drawing School! We provide resources and critique 
 <Ponymote mote="twismile" text="Critics, link to guides!  They go in depth so you don't have to every time."/>
 <Ponymote mote="twiquery" text="Anything else that should be in here or that I've forgotten/left out?"/>
 
-**EDIT:** Spread awareness. Tell others that they can link to guides. Give out tips, not orders. Spread the culture of the sub. Knowledge isn't magic. Communicate!
+-----
+
+Spread awareness. Tell others that they can link to guides. Give out tips, not orders. Spread the culture of the sub. Knowledge isn't magic. Communicate!
