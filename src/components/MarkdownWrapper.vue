@@ -4,11 +4,11 @@
       <span class="subtitle" v-if="frontmatter.author" v-text="frontmatter.author"/>
     </h1>
     <div class="homeLinks" v-if="prevPage || home || nextPage">
-      <router-link v-if="prevPage" :to="guidesPrefix+prevPage" v-text="'Previous Page'"/>
-      <span v-if="!prevPage" v-text="'Previous Page'"/>
+      <router-link v-if="prevPage" :to="guidesPrefix+prevPage" v-text="'Prev'"/>
+      <span v-if="!prevPage" v-text="'Prev'"/>
       <router-link :to="guidesPrefix+home" v-text="'Home'"/>
-      <router-link v-if="nextPage" :to="guidesPrefix+nextPage" v-text="'Next Page'"/>
-      <span v-if="!nextPage" v-text="'Next Page'"/>
+      <router-link v-if="nextPage" :to="guidesPrefix+nextPage" v-text="'Next'"/>
+      <span v-if="!nextPage" v-text="'Next'"/>
     </div>
     <hr />
     <div :class="{'post-wrapper': true}">
