@@ -51,14 +51,22 @@ const fixedMotes: {[key: string]: string} = {
   'b05': 'ajugh',
   'b07': 'ajwut',
   'b24': 'squintyjack',
+  'b39': 'ppseesyou',
+  'c02': 'ohhi',
   'c04': 'ajfrown',
+  'c14': 'hmmm',
   'c23': 'derpyhappy',
   'c28': 'angel',
   'e07': 'ajconfused',
+  'e25': 'rdsalute',
   'rb11': 'ajsly',
 }
 
 function fix(mote?:string) {
+  if (mote) {
+    // >.>
+    mote = mote.replace('cadance', 'cadence');
+  }
   if (mote && mote in fixedMotes) {
     return fixedMotes[mote];
   }

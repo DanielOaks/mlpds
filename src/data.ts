@@ -41,6 +41,14 @@ export const guides = {
     name: 'Applying value to shading',
     author: 'thebestwes',
   },
+  'backgrounds': {
+    name: 'Thinking about and working on backgrounds',
+    author: 'moarvespenegas',
+  },
+  'big-projects': {
+    name: 'The BIG PROJECT guide',
+    author: 'viwrastupr',
+  },
   'bodies': {
     name: 'Body guide',
     author: 'sorcerushorserus',
@@ -78,6 +86,14 @@ export const guides = {
     name: 'Common anatomy errors',
     author: 'viwrastupr',
   },
+  'composition': {
+    name: 'Composition. How does your drawing feel to look at, and why?',
+    author: 'viwrastupr',
+  },
+  'critical-thinking': {
+    name: 'Critical thinking: The most important skill to have',
+    author: 'viwrastupr',
+  },
   'gesturing': {
     name: 'Gesturing, what is it and why do I need it?',
     author: 'viwrastupr',
@@ -89,6 +105,10 @@ export const guides = {
   'heads': {
     name: 'Heads',
     author: 'whatsapokemon',
+  },
+  'identifying-compositional-awkwardness': {
+    name: 'Identifying Compositional Awkwardness',
+    author: 'viwrastupr',
   },
   'keys-to-success-in-art': {
     name: 'Keys to Success in Art',
@@ -109,6 +129,10 @@ export const guides = {
     author: 'dispatchrabbi',
     link: '/guides/measuring-and-maintaining-proportions',
   },
+  'opponent-process-color': {
+    name: 'The Opponent Process (neurological) theory of color',
+    author: 'ponytron5000',
+  },
   'pony-anatomy': {
     name: 'Pony Anatomy',
     author: 'applejacksmack',
@@ -122,6 +146,10 @@ export const guides = {
     name: 'Undersketching and Refinement - Pose-building in action',
     author: 'idrawponiessometimes',
     link: '/guides/pose-building-in-action',
+  },
+  'rules-and-exceptions': {
+    name: 'Rules and Exceptions',
+    author: 'viwrastupr',
   },
   'shading': {
     name: 'Shading',
@@ -182,12 +210,24 @@ export const guideLists = {
         ],
       },
       {
-        name: 'Shading Guides',
+        name: 'Shading',
         pages: [
           'where-to-shade',
           'shading',
           'shadows-making-objects-appear-3d',
           'applying-value-to-shading',
+        ],
+      },
+      {
+        name: 'Complex Guides',
+        pages: [
+          'composition',
+          'backgrounds',
+          'identifying-compositional-awkwardness',
+          'rules-and-exceptions',
+          'big-projects',
+          'critical-thinking',
+          'opponent-process-color',
         ],
       },
     ],
