@@ -5,7 +5,8 @@
     "serve": "vite preview",
     "build": "vite build",
     "dev": "vite",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "update-json": "ts-node ./updateJson.ts"
   },
   "dependencies": {
     "@mdi/font": "5.9.55",

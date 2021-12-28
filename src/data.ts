@@ -14,6 +14,7 @@ export const authors: AuthorMap = {
   dispatchrabbi: {
     name: 'dispatchrabbi',
     reddit: 'dispatchrabbi',
+    icon: '/authors/dispatchrabbi.png',
   },
   idrawponiessometimes: {
     name: 'idrawponiessometimes',
@@ -32,11 +33,22 @@ export const authors: AuthorMap = {
   viwrastupr: {
     name: 'viwrastupr',
     reddit: 'viwrastupr',
-    icon: '/authors/viwrastupr.png',
+    icon: '/authors/viwrastupr.jpg',
   },
 }
 
-export const guides = {
+type Guide = {
+  name: string;
+  author: string;
+  link?: string;
+  tags?: Array<string>;
+}
+
+interface GuideMap {
+  [name: string]: Guide
+}
+
+export const guides: GuideMap = {
   'applying-value-to-shading': {
     name: 'Applying value to shading',
     author: 'thebestwes',
@@ -56,7 +68,6 @@ export const guides = {
   'chumpy/': {
     name: 'Working on your line work – from under sketch to complete',
     author: 'mynameischumpy',
-    link: '/guides/chumpy/',
   },
   'chumpy/1-sketching': {
     name: 'Lesson 1: Sketching Technique',
@@ -113,7 +124,6 @@ export const guides = {
   'keys-to-success-in-art': {
     name: 'Keys to Success in Art',
     author: 'viwrastupr',
-    link: '/guides/keys-to-success-in-art',
   },
   'legs': {
     name: 'Legs',
@@ -122,12 +132,10 @@ export const guides = {
   'measuring-and-comparing': {
     name: 'Measuring and Comparing',
     author: 'viwrastupr',
-    link: '/guides/measuring-and-comparing',
   },
   'measuring-and-maintaining-proportions': {
     name: 'How to measure, compare, and sketch your way to proportionality',
     author: 'dispatchrabbi',
-    link: '/guides/measuring-and-maintaining-proportions',
   },
   'opponent-process-color': {
     name: 'The Opponent Process (neurological) theory of color',
@@ -140,12 +148,10 @@ export const guides = {
   'pony-anatomy-and-undersketching': {
     name: 'Pony anatomy and undersketching',
     author: 'viwrastupr',
-    link: '/guides/pony-anatomy-and-undersketching',
   },
   'pose-building-in-action': {
     name: 'Undersketching and Refinement - Pose-building in action',
     author: 'idrawponiessometimes',
-    link: '/guides/pose-building-in-action',
   },
   'rules-and-exceptions': {
     name: 'Rules and Exceptions',
@@ -162,12 +168,10 @@ export const guides = {
   'sub-etiquette': {
     name: 'Sub etiquette',
     author: 'viwrastupr',
-    link: '/guides/sub-etiquette',
   },
   'understanding-references': {
     name: 'Understanding References',
     author: 'viwrastupr',
-    link: '/guides/understanding-references',
   },
   'where-to-shade': {
     name: 'Where to shade? Breaking things into parts before shading',
