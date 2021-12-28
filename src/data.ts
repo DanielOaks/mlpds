@@ -37,6 +37,10 @@ export const authors: AuthorMap = {
 }
 
 export const guides = {
+  'bodies': {
+    name: 'Body guide',
+    author: 'sorcerushorserus',
+  },
   'chumpy/': {
     name: 'Working on your line work – from under sketch to complete',
     author: 'mynameischumpy',
@@ -66,10 +70,30 @@ export const guides = {
     name: 'Lesson 6: Pony Anatomy',
     author: 'mynameischumpy',
   },
+  'common-anatomy-errors': {
+    name: 'Common anatomy errors',
+    author: 'viwrastupr',
+  },
+  'gesturing': {
+    name: 'Gesturing, what is it and why do I need it?',
+    author: 'viwrastupr',
+  },
+  'hair': {
+    name: 'Thinking about Hair',
+    author: 'viwrastupr',
+  },
+  'heads': {
+    name: 'Heads',
+    author: 'whatsapokemon',
+  },
   'keys-to-success-in-art': {
     name: 'Keys to Success in Art',
     author: 'viwrastupr',
     link: '/guides/keys-to-success-in-art',
+  },
+  'legs': {
+    name: 'Legs',
+    author: 'whatsapokemon',
   },
   'measuring-and-comparing': {
     name: 'Measuring and Comparing',
@@ -81,6 +105,10 @@ export const guides = {
     author: 'dispatchrabbi',
     link: '/guides/measuring-and-maintaining-proportions',
   },
+  'pony-anatomy': {
+    name: 'Pony Anatomy',
+    author: 'applejacksmack',
+  },
   'pony-anatomy-and-undersketching': {
     name: 'Pony anatomy and undersketching',
     author: 'viwrastupr',
@@ -91,6 +119,10 @@ export const guides = {
     author: 'idrawponiessometimes',
     link: '/guides/pose-building-in-action',
   },
+  'shading': {
+    name: 'Shading',
+    author: 'viwrastupr',
+  },
   'sub-etiquette': {
     name: 'Sub etiquette',
     author: 'viwrastupr',
@@ -100,6 +132,10 @@ export const guides = {
     name: 'Understanding References',
     author: 'viwrastupr',
     link: '/guides/understanding-references',
+  },
+  'where-to-shade': {
+    name: 'Where to shade? Breaking things into parts before shading',
+    author: 'viwrastupr',
   },
 }
 
@@ -123,8 +159,27 @@ export const guideLists = {
           'measuring-and-comparing',
           'pose-building-in-action',
           'chumpy/',
-        ]
-      }
+          'gesturing',
+          'hair',
+          'common-anatomy-errors',
+          'pony-anatomy',
+          'bodies',
+        ],
+      },
+      {
+        name: 'Individual Parts',
+        pages: [
+          'legs',
+          'heads',
+        ],
+      },
+      {
+        name: 'Shading Guides',
+        pages: [
+          'where-to-shade',
+          'shading',
+        ],
+      },
     ],
   },
   'chumpys': {

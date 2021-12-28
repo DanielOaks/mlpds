@@ -11,8 +11,12 @@
   </v-alert>
 </template>
 
-<style land="scss">
+<style lang="scss">
 .guideNote {
   margin: 1em 0 1.3em;
+  // just a bit of extra space on the bottom
+  .v-alert__text {
+    margin-bottom: .5em;
+  }
 }
 </style>

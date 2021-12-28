@@ -76,7 +76,7 @@
       color: #fff;
       text-align: center;
       font-size: 3em;
-      text-shadow: -1px 1px 2px #000, 1px 1px 2px #000, 1px -1px 0 #000, -1px -1px 0 #000;
+      text-shadow: -1px 1px 2px #000, 1px 1px 2px #000, 1px -1px 0 #000, -1px -1px 0 #000, 0 0 30px #fff;
     }
     + hr {
       margin: 1em 0;
