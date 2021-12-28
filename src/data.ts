@@ -53,6 +53,10 @@ export const guides: GuideMap = {
     name: 'Applying value to shading',
     author: 'thebestwes',
   },
+  'art-isnt-made-in-a-vacuum': {
+    name: 'A look at exploring new things and how to prevent art statementing',
+    author: 'viwrastupr',
+  },
   'backgrounds': {
     name: 'Thinking about and working on backgrounds',
     author: 'moarvespenegas',
@@ -121,6 +125,10 @@ export const guides: GuideMap = {
     name: 'Identifying Compositional Awkwardness',
     author: 'viwrastupr',
   },
+  'intention-in-art': {
+    name: 'Intention in art. What you want to do vs What actually happens',
+    author: 'viwrastupr',
+  },
   'keys-to-success-in-art': {
     name: 'Keys to Success in Art',
     author: 'viwrastupr',
@@ -171,6 +179,10 @@ export const guides: GuideMap = {
   },
   'understanding-references': {
     name: 'Understanding References',
+    author: 'viwrastupr',
+  },
+  'variety-in-art': {
+    name: 'Defining Variety in Art',
     author: 'viwrastupr',
   },
   'where-to-shade': {
@@ -232,6 +244,14 @@ export const guideLists = {
           'big-projects',
           'critical-thinking',
           'opponent-process-color',
+        ],
+      },
+      {
+        name: 'Creative Guides',
+        pages: [
+          'variety-in-art',
+          'art-isnt-made-in-a-vacuum',
+          'intention-in-art',
         ],
       },
     ],
