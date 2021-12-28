@@ -37,6 +37,10 @@ export const authors: AuthorMap = {
 }
 
 export const guides = {
+  'applying-value-to-shading': {
+    name: 'Applying value to shading',
+    author: 'thebestwes',
+  },
   'bodies': {
     name: 'Body guide',
     author: 'sorcerushorserus',
@@ -123,6 +127,10 @@ export const guides = {
     name: 'Shading',
     author: 'viwrastupr',
   },
+  'shadows-making-objects-appear-3d': {
+    name: 'Shadows and making objects appear 3d',
+    author: 'viwrastupr',
+  },
   'sub-etiquette': {
     name: 'Sub etiquette',
     author: 'viwrastupr',
@@ -178,6 +186,8 @@ export const guideLists = {
         pages: [
           'where-to-shade',
           'shading',
+          'shadows-making-objects-appear-3d',
+          'applying-value-to-shading',
         ],
       },
     ],
