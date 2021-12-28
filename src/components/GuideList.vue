@@ -11,6 +11,9 @@
 </template>
 
 <style lang="scss">
+h1 + .guideList {
+  margin-top: -1.1em;
+}
 .guideList {
   .guideLink {
     + .guideLink {
@@ -19,8 +22,11 @@
     .author {
       font-size: .9em;
       margin-left: .4em;
-      opacity: .8;
+      opacity: .7;
     }
+  }
+  + hr {
+    margin: 2.5em 0 2em 0 !important;
   }
 }
 </style>
