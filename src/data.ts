@@ -113,6 +113,10 @@ export const guides: GuideMap = {
     name: 'Critique lessons – A 101 approach to starting with critique',
     author: 'r1pperanthon',
   },
+  'dont-panic': {
+    name: "DON'T PANIC! A drawing guide – from beginner to expert, and everything inbetween",
+    author: 'viwrastupr',
+  },
   'gesturing': {
     name: 'Gesturing, what is it and why do I need it?',
     author: 'viwrastupr',
@@ -178,8 +182,8 @@ export const guides: GuideMap = {
     author: 'viwrastupr',
   },
   'self-expression-and-creativity': {
-    name: 'popprocks',
-    author: 'Self-expression and creativity – a guide to find art in yourself',
+    name: 'Self-expression and creativity – a guide to find art in yourself',
+    author: 'popprocks',
   },
   'shading': {
     name: 'Shading',
@@ -225,6 +229,7 @@ export const guideLists = {
           'sub-etiquette',
           'measuring-and-maintaining-proportions',
           'keys-to-success-in-art',
+          'dont-panic',
         ],
       },
       {
