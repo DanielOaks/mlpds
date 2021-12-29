@@ -113,6 +113,10 @@ export const guides: GuideMap = {
     name: 'Gesturing, what is it and why do I need it?',
     author: 'viwrastupr',
   },
+  'giving-critique-without-frustration': {
+    name: 'Giving wonderful critique without that feeling of boredom and frustration',
+    author: 'viwrastupr',
+  },
   'hair': {
     name: 'Thinking about Hair',
     author: 'viwrastupr',
@@ -120,6 +124,10 @@ export const guides: GuideMap = {
   'heads': {
     name: 'Heads',
     author: 'whatsapokemon',
+  },
+  'how-to-critique': {
+    name: 'How to Critique: For critics and artists alike',
+    author: 'viwrastupr',
   },
   'identifying-compositional-awkwardness': {
     name: 'Identifying Compositional Awkwardness',
@@ -165,6 +173,10 @@ export const guides: GuideMap = {
     name: 'Rules and Exceptions',
     author: 'viwrastupr',
   },
+  'self-expression-and-creativity': {
+    name: 'popprocks',
+    author: 'Self-expression and creativity – a guide to find art in yourself',
+  },
   'shading': {
     name: 'Shading',
     author: 'viwrastupr',
@@ -177,12 +189,20 @@ export const guides: GuideMap = {
     name: 'Sub etiquette',
     author: 'viwrastupr',
   },
+  'twilights-creative-checklist': {
+    name: "Twilight's Creative Checklist: How to be creative",
+    author: 'viwrastupr',
+  },
   'understanding-references': {
     name: 'Understanding References',
     author: 'viwrastupr',
   },
   'variety-in-art': {
     name: 'Defining Variety in Art',
+    author: 'viwrastupr',
+  },
+  'what-is-critique': {
+    name: 'What is critique? Problems and solutions for artists and critics',
     author: 'viwrastupr',
   },
   'where-to-shade': {
@@ -252,6 +272,16 @@ export const guideLists = {
           'variety-in-art',
           'art-isnt-made-in-a-vacuum',
           'intention-in-art',
+          'twilights-creative-checklist',
+          'self-expression-and-creativity',
+        ],
+      },
+      {
+        name: 'Critique Guides',
+        pages: [
+          'what-is-critique',
+          'how-to-critique',
+          'giving-critique-without-frustration',
         ],
       },
     ],
