@@ -109,6 +109,10 @@ export const guides: GuideMap = {
     name: 'Critical thinking: The most important skill to have',
     author: 'viwrastupr',
   },
+  'critique-lessons': {
+    name: 'Critique lessons – A 101 approach to starting with critique',
+    author: 'r1pperanthon',
+  },
   'gesturing': {
     name: 'Gesturing, what is it and why do I need it?',
     author: 'viwrastupr',
@@ -282,6 +286,7 @@ export const guideLists = {
           'what-is-critique',
           'how-to-critique',
           'giving-critique-without-frustration',
+          'critique-lessons',
         ],
       },
     ],
