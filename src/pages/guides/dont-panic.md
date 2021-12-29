@@ -33,7 +33,7 @@ If you get frustrated. If something looks off and you can't tell why. For any re
 
 f. If you know it looks off anatomically, the audience knows it looks off.
 
-This is, unfortunately, always true. For help with this see [identifying compositional awkwardness](http://www.reddit.com/r/MLPdrawingschool/comments/rb7wf/)
+This is, unfortunately, always true. For help with this see <router-link to="/guides/identifying-compositional-awkwardness">identifying compositional awkwardness</router-link>.
 
 **2\. On anatomy:**
 
@@ -65,21 +65,21 @@ This is for those serious about learning, but is still good to keep in mind for 
 
 **4\. Exercises you can do.**
 
-a. [How to measure and compare](http://www.reddit.com/r/MLPdrawingschool/comments/prx47/rabbis_guide_to_the_perplexed_or_how_to_measure/)(by dispatchrabbi) To get angles, proportions and scale right from a reference use a pencil to compare angles between a reference picture and your piece. Hold the pencil up to the reference to get the angle, then back to your work. If you do this while working, you'll notice that it becomes a lot easier to correct mistakes that 'just don't look quite right.' This takes a lot of the guesswork out and makes proportions and angles much easier.
+a. <router-link to="/guides/measuring-and-maintaining-proportions">How to measure and compare</router-link> (by dispatchrabbi). To get angles, proportions and scale right from a reference use a pencil to compare angles between a reference picture and your piece. Hold the pencil up to the reference to get the angle, then back to your work. If you do this while working, you'll notice that it becomes a lot easier to correct mistakes that 'just don't look quite right.' This takes a lot of the guesswork out and makes proportions and angles much easier.
 
 Do this everywhere. The angle from the ear tip to the rump. From eye to muzzle. From front to back leg. Between any two arbitrary points or to get the angle and/or placement of a limb or eye or tail. Absolutely positively everywhere. And then erase. Mark, erase, correct and repeat. Don't get bogged down by working too long in one area. Get an almost right foundation and move on. Corrections and refinement come with the process.
 
 There has been some confusion on this, so let me expand. When I say angle I don't mean relative to horizontal. Draw your line. Hold the pencil up parallel to that same line, invisible or not, that you are measuring on your reference. Bring the pencil over to your piece without changing its angle. Compare what the pencil is to what you have. Correct with said pencil. Repeat.
 
-b. [How to gesture, a process guide](http://www.reddit.com/r/MLPdrawingschool/comments/o6iw6/making_art_a_process_guide_todays_method/). This is another reddit guide that goes into the details of getting proportion and scale correct while giving advice on drawing quickly. Fast fast fast.
+b. <router-link to="/guides/gesturing">How to gesture, a process guide</router-link>. This is another reddit guide that goes into the details of getting proportion and scale correct while giving advice on drawing quickly. Fast fast fast.
 
-c. [Shading, everything shading](http://www.reddit.com/r/MLPdrawingschool/comments/of8jr/shading_everything_shading/). Actually just the beginning of shading. But its a nice exercise to follow and learn from. [This guide here](http://www.reddit.com/r/MLPdrawingschool/comments/p092d/shadows_how_to_make_something_look_like_it_is_in/) goes a little more in depth on what shadows really are and how to work them into art. [Where to shade](http://www.reddit.com/r/MLPdrawingschool/comments/pw1hq/where_to_shade_breaking_things_into_their/) goes over breaking down the pony into simpler shapes and what shadows within shadows really are.
+c. <router-link to="/guides/shading">Shading, everything shading</router-link>. Actually just the beginning of shading. But its a nice exercise to follow and learn from. <router-link to="/guides/shadows-making-objects-appear-3d">This guide here</router-link> goes a little more in depth on what shadows really are and how to work them into art. <router-link to="/guides/where-to-shade">Where to shade</router-link> goes over breaking down the pony into simpler shapes and what shadows within shadows really are.
 
-d. [How to critique and how to take critique](http://www.reddit.com/r/MLPdrawingschool/comments/p93po/how_to_critique_for_critics_and_artists_alike/). Artists and critiquers should take a look at this. It doesn't only have etiquitte, but actual advice on how to help others improve. Common problems in critique? [This guide here goes over that](http://www.reddit.com/r/MLPdrawingschool/comments/r83fb/)
+d. <router-link to="/guides/what-is-critique">How to critique and how to take critique</router-link>. Artists and critiquers should take a look at this. It doesn't only have etiquitte, but actual advice on how to help others improve. Common problems in critique? <router-link to="/guides/what-is-critique">This guide here goes over that</router-link>.
 
-e. [The basics. A guide on pony anatomy and undersketching](http://www.reddit.com/r/MLPdrawingschool/comments/pxmj9/the_basics_pony_anatomy_and_undersketching/). Exactly what it says. It is a good place for those who really want to capture what an MLP pony looks like.
+e. <router-link to="/guides/pony-anatomy-and-undersketching">The basics. A guide on pony anatomy and undersketching</router-link>. Exactly what it says. It is a good place for those who really want to capture what an MLP pony looks like.
 
-f. [Composition.](http://www.reddit.com/r/MLPdrawingschool/comments/qd2uq/composition_how_does_your_drawing_feel_to_look_at/) This guide is a compacted version of 2d design. Really good for inspiration.
+f. <router-link to="/guides/composition">Composition.</router-link> This guide is a compacted version of 2d design. Really good for inspiration.
 
 Feel free to post questions, pieces for critique, and anything that crosses your mind in this post.
 

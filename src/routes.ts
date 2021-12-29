@@ -17,6 +17,18 @@ export const routes = staticPageRoutes.concat([
 const router = createRouter({
   history: createWebHistory(),
   routes,
+  scrollBehavior (to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition
+    } else {
+      if (to.hash) {
+        return {
+          el: to.hash,
+        }
+      }
+      return { top: 0 }
+    }
+  },
 })
 
 // check whether user's logged in

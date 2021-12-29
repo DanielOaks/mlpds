@@ -14,12 +14,27 @@ Ponies are put together with an undersketch. What's an undersketch? We'', they l
 
 It looks like crap, doesn't it? Well it's supposed to, it isn't the final piece. You see, what an undersketch does is provide the _foundation_ on which the rest of the pony's body, placement, angles, proportions, and everything really depends on.
 
-Now let's take a closer look at that undersketch. A pony body is made up of two _**intersecting**_ circles. A larger one for the rump and a smaller one for the chest. Now what about the limbs, where do those lines come from? [I link to this guide a lot and the limbs are why](http://vertrev.deviantart.com/art/AMG-so-much-pony-201791308). Each line represents a pony's bone and where they change direction, a joint. By placing these lines in first, you can figure out the placement and proportions of the legs and their joints.
+Now let's take a closer look at that undersketch. A pony body is made up of two _**intersecting**_ circles. A larger one for the rump and a smaller one for the chest. Now what about the limbs, where do those lines come from? I link to this guide a lot and the limbs are why:
+<GuideFullWidthImage :src="VertreVimg" href="https://www.deviantart.com/vertrev/art/AMG-so-much-pony-VertreV-201791308" artist="VertreV"/>
+
+Each line represents a pony's bone and where they change direction, a joint. By placing these lines in first, you can figure out the placement and proportions of the legs and their joints.
 
 By doing these simple few lines and circles, you let yourself be able to draw and recorrect, draw and recorrect until its in the right spot and at the right place.
 <Ponymote mote="fluttershy" text="Correct, recorrect... got it.  But how?"/>
 
-Let's take the back legs for instance. They have an angle that is difficult for most to see on their first few pony arts. Look at [the angle the back line of the back leg is making in these pictures](http://imgur.com/a/vzBB8). It comes out. _Not in_. Out. In all flatfooted situations in the show this is the case. **Back legs are neither straight nor forward, they come out, away from the body.**--- This creates untold interest, it leads the viewer into the body instead of down away from it.
+Let's take the back legs for instance. They have an angle that is difficult for most to see on their first few pony arts. Look at the angle the back line of the back leg is making in these pictures:
+
+<swiper :modules="modules" :slides-per-view="3" :space-between="50" navigation>
+  <swiper-slide><GuideFullWidthImage :src="ShowExample1"/></swiper-slide>
+  <swiper-slide><GuideFullWidthImage :src="ShowExample2"/></swiper-slide>
+  <swiper-slide><GuideFullWidthImage :src="ShowExample3"/></swiper-slide>
+  <swiper-slide><GuideFullWidthImage :src="ShowExample4"/></swiper-slide>
+  <swiper-slide><GuideFullWidthImage :src="ShowExample5"/></swiper-slide>
+  <swiper-slide><GuideFullWidthImage :src="ShowExample6"/></swiper-slide>
+  <swiper-slide><GuideFullWidthImage :src="ShowExample7"/></swiper-slide>
+</swiper>
+
+It comes out. _Not in_. Out. In all flatfooted situations in the show this is the case. **Back legs are neither straight nor forward, they come out, away from the body.**--- This creates untold interest, it leads the viewer into the body instead of down away from it.
 
 Now that we know this, let's apply it to the undersketch. Take a look at the next iteration:
 <GuideFullWidthImage :src="ViwUndersketch2"/>
@@ -50,19 +65,54 @@ Some notes on pony proportions and general anatomy tips:
 
 -   Their hair takes up a huuuuuge amount of space. Poofy hair. POOF! People usually make their OC's without poof and with humanized hair. This makes me a sad pony... don't make me a sad pony. Be aware. Spread the poof.
 
--   A pony's jawline (the part below the mouth) changes. While in general a pony [has a flat and horizontal jawline](http://imgur.com/H2V1m) when their mouth's are open, [the jaw angles up and into the body](http://imgur.com/bHx4v). After all, the jaw hooks right below the ears in mammals. We just don't see the line go all the way in because the crease doesn't go that far.
+-   A pony's jawline (the part below the mouth) changes. While in general a pony has a flat and horizontal jawline when their mouth's are open: <GuideFullWidthImage :src="ExtraExample1"/> the jaw angles up and into the body: <GuideFullWidthImage :src="ExtraExample2"/> After all, the jaw hooks right below the ears in mammals. We just don't see the line go all the way in because the crease doesn't go that far.
 
 -   Ponies have very small and rounded muzzles. There is no point at the end and to make a point draws attention away from the eyes in a way that is very... sad. They're also barely there, just a bump at the bottom of the eyes.
 
--   Their ears are not a triangle like a cat's, but more like a football with a quarter of it missing where it attaches. The inside of a pony's ear is [about half as long as the outside](http://imgur.com/DcCZ6) in most views. <Ponymote mote="twismile" text="So very much to learn!"/>
+-   Their ears are not a triangle like a cat's, but more like a football with a quarter of it missing where it attaches. The inside of a pony's ear is about half as long as the outside in most views. <GuideFullWidthImage :src="ExtraExample3"/> <Ponymote mote="twismile" text="So very much to learn!"/>
 
 -   Pony eyes are quite distinct. They are elliptical, and at an angle, and when in 3/4 view they loose width, but not height. Check out the twismile emote. Her far eye is very thin, and her near eye not a circle, but an interesting series of curves... Hence why we map things out.
 
 Now, we've covered the circles that make up a pony, their joints, the way their front hooves and legs bend, how to map out eyes and to never fear correction and also a lot of anatomy. That's a lot of pony and there's always more. So as always, feel free to ask questions, voice concerns, make jokes or quietly reply.
 
 <script setup lang="ts">
+import { Navigation } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/vue';
+import 'swiper/css';
+import 'swiper/css/navigation';
+
+const modules = [Navigation];
+
 import ViwUndersketch1 from './viw-undersketch.jpg'
 import ViwUndersketch2 from './viw-undersketch-2.jpg'
 import ViwUndersketch3 from './viw-undersketch-3.jpg'
 import ViwUndersketch4 from './viw-undersketch-4.jpg'
+import VertreVimg from './VertreV-201791308.jpg'
+
+import ShowExample1 from './pony-anatomy-and-undersketching-show-1.jpg'
+import ShowExample2 from './pony-anatomy-and-undersketching-show-2.jpg'
+import ShowExample3 from './pony-anatomy-and-undersketching-show-3.jpg'
+import ShowExample4 from './pony-anatomy-and-undersketching-show-4.jpg'
+import ShowExample5 from './pony-anatomy-and-undersketching-show-5.jpg'
+import ShowExample6 from './pony-anatomy-and-undersketching-show-6.jpg'
+import ShowExample7 from './pony-anatomy-and-undersketching-show-7.jpg'
+
+import ExtraExample1 from './pony-anatomy-and-undersketching-extra-1.jpg'
+import ExtraExample2 from './pony-anatomy-and-undersketching-extra-2.jpg'
+import ExtraExample3 from './pony-anatomy-and-undersketching-extra-3.jpg'
 </script>
+
+<style lang="scss">
+.swiper-button-prev, .swiper-button-next {
+  &:after {
+    background-color: rgb(var(--v-theme-secondary));
+    color: rgb(var(--v-theme-on-secondary));
+    font-weight: bold;
+    padding: .2em;
+    border-radius: .2em;
+  }
+  &.swiper-button-disabled {
+    pointer-events: auto;
+  }
+}
+</style>
