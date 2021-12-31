@@ -17,39 +17,79 @@ Hello again my little artists, Its time for another edition of viwrastupr's gian
 
 There are many different ways to set up a composition and planning can mean the difference between something being anatomically accurate or being interesting to look at. **The purpose of this guide is to teach you to plan and play with composition and how** There's a whole bunch here, but it is interesting stuff to consider. And it gets those creative energies going and gets you thinking about art in a whole new way.
 
------
 
-**Part 1:** A lot of the planning stuff
+## Part 1: A lot of the planning stuff
 
--   Variety How many different elements do you want? How different should they be? Adding variety to a piece gives different kinds of attention to different parts. [Notice how each of the limbs on this Twilight are going a different direction and her body is facing a different direction than her head](http://imgur.com/TXR0z). Variety creates interest. This is not only true of positioning, but also of texture, value, mark making... a lot of stuff
+### Variety
 
--   Conformity Adding conformity adds stability, repetition, it lets us compare more intricate details. This is usually not an issue for newer artists as our brains default at horizontal and vertical... <Ponymote mote="twiquery" text="Horizontal and vertical lines have their place, but for newer artists it is best to play with diagonals and actions, try to get things interesting."/> Otherwise known as the most boring things in art. To be avoided in the beginning, to be used only with intention. [This shows very well how a vertical line can be used for stability and emotion](http://imgur.com/LNk2Z).
+How many different elements do you want? How different should they be? Adding variety to a piece gives different kinds of attention to different parts. Notice how each limb on this Twilight is going a different direction, and how her body's facing a different direction than her head: <GuideFullWidthImage :src="SlugboxTwi1" artist="slugbox"/> Variety creates interest. This is not only true of positioning, but also of texture, value, mark making... a lot of stuff
 
--   Balance <Ponymote mote="twisquint" text="What?"/> Is there as much on the left as there is on the right? No? (good) Then why? What is it doing? Something to ask yourself during the creation process. Colors, value, texture, busyness of lines, **placement**. All these things are a factor of balance. A [good contrast of two values on two separate sides](http://imgur.com/Kd7NC) is a neat balance, but sometimes you don't want it even.
+### Conformity
 
--   Emphasis Defined by balance. Where do you want the viewer's eye to look? Is there contrast there? Is there an eye? Is it busy? Is there a different color? Where do the lines point? Then how do we know to look there? [What is the first thing you notice with this piece](http://imgur.com/u6dvS)?
+Adding conformity adds stability, repetition, it lets us compare more intricate details. This is usually not an issue for newer artists as our brains default at horizontal and vertical... <Ponymote mote="twiquery" text="Horizontal and vertical lines have their place, but for newer artists it is best to play with diagonals and actions, try to get things interesting."/> Otherwise known as the most boring things in art. To be avoided in the beginning, to be used only with intention. This picture shows very well how a vertical line can be used for stability and emotion: <GuideFullWidthImage :src="SweetgutsFluttershy1" artist="sweet-guts" href="https://www.deviantart.com/sweet-guts/art/I-Dreamt-of-a-Land-265109390"/>
 
--   Contrast Tells us where things are different. You may say that 'duh things are different because they're in another spot'. Well, our eyes don't know that. A big problem early artists have is either being dependent on outlines or blurring everything together to make mud. This is especially true of shadows. We need to know that the shadow is different from the body. That the background is different from the foreground. That the leg is different from the body. Contrast creates space and depth. [It is the contrast of the different shades and values and colors on this Dash that gives her the 3dish feel](http://imgur.com/pw3IB)
+### Balance
 
--   Rhythm Repeated elements, these can be anything from trees in a forest to characters. [Characters being here](http://imgur.com/mcSUu). Rythm creates a sense of unity and pulls a piece together, defining what it is about or where it is or other unifying stuffs.
+<Ponymote mote="twisquint" text="What?"/> Is there as much on the left as there is on the right? No? (good) Then why? What is it doing? Something to ask yourself during the creation process. Colors, value, texture, busyness of lines, **placement**. All these things are a factor of balance. A good contrast of two values on two separate sides is a neat balance, but sometimes you don't want it even:
+<GuideFullWidthImage :src="NobenLuna" artist="noben"/>
 
--   Repetition What's the difference between repetition and rythm? [A pattern is much more alike than a rythm](http://imgur.com/EN5j2)
+### Emphasis
 
--   Scale How big the pony is makes it more or less important to the composition. [Notice how the background characters here are smaller than Dash](http://imgur.com/XRdAh)
+Defined by balance. Where do you want the viewer's eye to look? Is there contrast there? Is there an eye? Is it busy? Is there a different color? Where do the lines point? Then how do we know to look there? What is the first thing you notice with this piece?
+<GuideFullWidthImage :src="BloodyPonk"/>
 
--   Figure/Ground relationship. Separating your figure from the background is ludicrously important. It tells us what is figure and what is not, it also tells us what is important and gives us a sense of space. A lot of people use outlines for this purpose, but there are ways to do it with shape, value and color. [This piece is separation by value](http://imgur.com/lnt0f)
+### Contrast
 
--   Direction -gaze, gesture, prominent lines of contrast. Our eyes follow gaze and gestures. It is implied line. [This piece does both, pointing out the beauty of the branches above](http://imgur.com/4507R)
+Tells us where things are different. You may say that 'duh things are different because they're in another spot'. Well, our eyes don't know that. A big problem early artists have is either being dependent on outlines or blurring everything together to make mud.
 
--   Movement/Action Diagonal lines help with these a lot, but it is figural. What your character is doing creates intrigue. [Would this be exciting without any movement?](http://imgur.com/2GJRz)
+This is especially true of shadows. We need to know that the shadow is different from the body. That the background is different from the foreground. That the leg is different from the body. Contrast creates space and depth. It is the contrast of the different shades and values and colors on this Dash that gives her the 3dish feel:
+<GuideFullWidthImage :src="TopshotDash" artist="topshot?"/>
 
--   Faces and emotions <Ponymote mote="twibeam" text="Emotion me!"/> Not technically a part of 2d design. But important. Our eyes identify faces fist and start there. [Emotions make or break how we view the character](http://imgur.com/zAG9j). Also emotions aren't be dependent on the face alone. [Value and texture also play an important role](http://imgur.com/wZu7q).
+### Rhythm
 
--   Concept. -Again, not 2d design, but still really important. [This piece overflows with concept ](http://imgur.com/0mb9M). Mystery, implied stuffs. Things that give an attachment to a piece that isn't emotion. [This is a piece that does a good job of combining both emotion and concept without face](http://imgur.com/ZfKeZ).
+Repeated elements, these can be anything from trees in a forest to characters. Here, it's the characters themselves:
+<GuideFullWidthImage :src="ShaloneskDragons" artist="shalonesk" href="https://www.furaffinity.net/full/6743878/"/>
 
------
+Rhythm creates a sense of unity and pulls a piece together, defining what it is about or where it is or other unifying stuffs.
 
-**Part 2:** Elements of placement
+### Repetition
+
+What's the difference between repetition and rythm? A pattern is much more alike than a rythm:
+<GuideFullWidthImage :src="BamboodogHearts" artist="BambooDog" href="https://www.deviantart.com/bamboodog/art/A-Hearted-Collection-262943738"/>
+
+### Scale
+
+How big the pony (or whatever else you want the viewer to focus on) is makes it more or less important to the composition. Notice how the background characters here are smaller than Dash:
+<GuideFullWidthImage :src="BakkiComic" artist="bakki" href="https://www.deviantart.com/bakki/art/MLP-FIM-SONIC-RAINBOOM-211383659"/>
+
+### Figure/Ground relationship
+
+Separating your figure from the background is ludicrously important. The 'figure' is what people should be focusing on, and the 'ground' is the background.
+
+How you show this tells the viewer what is important and what is not, and it also gives them a sense of space. A lot of people use outlines for this purpose, but there are ways to do it with shape, value and color. This piece shows the figure and group separated by value:
+<GuideFullWidthImage :src="KarzahniiCloudsdale" artist="Karzahnii" href="https://www.deviantart.com/karzahnii/art/Cloudsdale-Sketch-252360154"/>
+
+### Direction
+
+Gaze, gesture, prominent lines of contrast… Our eyes follow gaze and gestures. It is implied line. This piece does both, pointing out the beauty of the branches above:
+<GuideFullWidthImage :src="RizcifraSakura" artist="Rizcifra"/>
+
+### Movement/Action
+
+Diagonal lines help with these a lot, but it is figural. What your character is doing creates intrigue. Would this be exciting without any movement?
+<GuideFullWidthImage :src="TwiStand"/>
+
+### Faces and emotions
+<Ponymote mote="twibeam" text="Emotion me!"/>
+
+Not technically a part of 2d design. But important. Our eyes identify faces fist and start there. [Emotions make or break how we view the character](http://imgur.com/zAG9j). Also emotions aren't be dependent on the face alone. [Value and texture also play an important role](http://imgur.com/wZu7q).
+
+### Concept
+
+Again, not 2d design, but still really important. [This piece overflows with concept](http://imgur.com/0mb9M). Mystery, implied stuffs. Things that give an attachment to a piece that isn't emotion. [This is a piece that does a good job of combining both emotion and concept without face](http://imgur.com/ZfKeZ).
+
+
+## Part 2: Elements of Placement
 
 -   Continuance Intended or unintended. Orientation/Implied Lines. When you have a line that flows directly into another line or a place of contrast that does the same, or a series of objects in a row, our eyes follow this line. [The pillar here is placed in the same plane as the eye because we follow it down into the composition, resting on the eye easily](http://imgur.com/X607r)
 
@@ -93,3 +133,17 @@ This guide here is a 2d design course. There is a lot here so feel free to voice
 
 <Ponymote mote="ajlie" text="None of these things were stolen from a 2d design book."/>
 <Ponymote mote="twismile" text="Feel free to note anything you'd like to add."/>
+
+<script setup lang="ts">
+import SlugboxTwi1 from './slugbox-twi-1.png'
+import SweetgutsFluttershy1 from './sweetguts-fluttershy-1.jpg'
+import NobenLuna from './noben-luna.jpg'
+import BloodyPonk from './bloody-ponk.jpg'
+import TopshotDash from './topshot-dash.jpg'
+import ShaloneskDragons from './shalonesk-dragons.jpg'
+import BamboodogHearts from './bamboodog-hearts.jpg'
+import BakkiComic from './bakki-comic.jpg'
+import KarzahniiCloudsdale from './karzahnii-cloudsdale.jpg'
+import RizcifraSakura from './rizcifra-sakura.jpg'
+import TwiStand from './twi-stand.jpg'
+</script>
