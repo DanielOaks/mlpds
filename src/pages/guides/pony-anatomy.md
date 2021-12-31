@@ -81,80 +81,128 @@ So now you've got the leg skeletons all nicely plotted out. What do you do next?
 
 ## Body
 
-As I mentioned earlier, [the body of a pony is just two overlapping circles.](http://imgur.com/9sux3) The amount they overlap varies depending on the perspective. This is where you have to use your imagination to sort of turn the camera a bit. For example, [here](http://imgur.com/HN9vC) is a comparison between the show's standard side and ¾ perspective on the bodies.
+As I mentioned earlier, the body of a pony is just two overlapping circles:
+<GuideFullWidthImage :src="PonyAnatomy8"/>
+
+The amount they overlap varies depending on the perspective. This is where you have to use your imagination to sort of turn the camera a bit.
+
+For example, this picture shows a comparison between the show's standard side and ¾ perspective on the bodies:
+<GuideFullWidthImage :src="PonyAnatomy9"/>
 
 A common issue new artists have with the ¾ shot or similar shots that are in between the side and front shot is that they don't adjust the amount of overlap to compensate for the perspective. That adjustment is called foreshortening. Without it, the body winds up looking way too long.
 
 <Ponymote mote="priceless" text="Oh my, what a lovely cowboy weiner dog!"/>
 <Ponymote mote="lunasad" text="It was supposed to be Applejack..."/>
 
-Now the spine is another thing many new artists don't pay attention to. Note that it does have curve in it. [Example](http://imgur.com/o77yH). That curve is real important and without it, your pony will look like it has a steel rod for a spine which looks very stiff and uncomfortable. It's also noteworthy that a pony's spine is almost always going to be the same as your line of action. [Image Courtesy of Koetsu](http://imgur.com/tioED)
+-----
 
-The [front shot](http://imgur.com/Ef9CD) of a pony body in the show actually cheats the perspective so we can still see a bit of the rump. Luckily, this shot isn't used much as horses from the front are just weird looking. Because of the perspective cheat, the undersketch is going to be a bit different [like this](http://imgur.com/0FrAj). I only use one body circle and then just add on the little hind leg bit by eyeballing the difference in angle from the single body circle. I wouldn't recommend using the front body shot unless you have to as, again, horses from the front look weird.
+Now the spine is another thing many new artists don't pay attention to. Note that it does have curve in it, for example:
+<GuideFullWidthImage :src="PonyAnatomy10"/>
+
+That curve is real important and without it, your pony will look like they have a steel rod for a spine, which looks very stiff and uncomfortable. It's also noteworthy that a pony's spine is almost always going to be the same as your line of action. Here are a few line-of-action examples from Koetsu:
+<GuideFullWidthImage :src="PonyAnatomy11" artist="Koetsu"/>
 
 -----
 
-HEAD
+<GuideFullWidthImage :src="PonyAnatomy12"/>
+
+In the show, the front shot of a pony body actually cheats the perspective so we can still see a bit of the rump. Luckily, this shot isn't used much as horses from the front are just weird looking.
+
+Because of the perspective cheat, the undersketch is going to be a bit different:
+<GuideFullWidthImage :src="PonyAnatomy13"/>
+
+I only use one body circle and then just add on the little hind leg bit by eyeballing the difference in angle from the single body circle. I wouldn't recommend using the front body shot unless you have to as, again, horses from the front look weird.
+
+
+## Head
 
 Pony faces are really complicated so I'll have to break it down into even smaller bits.
 
-So we start with our sphere with some guidelines to show where the center of the face will be [1](http://imgur.com/1XOLb). I then block out my eye positioning like so [2](http://imgur.com/Yog77). This'll help keep my eyes lined up and the same size. Note that pony eyes are really big. They take up the majority of the space for the face.
+So we start with our sphere with some guidelines to show where the center of the face will be:
+<GuideFullWidthImage :src="PonyAnatomy14"/>
 
-Next I'll use where I blocked in my eyes for reference to position the ears [3](http://imgur.com/5W66f). Then the muzzle which starts up in between the noses (blocking the bottom of the far eye from view) and just barely comes out past the face [4](http://imgur.com/8qQWu). It's important to note that if your pony's mouth is open the jaw is going to lower and it'll curve up into the face while if it's closed the jaw is much more flat [EXAMPLE](http://imgur.com/7HT7k).
+I then block out my eye positioning like so:
+<GuideFullWidthImage :src="PonyAnatomy15"/>
 
-If your pony's a unicorn, the horn comes out from the head at a 45 degree angle (which is unfortunately skewed due to foreshortening in a ¾ shot) from the center of the circle and is lined up down the center of the face like so [EXAMPLE](http://imgur.com/Hkeo1).
+This'll help keep my eyes lined up and the same size. Note that pony eyes are really big. They take up the majority of the space for the face.
+
+Next I'll use where I blocked in my eyes for reference to position the ears:
+<GuideFullWidthImage :src="PonyAnatomy16"/>
+
+Then the muzzle which starts up in between the noses (blocking the bottom of the far eye from view) and just barely comes out past the face:
+<GuideFullWidthImage :src="PonyAnatomy17"/>
+
+It's important to note that if your pony's mouth is open the jaw is going to lower and it'll curve up into the face while if it's closed the jaw is much more flat:
+<GuideFullWidthImage :src="PonyAnatomy18"/>
+
+If your pony's a unicorn, the horn comes out from the head at a 45 degree angle (which is unfortunately skewed due to foreshortening in a ¾ shot) from the center of the circle and is lined up down the center of the face like so:
+<GuideFullWidthImage :src="PonyAnatomy19"/>
+
+-----
 
 This face specifically is the ¾ shot which is the most versatile, offering plenty of emotion while avoiding that creepy human face issue the front shot has.
 
 [Here's a study that breaks down the face and side shots](http://www.thegeekprofessor.com/how-i-learned-to-draw-my-little-pony-art/). Thankfully, they're much simpler to draw.
 
------
 
-EYES
+## Eyes
 
+<!-- TODO: use a different eye-styles reference, I'm iffy about including that one as-is on the page -->
 Eyes are pretty complicated all by themselves but I'll cover the gist of it. There are lots of styles of eyes [Example](http://imgur.com/A7mnz). It's very important when drawing a pony to use the right eye style. It won't look like Fluttershy if it's got Dash's eyes.
 
-The eyes are built as an ellipse [EXAMPLE](http://imgur.com/F3YxS) with the iris and pupil being the same shape just scaled down. It's important to note that the iris and pupil tops and bottoms should line up with the other eye just like with the rest of the eye unless you're drawing Derpy.
+The eyes are built as an ellipse, with the iris and pupil being the same shape just scaled down:
+<GuideFullWidthImage :src="PonyAnatomy20"/>
 
-Eyespots are super important [Example](http://i.imgur.com/DvTCo.png). Without them, you're pony has [eyes like the titular creature of Jaws](https://www.youtube.com/watch?v=5nrvMNf-HEg#t=1m38s).
+It's important to note that the iris and pupil tops and bottoms should line up with the other eye just like with the rest of the eye unless you're drawing Derpy.
+
+Eyespots are super important!
+<GuideFullWidthImage :src="PonyAnatomy21"/>
+
+Without them, you're pony has [eyes like the titular creature of Jaws](https://www.youtube.com/watch?v=5nrvMNf-HEg#t=1m38s).
 
 <Ponymote mote="angel" text="lifeless eyes. Black eyes. Like a doll's eyes."/>
 
------
 
-WINGS
+## Wings
 
-Now wings are something that always gave me trouble, and the reason why was that I wasn't constructing them correctly. You see wings are just like the legs (well the bones are a bit different but it's still very similar). [Here's what I mean](http://imgur.com/MwyM0). So if you're drawing a pegasus, you should probably include this wing bone in your skeleton.It helps a ton!
+Now wings are something that always gave me trouble, and the reason why was that I wasn't constructing them correctly. You see wings are just like the legs (well the bones are a bit different but it's still very similar). Here's what I mean:
+<GuideFullWidthImage :src="PonyAnatomy22"/>
+
+So if you're drawing a pegasus, you should probably include this wing bone in your skeleton.It helps a ton!
 
 Now the show style wings aren't actually all that wing like, they're more like hands.
 
 <Ponymote mote="snails" text="Hands? But one of the best things about drawing ponies is not dealing with hands!"/>
 
-Those feathers are more like sausage-y fingers. I find that the best way to get the contours of the feathers correct is to pay attention to the negative space around them. What's negative space? Well it's looking at the shapes that exist in between the edges of objects. [Look at this chalice](http://imgur.com/ZmmPI), the negative space around it creates shapes that look like to human profiles! So how do we do this with wings. [Here's my attempt at demonstrating this](http://imgur.com/ve0FC). Rather than try to draw the edges of the feathers, try to draw the edges of those red triangle-like shapes created in between the feathers.
+Those feathers are more like sausage-y fingers. I find that the best way to get the contours of the feathers correct is to pay attention to the negative space around them. What's negative space? Well it's looking at the shapes that exist in between the edges of objects.
 
------
+<GuideFullWidthImage :src="PonyAnatomy23"/>
 
-CONCLUSION
+Look at this chalice, the negative space around it creates shapes that look like to human profiles!
 
-The best way to learn pony anatomy is to do a study. To do that, go over to here[<http://ponyreference.booru.org/index.php]> or go watch the show and take screenshots, whatever, just go grab some show references and try to recreate them with this process.
+So how do we do this with wings? Rather than drawing the edges of the feathers, try to draw the edges of the shapes created in between the feathers.
+
+
+## Conclusion
+
+The best way to learn pony anatomy is to do a study. To do that, go over to <a :href="safePonyRefLink">here</a> or go watch the show and take screenshots, whatever, just go grab some show references and try to recreate them with this process.
 
 **However I should mention that just copying a reference isn't going to make you a good artist. Start out sticking close to the reference until you've figured out the pony anatomy, then it's time to start moving away from them (Don't get rid of them completely!) and create your own unique pony pictures and poses!**
 
------
 
-Assignment 2
+### Assignment 2
 
 Draw a pony in a pose that doesn't have a 100% perfect reference for it!
 
------
 
-ADDITIONAL LINKS
+## Additional Links
 
-[Viwrastupr's Common Anatomy Errors](http://www.reddit.com/r/MLPdrawingschool/comments/zhek6/lesson_5_common_anatomy_errors/) : Includes a lot of miscellaneous info on parts of the pony that is super useful for getting all the proportions right.
-
-[Vertrev's Pony Study](http://vertrev.deviantart.com/gallery/?offset=24#/d3c5364) - An excellent example of how the leg joints in a pony.
+Viwrastupr's <router-link to="/guides/common-anatomy-errors">Common Anatomy Errors guide</router-link> includes a lot of miscellaneous info on parts of the pony that is super useful for getting all the proportions right.
 
 [An Imgur Album of Various Pony Anatomy Studies/Guides You Might Find Useful](http://imgur.com/a/V6Vj7)
+
+Vertrev's Pony Study is an excellent example of how the leg joints in a pony:
+<GuideFullWidthImage :src="VertreVimg" href="https://www.deviantart.com/vertrev/art/AMG-so-much-pony-VertreV-201791308" artist="VertreV"/>
 
 <script setup lang="ts">
 import { safePonyRefLink } from '@/data'
@@ -166,4 +214,22 @@ import PonyAnatomy4 from './pony-anatomy-4.jpg'
 import PonyAnatomy5 from './pony-anatomy-5.jpg'
 import PonyAnatomy6 from './pony-anatomy-6.jpg'
 import PonyAnatomy7 from './pony-anatomy-7.jpg'
+import PonyAnatomy8 from './pony-anatomy-8.jpg'
+import PonyAnatomy9 from './pony-anatomy-9.jpg'
+import PonyAnatomy10 from './pony-anatomy-10.jpg'
+import PonyAnatomy11 from './pony-anatomy-11.png'
+import PonyAnatomy12 from './pony-anatomy-12.jpg'
+import PonyAnatomy13 from './pony-anatomy-13.jpg'
+import PonyAnatomy14 from './pony-anatomy-14.jpg'
+import PonyAnatomy15 from './pony-anatomy-15.jpg'
+import PonyAnatomy16 from './pony-anatomy-16.jpg'
+import PonyAnatomy17 from './pony-anatomy-17.jpg'
+import PonyAnatomy18 from './pony-anatomy-18.jpg'
+import PonyAnatomy19 from './pony-anatomy-19.jpg'
+import PonyAnatomy20 from './pony-anatomy-20.jpg'
+import PonyAnatomy21 from './pony-anatomy-21.jpg'
+import PonyAnatomy22 from './pony-anatomy-22.jpg'
+import PonyAnatomy23 from './pony-anatomy-23.jpg'
+
+import VertreVimg from './VertreV-201791308.jpg'
 </script>

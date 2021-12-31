@@ -9,7 +9,7 @@ Ponies are made up of simpler objects than you would think. By simplifying how p
 
 I keep saying there are shadows within shadows, but what do I mean? And how do shadows fall on simple shapes?
 
-Well [I put together this here set of examples](http://imgur.com/a/WV2Su) to show how simple shadow shapes are:
+Well I put together this here set of examples to show how simple shadow shapes are:
 <GuideFullWidthImage :src="WhereToShade1"/>
 <GuideFullWidthImage :src="WhereToShade2"/>
 
