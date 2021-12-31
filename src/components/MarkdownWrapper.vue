@@ -132,6 +132,9 @@ import Banner1 from '@/assets/banner-1.jpg'
 import { useRoute } from 'vue-router'
 import { guideLists } from '../data'
 
+// set the front-matter
+document.title = props.frontmatter ? `${props.frontmatter.title} | MLP Drawing School` : 'MLP Drawing School';
+
 // get this guide's path
 const guidesPrefix = '/guides/'
 let home = ''
