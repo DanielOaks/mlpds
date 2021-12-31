@@ -25,53 +25,61 @@ _"The notion here is that you have a foundation of what it is you are distorting
 
 Alright so that's why anatomy's important. Now with that out of the way, we can move on to actually learning the anatomy.
 
------
 
-ANATOMY OF THE PONY
+## Anatomy of The Pony
 
-So when I talk about anatomy, I'm not really talking about in-depth knowledge of all the muscles and organs of a pony. While such in-depth knowledge is useful, it's a bit overkill for this guide. I would however recommend looking at some pictures of actual horse anatomy such as [this skeleton here](http://i.imgur.com/eHA4P.gif)
+So when I talk about anatomy, I'm not really talking about in-depth knowledge of all the muscles and organs of a pony. While such in-depth knowledge is useful, it's a bit overkill for this guide. I would however recommend looking at some pictures of actual horse anatomy such as this skeleton here:
+<GuideFullWidthImage :src="PonyAnatomy1"/>
 
-This is especially helpful in learning the position of joints and how they bend. We'll get to that later on down. Let's go grab a reference like [this one](http://imgur.com/d874A). Now that we've got our reference, let's start with a simple undersketch.
+This is especially helpful in learning the position of joints and how they bend. We'll get to that later on down. Let's go grab a reference like this one:
+<GuideFullWidthImage :src="PonyAnatomy2"/>
+
+Now that we've got our reference, let's start with a simple undersketch.
 
 <Ponymote mote="squintyjack" text="Now wait just one second, didn't we already have a guide for sketching?"/>
 
-If you haven't already read chumpy's sketching lesson [here](http://www.reddit.com/r/MLPdrawingschool/comments/xxmkm/thursday_weekly_lesson_1_sketching_technique/), I recommend it.
+If you haven't already read chumpy's sketching lesson <router-link to="/guides/chumpy/1-sketching">here</router-link>, I recommend it.
 
-Now a show style pony is fairly simple in it's construction. [First we start with some guide circles and a skeleton.](http://imgur.com/BBCDt). Note that the two circles making up the body overlap. Now while you're drawing this, it'd be more helpful in the long run not to think of those circles as circles but as three-dimensional spheres. This'll help you out when you need to draw a pony in a perspective there isn't a reference for.
+Now a show style pony is fairly simple in it's construction. First we start with some guide circles and a skeleton:
+<GuideFullWidthImage :src="PonyAnatomy3"/>
 
-[Now here's a step by step progression from there to the finish](http://imgur.com/BBCDt)
+Note that the two circles making up the body overlap. Now while you're drawing this, it'd be more helpful in the long run not to think of those circles as circles but as three-dimensional spheres. This'll help you out when you need to draw a pony in a perspective there isn't a reference for.
 
 Next, I'm going to go in-depth into each part of the body and how it's constructed.
 
------
+### Assignment #1
 
-Assignment #1
+Draw a pony under sketch based on a reference from <a :href="safePonyRefLink">here</a>.
 
-Draw a pony under sketch based on a reference from [here](http://ponyreference.booru.org/index.php)
 
------
+## Legs
 
-LEGS
-
-This is one of those areas most new artists have serious issues with and most of the time it's because they don't understand the bone structure underneath the legs. [Let's go back to a show reference and overlay a skeleton to help out](http://i.imgur.com/CWHqY.png).
+This is one of those areas most new artists have serious issues with and most of the time it's because they don't understand the bone structure underneath the legs. Let's go back to a show reference and overlay a skeleton to help out:
+<GuideFullWidthImage :src="PonyAnatomy4"/>
 
 Really pay attention to the joints, the distance between them, and the directions they bend in. Now as for how to draw the legs there's some key guidelines to pay attention to.
 
 Make sure when drawing the skeleton that your legs aren't straight. Pony legs are never totally straight, they're always a bit bent to keep the pony from looking really stiff and not dynamic.
 
-[Forelegs Example](http://imgur.com/IDClU)
+-----
+
+<GuideFullWidthImage :src="PonyAnatomy5"/>
 
 Now the forelegs are relatively simple. When straight, they're just a pair of curves that spread further away approaching the hoof. When bent, it get's a little more complicated, but you shouldn't have many issues as long as you keep the joints (and the distances between them) in mind. Make sure to keep in mind that the legs do extend into the body to show that the two are connected!
 
-[Hind legs Example](http://imgur.com/Rfxhu)
+-----
+
+<GuideFullWidthImage :src="PonyAnatomy6"/>
 
 The hind legs on the other hand can be a bit more bothersome. They curve out pretty far. In fact, in a standing position the hind legs will extend out beyond the rump so that the hind hooves are the furthest back part of the pony. Notice that little notch in the hindlegs? That's actually not just some random detail, but a joint! Now while the hind legs joints don't form a nice simple curve like the forelegs, just keep in mind where those joints are at and you should be fine.
 
-So now you've got the leg skeletons all nicely plotted out. What do you do next? Well you add some meat to those bones! Now, I don't have an exact method for this, but keep in mind pony legs are pretty thick. I generally start with the bottom of the hoof to establish the width and then I build around the skeleton [like so](http://imgur.com/rlc6Q)
-
 -----
 
-BODY
+So now you've got the leg skeletons all nicely plotted out. What do you do next? Well you add some meat to those bones! Now, I don't have an exact method for this, but keep in mind pony legs are pretty thick. I generally start with the bottom of the hoof to establish the width and then I build around the skeleton like so:
+<GuideFullWidthImage :src="PonyAnatomy7"/>
+
+
+## Body
 
 As I mentioned earlier, [the body of a pony is just two overlapping circles.](http://imgur.com/9sux3) The amount they overlap varies depending on the perspective. This is where you have to use your imagination to sort of turn the camera a bit. For example, [here](http://imgur.com/HN9vC) is a comparison between the show's standard side and ¾ perspective on the bodies.
 
@@ -147,3 +155,15 @@ ADDITIONAL LINKS
 [Vertrev's Pony Study](http://vertrev.deviantart.com/gallery/?offset=24#/d3c5364) - An excellent example of how the leg joints in a pony.
 
 [An Imgur Album of Various Pony Anatomy Studies/Guides You Might Find Useful](http://imgur.com/a/V6Vj7)
+
+<script setup lang="ts">
+import { safePonyRefLink } from '@/data'
+
+import PonyAnatomy1 from './pony-anatomy-1.gif'
+import PonyAnatomy2 from './pony-anatomy-2.jpg'
+import PonyAnatomy3 from './pony-anatomy-3.jpg'
+import PonyAnatomy4 from './pony-anatomy-4.jpg'
+import PonyAnatomy5 from './pony-anatomy-5.jpg'
+import PonyAnatomy6 from './pony-anatomy-6.jpg'
+import PonyAnatomy7 from './pony-anatomy-7.jpg'
+</script>

@@ -91,6 +91,9 @@
     font-size: 1.4em;
     margin-top: 1.5em;
   }
+  h3 {
+    margin-top: 1.2em;
+  }
 
   .post-wrapper {
     font-size: 1.1em;

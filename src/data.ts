@@ -1,3 +1,6 @@
+//TODO: update this once we have a better one
+export const safePonyRefLink: string = 'https://derpibooru.org/search?page=1&q=safe';
+
 type Author = {
   name: string;
   reddit?: string;
