@@ -28,7 +28,7 @@ How to approach hair, from the beginning:
 
 2.  Note the edges of your shapes, the edges of the initial highlights, the secondary shadows, all of these. Expand on these to clump things a bit. Variety is _really important_ here. Here, you are implying strands through hair like shape. Remember the Twi picture above? Going from general to specific is important in this process. Big clumps, medium, and small. _No individual strands_. I will find you and take your head if you try individual strands here.
 
-3.  Work in _some_ details. [Compare what you have to what you'd like to have](http://redd.it/rj2o2). (Yes, a guide within a guide. Everything intermingles!) Variety is also important here. When you make everything a strand then everything looks the same and it is quite boring and not descriptive. Some nice highlights, a _few_ lone strands and some larger darks make this: <GuideFullWidthImage :src="CanMakeThis"/> Yours, of course, can vary, but more on that in the next way.
+3.  Work in _some_ details. <router-link to="/guides/intention-in-art">Compare what you have to what you'd like to have</router-link> (yes, a guide within a guide – everything intermingles!). Variety is also important here. When you make everything a strand then everything looks the same and it is quite boring and not descriptive. Some nice highlights, a _few_ lone strands and some larger darks make this: <GuideFullWidthImage :src="CanMakeThis"/> Yours, of course, can vary, but more on that in the next way.
 
 There is another, entirely different and faster way to approach hair. Why didn't I do that first? Because it isn't as intuitive and an understanding of hair as shape/volume is needed first before this becomes successful. **Do the other one first** to help your understanding of hair as shape.
 
@@ -42,7 +42,7 @@ It's been on the main sub a few times and is linked in the 6th bi-weekly. The ha
 
 -----
 
-To make this part easier, moarvespenegas has made [this handy dandy visual guide](#moarvespenegas-visual-guide) of the following steps.
+To make this part easier, moarvespenegas has made [this handy dandy visual guide](#moarvespenegas-visual-guide) at the bottom of the page that shows the following steps.
 
 1.  **Sketch your hair layer.** Here is most of the actual thought. you're blocking out the hair's individual shapes, such as with steps 2 and 3 above. Work from general to specific. Have both big shapes and small ones and medium and medium large and maybe a medium small, whatever strikes your fancy, but _avoid noticeable patterns_. Remember _you are implying the shape of hair_ not just giving it away and stranding things. Block in your main color and move on to step 2.
 

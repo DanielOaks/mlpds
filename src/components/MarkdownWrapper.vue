@@ -110,6 +110,11 @@
         }
       }
     }
+    blockquote {
+      margin: 1em 0;
+      padding-left: 1em;
+      border-left: rgb(var(--v-theme-primary)) 4px solid;
+    }
   }
 }
 </style>

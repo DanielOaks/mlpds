@@ -5,7 +5,7 @@ type: guide
 ---
 <Ponymote mote="dj"/>
 
-Earlier a new artist, Leo986, gave me the idea of doing this after they said that they don't understand undersketches, even though they read the [Anatomy and Undersketching guide](http://www.reddit.com/r/MLPdrawingschool/comments/pxmj9/the_basics_pony_anatomy_and_undersketching/). So, What better way to explain than to show?
+Earlier a new artist, Leo986, gave me the idea of doing this after they said that they don't understand undersketches, even though they read the <router-link to="/guides/pony-anatomy-and-undersketching">Anatomy and Undersketching guide</router-link>. So, What better way to explain than to show?
 
 We're using this Applejack as reference:
 <GuideFullWidthImage :src="AJ1"/>

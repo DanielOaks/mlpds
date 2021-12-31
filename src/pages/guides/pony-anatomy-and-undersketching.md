@@ -24,7 +24,7 @@ By doing these simple few lines and circles, you let yourself be able to draw an
 
 Let's take the back legs for instance. They have an angle that is difficult for most to see on their first few pony arts. Look at the angle the back line of the back leg is making in these pictures:
 
-<swiper :modules="modules" :slides-per-view="3" :space-between="50" navigation>
+<GuideImageGallery>
   <swiper-slide><GuideFullWidthImage :src="ShowExample1"/></swiper-slide>
   <swiper-slide><GuideFullWidthImage :src="ShowExample2"/></swiper-slide>
   <swiper-slide><GuideFullWidthImage :src="ShowExample3"/></swiper-slide>
@@ -32,7 +32,7 @@ Let's take the back legs for instance. They have an angle that is difficult for 
   <swiper-slide><GuideFullWidthImage :src="ShowExample5"/></swiper-slide>
   <swiper-slide><GuideFullWidthImage :src="ShowExample6"/></swiper-slide>
   <swiper-slide><GuideFullWidthImage :src="ShowExample7"/></swiper-slide>
-</swiper>
+</GuideImageGallery>
 
 It comes out. _Not in_. Out. In all flatfooted situations in the show this is the case. **Back legs are neither straight nor forward, they come out, away from the body.**--- This creates untold interest, it leads the viewer into the body instead of down away from it.
 
@@ -76,12 +76,7 @@ Some notes on pony proportions and general anatomy tips:
 Now, we've covered the circles that make up a pony, their joints, the way their front hooves and legs bend, how to map out eyes and to never fear correction and also a lot of anatomy. That's a lot of pony and there's always more. So as always, feel free to ask questions, voice concerns, make jokes or quietly reply.
 
 <script setup lang="ts">
-import { Navigation } from 'swiper';
-import { Swiper, SwiperSlide } from 'swiper/vue';
-import 'swiper/css';
-import 'swiper/css/navigation';
-
-const modules = [Navigation];
+import { SwiperSlide } from 'swiper/vue';
 
 import ViwUndersketch1 from './viw-undersketch.jpg'
 import ViwUndersketch2 from './viw-undersketch-2.jpg'
@@ -101,18 +96,3 @@ import ExtraExample1 from './pony-anatomy-and-undersketching-extra-1.jpg'
 import ExtraExample2 from './pony-anatomy-and-undersketching-extra-2.jpg'
 import ExtraExample3 from './pony-anatomy-and-undersketching-extra-3.jpg'
 </script>
-
-<style lang="scss">
-.swiper-button-prev, .swiper-button-next {
-  &:after {
-    background-color: rgb(var(--v-theme-secondary));
-    color: rgb(var(--v-theme-on-secondary));
-    font-weight: bold;
-    padding: .2em;
-    border-radius: .2em;
-  }
-  &.swiper-button-disabled {
-    pointer-events: auto;
-  }
-}
-</style>
