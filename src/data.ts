@@ -100,10 +100,6 @@ export const guides: GuideMap = {
     name: 'Lesson 6: Pony Anatomy',
     author: 'mynameischumpy',
   },
-  'common-anatomy-errors': {
-    name: 'Common anatomy errors',
-    author: 'viwrastupr',
-  },
   'composition': {
     name: 'Composition. How does your drawing feel to look at, and why?',
     author: 'viwrastupr',
@@ -245,7 +241,6 @@ export const guideLists = {
           'chumpy/',
           'gesturing',
           'hair',
-          'common-anatomy-errors',
           'pony-anatomy',
           'bodies',
         ],

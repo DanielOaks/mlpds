@@ -18,7 +18,7 @@ Hello again my little artists, Its time for another edition of viwrastupr's gian
 There are many different ways to set up a composition and planning can mean the difference between something being anatomically accurate or being interesting to look at. **The purpose of this guide is to teach you to plan and play with composition and how** There's a whole bunch here, but it is interesting stuff to consider. And it gets those creative energies going and gets you thinking about art in a whole new way.
 
 
-## Part 1: A lot of the planning stuff
+## Part 1: Planning your Picture
 
 ### Variety
 
@@ -82,50 +82,121 @@ Diagonal lines help with these a lot, but it is figural. What your character is 
 ### Faces and emotions
 <Ponymote mote="twibeam" text="Emotion me!"/>
 
-Not technically a part of 2d design. But important. Our eyes identify faces fist and start there. [Emotions make or break how we view the character](http://imgur.com/zAG9j). Also emotions aren't be dependent on the face alone. [Value and texture also play an important role](http://imgur.com/wZu7q).
+Not technically a part of 2d design. But important. Our eyes identify faces fist and start there. Emotions make or break how we view the character:
+<GuideFullWidthImage :src="YikomegaOctavia" artist="yikomega"/>
+
+Also emotions aren't be dependent on the face alone. Value and texture also play an important role:
+<GuideFullWidthImage :src="CompositionLuna"/>
 
 ### Concept
 
-Again, not 2d design, but still really important. [This piece overflows with concept](http://imgur.com/0mb9M). Mystery, implied stuffs. Things that give an attachment to a piece that isn't emotion. [This is a piece that does a good job of combining both emotion and concept without face](http://imgur.com/ZfKeZ).
+Again, not 2d design, but still really important. A strong concept conveys something to the viewer. For example, this piece overflows with concept:
+<GuideFullWidthImage :src="KzksmTwi" artist="KzKsM" href="https://www.deviantart.com/kzksm/art/Twilight-Timeless-211650669"/>
+
+Mystery, implied stuffs. Things that give an attachment to a piece that isn't emotion. This is a piece that does a good job of combining both emotion and concept without showing the face:
+<GuideFullWidthImage :src="KpOctavia" artist="KP-ShadowSquirrel" href="https://www.deviantart.com/kp-shadowsquirrel/art/Out-of-Chalk-262054982"/>
 
 
 ## Part 2: Elements of Placement
 
--   Continuance Intended or unintended. Orientation/Implied Lines. When you have a line that flows directly into another line or a place of contrast that does the same, or a series of objects in a row, our eyes follow this line. [The pillar here is placed in the same plane as the eye because we follow it down into the composition, resting on the eye easily](http://imgur.com/X607r)
+### Continuance
 
--   Tension When two objects are very close or an object is very close to the edge it creates tension. Usually this is something to be wary of, creating it unnecessarily [but when done on purpose can be quite neat. Here the pony being close to the edge pushes us back into the composition](http://imgur.com/WwmS9).
+Intended or unintended, orientation or implied lines… When you have a line that flows directly into another line or a place of contrast that does the same, or a series of objects in a row, our eyes follow this line.
 
--   Looseness/vastness How much space are you allowing for the figure? [This shows very well the impact of space](http://imgur.com/k6Tsl)
+In this example, the pillar is placed in the same plane as the pony's eye. So when we're looking at the piece, our eyes easily follow it down into the face and the rest of the composition:
+<GuideFullWidthImage :src="Legacy350Lone" artist="Legacy350" href="https://www.deviantart.com/legacy350/art/Lone-Empress-68651969"/>
 
--   Crowdedness Can add interest, but also creates confusion. [Collages are an excellent example of crowdedness](http://imgur.com/lPFmV)
+### Tension
 
--   Asymmetry/Symmetry. Asymmetry provides interest. Symmetry provides order. Both are good at times, but be wary of order. <Ponymote mote="twipride" text="If you don't know that symmetry is... you are making me sad."/>
+When two objects are very close or an object is very close to the edge it creates tension. Usually this is something to be wary of, creating it unnecessarily. But when done on purpose it can be quite neat. Here, the pony being close to the edge pushes us back into the composition:
+<GuideFullWidthImage :src="CompositionLuna2"/>
 
--   The rule of thirds -It is a way that artists divide the composition into three equal parts. Placing important points like the horizon line, the figure, eyes creates more interest for the brain. [Wikipedia is better at explaining this than I](http://en.wikipedia.org/wiki/Rule_of_thirds). Anything about composition that applies to photography applies to art
+### Looseness / Vastness
 
--   Central composition. [This Derpy provides a beautiful example](http://imgur.com/QlUak). This doesn't really qualify for its own bullet but I love Derpy and this is an excellent composition
+How much space are you allowing for the figure? This picture shows off the impact of space:
+<GuideFullWidthImage :src="CompositionDerpy"/>
 
------
+### Crowdedness
 
-**Part 3** Methods to make
+Can add interest, but also creates confusion. Collages are an excellent example of crowdedness:
+<GuideFullWidthImage :src="CompositionCollage"/>
+
+### Symmetry and Asymmetry
+
+Asymmetry provides interest. Symmetry provides order. Both are good at times, but be wary of order.
+<Ponymote mote="twipride" text="If you don't know that symmetry is... you are making me sad."/>
+
+### The rule of thirds
+
+This is a way that artists divide the composition into three equal parts. Placing important points like the horizon line, the figure, eyes creates more interest for the brain. [Wikipedia is better at explaining this than I](http://en.wikipedia.org/wiki/Rule_of_thirds). Anything about composition that applies to photography applies to art.
+
+### Central composition
+
+This Derpy provides a beautiful example:
+<GuideFullWidthImage :src="CompositionDerpy2"/>
+
+This doesn't really qualify for its own bullet but I love Derpy and this is an excellent composition
+
+
+## Part 3: Methods to Make
 
 <Ponymote mote="twistare" text="What do you mean there's more?"/>
 
--   Lines Known as paths, curves. Everybody knows about lines. We all think that lines are all you make art with. At first. [This is line.](http://imgur.com/hSwAh)
+### Lines
 
--   Shapes! An area. This is what I'm referring to when I say shadow shapes. Shapes are their own volume and learning to create with shapes pushes you into learning to think in 3 dimensions. [This Rainbow is made with shapes and not a line brush. Active](http://imgur.com/HqyUe)
+Known as paths, curves. Everybody knows about lines. We all think that lines are all you make art with. At first. This is line:
+<GuideFullWidthImage :src="SnuskunLuna" artist="Snus-kun" href="https://www.deviantart.com/snus-kun/art/Night-258084240"/>
 
--   Value light and dark. How bright do you want your composition to be? How dark? At first people make things even, trying to get _order_. Ordered is a dirty word in art. [Look at this Spitfire and tell me it isn't beautiful in its brightness](http://imgur.com/hl6mm) and [tell me the same of this moment and darks](http://imgur.com/A0pSr). Plan and play
+### Shapes
 
--  Colors! Basic color theory [as seen in this awesome guide](http://purplekecleon.deviantart.com/gallery/?q=color#/d31xj5t). <Ponymote mote="twicrazy" text="Colors. I thought I was almost done and there's a guide within a guide. Jerk"/> Color is a class of its own. [Take this megasweet piece for example](http://imgur.com/vHZGZ). Color makes it pop
+An area! This is what I'm referring to when I say shadow shapes. Shapes are their own volume and learning to create with shapes pushes you into learning to think in 3 dimensions. This Rainbow is mostly made with shapes rather than lines a line brush, and it feels _active!_
+<GuideFullWidthImage :src="CaramelbruleeRd" artist="CaramelBrulee" href="https://www.deviantart.com/caramelbrulee/art/Rainbow-Dash-312774455"/>
 
--   Space Height, width and the illusion of depth. Putting two or more similar objects in a piece gives you ability to play with depth [such as with this piece](http://imgur.com/pRbiH). Notice how Sorin is bigger and thus seems closer. A large number of horizontalish divisions also helps give an illusion of depth [such as in this piece](http://imgur.com/Ix23D). There is also perspective but that's a different lecture
+### Value
 
--   Texture. Texture is very active and draws the eye in to visit all the parts of the piece. It is a good cookie (explained later). [This piece would be different if it weren't for the textured background](http://imgur.com/tliX0).
+Light and dark. How bright do you want your composition to be? How dark? At first people make things even, trying to get _order_. Ordered is a dirty word in art. Look at this Spitfire and tell me it isn't beautiful in its brightness:
+<GuideFullWidthImage :src="Swaetshrit" artist="swaetshrit"/>
 
--   Text. [This text is awesome](http://imgur.com/Rn493), now imagine it without text. It has no flair. Text adds mood and context. You can play around with specific fonts and give flourish
+And tell me the same of this moment and darks:
+<GuideFullWidthImage :src="StubsfonduFluttershy"/>
 
--   Cookies. These are a reward to your audience for looking. It can be anything from a rich texture to an easter egg. You don't notice this on first glance, but the more you look the more you enjoy. <Ponymote mote="cookie" text="Everypony wants a cookie.  Or a muffin."/> These make a good art epic. The texture, the fuzzy background, the wearing of the hat, the holding hooves. This piece is full of happy cookies.
+Plan and play~
+
+### Colors!
+
+Basic color theory [as seen in this awesome guide](http://stuff.veekun.com/pkcolor/).
+<Ponymote mote="twicrazy" text="Colors. I thought I was almost done and there's a guide within a guide. Jerk"/>
+
+Color is a class of its own. Take this megasweet piece for example – color makes it pop!
+<GuideFullWidthImage :src="ExplosivegentBubbly" artist="ExplosiveGent" href="https://www.deviantart.com/explosivegent/art/This-Bubbly-Feeling-255942182"/>
+
+### Space
+
+Height, width and the illusion of depth. Putting two or more similar objects in a piece gives you ability to play with depth such as with this piece:
+<GuideFullWidthImage :src="NoelFlight" artist="Noel"/>
+
+Notice how Sorin is bigger and thus seems closer? A large number of horizontalish divisions can also help give an illusion of depth, such as in this piece:
+<GuideFullWidthImage :src="CherielfiarelAj" artist="Cheriel/Fiarel"/>
+
+There is also perspective but that's a different lecture
+
+### Texture
+
+Texture is very active and draws the eye in to visit all the parts of the piece. It is a good cookie (explained later). This piece would be different if it weren't for the textured background:
+<GuideFullWidthImage :src="SaturnspaceInk" artist="saturnspace" href="https://www.deviantart.com/saturnspace/art/Ink-heart-in-the-gravitation-pool-283025935"/>
+
+### Text
+
+Text adds mood, context, and flair! You can play around with specific fonts and give flourish.
+
+### Cookies
+
+These are a reward to your audience for looking. It can be anything from a rich texture to an easter egg. You don't notice this on first glance, but the more you look the more you enjoy.
+<Ponymote mote="cookie" text="Everypony wants a cookie.  Or a muffin."/>
+
+These make a good art epic. The texture, the fuzzy background, the wearing of the hat, the holding hooves. This piece is full of happy cookies.
+
+-----
 
 As you can see from the various examples, these elements play together and flourish. Art is infinite and wonderful
 
@@ -146,4 +217,21 @@ import BakkiComic from './bakki-comic.jpg'
 import KarzahniiCloudsdale from './karzahnii-cloudsdale.jpg'
 import RizcifraSakura from './rizcifra-sakura.jpg'
 import TwiStand from './twi-stand.jpg'
+import YikomegaOctavia from './yikomega-octavia.jpg'
+import CompositionLuna from './composition-luna.jpg'
+import KzksmTwi from './kzksm-twi.jpg'
+import KpOctavia from './kp-octavia.jpg'
+import Legacy350Lone from './legacy350-lone.jpg'
+import CompositionLuna2 from './composition-luna-2.jpg'
+import CompositionDerpy from './composition-derpy.jpg'
+import CompositionCollage from './composition-collage.jpg'
+import CompositionDerpy2 from './composition-derpy-2.jpg'
+import SnuskunLuna from './snuskun-luna.jpg'
+import CaramelbruleeRd from './caramelbrulee-rd.jpg'
+import Swaetshrit from './swaetshrit.jpg'
+import StubsfonduFluttershy from './stubsfondu-fluttershy.jpg'
+import ExplosivegentBubbly from './explosivegent-bubbly.jpg'
+import NoelFlight from './noel-flight.jpg'
+import CherielfiarelAj from './cherielfiarel-aj.jpg'
+import SaturnspaceInk from './saturnspace-ink.jpg'
 </script>

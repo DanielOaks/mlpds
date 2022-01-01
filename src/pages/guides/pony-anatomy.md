@@ -197,7 +197,7 @@ Draw a pony in a pose that doesn't have a 100% perfect reference for it!
 
 ## Additional Links
 
-Viwrastupr's <router-link to="/guides/common-anatomy-errors">Common Anatomy Errors guide</router-link> includes a lot of miscellaneous info on parts of the pony that is super useful for getting all the proportions right.
+The <router-link to="/guides/common-anatomy-errors">Common Anatomy Errors guide</router-link> includes a lot of miscellaneous info on parts of the pony that is super useful for getting all the proportions right.
 
 [An Imgur Album of Various Pony Anatomy Studies/Guides You Might Find Useful](http://imgur.com/a/V6Vj7)
 
