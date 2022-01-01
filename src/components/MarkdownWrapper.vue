@@ -69,11 +69,32 @@
     flex-shrink: 0;
     background: rgb(var(--v-theme-background));
 
-    .title {
-      opacity: .49;
+    .nav {
+      height: calc(100vh - 5em);
       padding-bottom: 1em;
-      border-bottom: rgb(var(--v-theme-on-background)) 1px dotted;
-      margin-bottom: 1em;
+      overflow-y: scroll;
+
+      .title {
+        opacity: .49;
+        padding-bottom: 1em;
+        border-bottom: rgb(var(--v-theme-on-background)) 1px dotted;
+        margin-bottom: 1em;
+      }
+      a {
+        display: block;
+        text-decoration: none;
+        opacity: .8;
+        padding: .25em 0;
+      }
+      .tagH2 {
+        padding-left: 0;
+      }
+      .tagH3 {
+        padding-left: 1em;
+      }
+      .tagH4 {
+        padding-left: 2em;
+      }
     }
   }
 
@@ -214,17 +235,26 @@ const anchors = new AnchorJS();
 import { onMounted, onUpdated, onUnmounted } from 'vue'
 const headerSelector = '.content h2, .content h3, .content h4';
 
-// setup page nav
 function renderPageNav(): void {
   const nav = document.getElementById('mdPageNav');
 
   if (nav) {
     const newNav = document.createElement('div');
+    newNav.classList.add('nav');
 
     const newTitle = document.createElement('div');
     newTitle.classList.add('title');
     newTitle.innerText = props.frontmatter && props.frontmatter.title ? props.frontmatter.title : 'MLPDS Guide';
     newNav.appendChild(newTitle);
+
+    document.querySelectorAll('.content h2, .content h3, .content h4').forEach(element => {
+      const newLink = document.createElement('a');
+      newLink.href = `#${element.id}`;
+      newLink.innerText = (element as HTMLElement).innerText;
+      newLink.classList.add(`tag${element.tagName.toUpperCase()}`)
+
+      newNav.append(newLink);
+    });
 
     // empty out nav element
     nav.textContent = '';
