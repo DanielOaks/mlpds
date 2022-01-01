@@ -80,14 +80,19 @@
         padding-bottom: 1em;
         border-bottom: rgb(var(--v-theme-on-background)) 1px dotted;
         margin-bottom: 1em;
+        + a {
+          padding-top: 0;
+        }
       }
       a {
         display: block;
         text-decoration: none;
-        opacity: .8;
+        opacity: .75;
         padding: .25em 0;
+        font-size: .85em;
       }
       .tagH2 {
+        padding-top: 1em;
         padding-left: 0;
       }
       .tagH3 {
