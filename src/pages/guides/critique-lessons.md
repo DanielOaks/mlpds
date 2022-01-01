@@ -18,7 +18,8 @@ A year later I try and keep up with critiques every day, and if you've had my wo
 
 Now on to the lesson.
 
------
+
+## Starting Off
 
 A few things you want to be careful with
 
@@ -41,7 +42,8 @@ Now just minor things, saying its nice and stuff is great compliments, but if yo
 Right! long block of text, have an eating twilight.
 <Ponymote mote="omnom" text=" "/>
 
------
+
+## What can you do?
 
 The fun stuff, what you can do!
 
@@ -49,7 +51,7 @@ Right, refreshed? On to what you can do! I will use a very old piece of mine to 
 
 First off, dryly listing mistakes will **not** be useful, we've covered that. So what can you do? Easy!
 
-**Expand and explain.**
+### Expand and explain
 
 This concept has been explained in the other critique lessons too, but I will cover it again.
 
@@ -73,6 +75,8 @@ You will notice things have happened in between the three images, I changed the 
 
 Now let's take the first image. What can you tell by looking at it, you've seen the show, you can about think how the legs look. Now what can you do? Well provided I didn't tell anything.
 
+### Using your tools
+
 There are a few tools as a critic you can use, **use these**. They will save you time and effort while not degrading the help given. These are for example (There may be many more)
 
 -   Guides
@@ -85,15 +89,13 @@ A few anatomy guides might be nice to point me to for example. [They're in the s
 
 <Ponymote mote="ppdevious" text="how devious, making them learn this way"/>
 
-Now that you've given me something to work with, because you felt these things look odd. Those back legs are awfully spindly and skinny. You can tell me this, you mentioned this with the guides. Now the guides could give me the explanation I need to fix it and remember it next time. But you're more than welcome to add your own grain of salt, condensing it for me.
+Now that you've given me something to work with, because you felt these things look odd. Those back legs are awfully spindly and skinny. You can tell me this, you mentioned this with the guides. Now the guides could give me the explanation I need to fix it and remember it next time.
 
------
+### Comment Example
 
-Comment example
+Here's an example of a comment I'd make:
 
-"Back legs point back a bit more, I have the feeling that with how you drew them the pony looks like it's about to topple backwards. Look at screenshots of the show and the guides I gave you. Try and see if that can do something for you."
-
------
+> Back legs point back a bit more, I have the feeling that with how you drew them the pony looks like it's about to topple backwards. Look at screenshots of the show and the guides I gave you. Try and see if that can do something for you.
 
 This is already much more constructive than saying: "The back legs look bad." You explained me what you saw was wrong, why it was wrong, and gave me something to work with and work on.
 
@@ -103,9 +105,8 @@ How much they do this is dependent on their drive and involvement and is out of 
 
 <Ponymote mote="chibipinkie" text=" "/>
 
------
 
-In short
+## In short
 
 Basically this is what a critique amounts to, and for the most this will be what will happen. Most posts I have covered are of people who put up one or two images and do not show up anymore. You can always start with this. **You don't have to make huge or walls of text to help others, even small single things will be useful.**
 
@@ -119,7 +120,8 @@ Remember that this is a personal approach and is **IN NO WAY** a template you ha
 
 TL:DR **A good critique helps the artist by expanding on your points and explaining them.**
 
-Now a final few things.
+
+## A final few things.
 
 If anyone is interested in doing a critique practice lesson in a single topic, where the whole post is dedicated to seeing how others critique on a single work and seeing if you can learn from that, I can look into doing this. I will use old and new posts of mine as things to be critiqued, unless someone wants to help too of course.
 
