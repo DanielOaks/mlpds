@@ -1,5 +1,6 @@
 ---
-title: Intention in art. What you want to do vs What actually happens
+title: Intention in art
+subtitle: What you want to do vs What actually happens
 author: viwrastupr
 type: guide
 ---

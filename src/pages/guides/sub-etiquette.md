@@ -1,5 +1,6 @@
 ---
-title: Sub etiquette. The first stop guide.
+title: Sub etiquette
+subtitle: The first stop guide
 author: viwrastupr
 type: guide
 nopagenav: true

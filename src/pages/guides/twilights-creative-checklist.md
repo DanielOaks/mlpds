@@ -1,5 +1,6 @@
 ---
-title: "Twilight's Creative Checklist: How to be creative"
+title: Twilight's Creative Checklist
+subtitle: How to be creative
 author: viwrastupr
 type: guide
 ---

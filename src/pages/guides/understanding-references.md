@@ -1,5 +1,5 @@
 ---
-title: Understanding References.
+title: Understanding References
 author: viwrastupr
 type: guide
 ---

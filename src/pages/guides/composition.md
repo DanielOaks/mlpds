@@ -1,5 +1,6 @@
 ---
-title: Composition. How does your drawing feel to look at, and why?
+title: Composition
+subtitle: How does your drawing feel to look at, and why?
 author: viwrastupr
 type: guide
 ---

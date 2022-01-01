@@ -1,5 +1,5 @@
 ---
-title: The Keys to Success in art.
+title: The Keys to Success in Art
 author: viwrastupr
 type: guide
 ---

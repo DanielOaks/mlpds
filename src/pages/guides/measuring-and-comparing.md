@@ -1,5 +1,5 @@
 ---
-title: Measuring and Comparing.
+title: Measuring and Comparing
 author: viwrastupr
 type: guide
 ---

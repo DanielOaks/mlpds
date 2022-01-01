@@ -4,7 +4,8 @@
     <div :class="'wrapper-'+frontmatter.type + ' ' + (frontmatter.nopagenav ? 'nopagenav' : '')">
       <div class="content">
         <h1 :class="{'banner': frontmatter.banner}">{{ frontmatter.title }}
-          <span class="subtitle" v-if="frontmatter.author" v-text="frontmatter.author"/>
+          <span class="authorName" v-if="frontmatter.author" v-text="frontmatter.author"/>
+          <span class="subtitle" v-if="frontmatter.subtitle" v-text="frontmatter.subtitle"/>
         </h1>
         <div class="homeLinks" v-if="prevPage || home || nextPage">
           <router-link v-if="prevPage" :to="guidesPrefix+prevPage" v-text="'Prev'"/>
@@ -140,9 +141,16 @@
         margin: 1em 0;
       }
       .subtitle {
+        display: block;
+        font-size: .64em;
+        font-weight: 400;
+        opacity: .83;
+      }
+      .authorName {
         font-size: .7em;
         font-weight: 400;
-        opacity: .66;
+        opacity: .55;
+        margin-left: .35em;
       }
     }
     h2 {

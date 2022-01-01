@@ -1,5 +1,6 @@
 ---
-title: Critique lessons – A 101 approach to starting with critique
+title: Critique lessons
+subtitle: A 101 approach to starting with critique
 author: r1pperanthon
 type: guide
 ---

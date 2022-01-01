@@ -1,5 +1,6 @@
 ---
-title: What is critique? Problems and solutions for artists and critics
+title: What is critique?
+subtitle: Problems and solutions for artists and critics
 author: viwrastupr
 type: guide
 ---

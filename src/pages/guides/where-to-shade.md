@@ -1,5 +1,6 @@
 ---
-title: Where to shade? Breaking things into parts before shading. Complex = Simple
+title: Where to shade?
+subtitle: Breaking things into parts before shading. Complex = Simple
 author: viwrastupr
 type: guide
 ---

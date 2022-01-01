@@ -1,5 +1,6 @@
 ---
-title: "Chumpy's Guides – From undersketch to complete."
+title: Chumpy's Guides
+subtitle: From undersketch to complete
 author: mynameischumpy
 type: guide
 ---

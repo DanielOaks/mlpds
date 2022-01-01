@@ -1,5 +1,6 @@
 ---
-title: "How to Critique: For critics and artists alike"
+title: How to Critique
+subtitle: For critics and artists alike
 author: viwrastupr
 type: guide
 ---

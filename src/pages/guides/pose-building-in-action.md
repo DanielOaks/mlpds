@@ -1,5 +1,6 @@
 ---
-title: Undersketching and Refinement - Pose-building in action.
+title: Undersketching and Refinement
+subtitle: Pose-building in action
 author: idrawponiessometimes
 type: guide
 ---

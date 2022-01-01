@@ -1,5 +1,6 @@
 ---
-title: Shadows. How to make something look like it is in three dimensions when working only with two
+title: Shadows
+subtitle: How to make something look like it's 3D when working only with two
 author: viwrastupr
 type: guide
 ---

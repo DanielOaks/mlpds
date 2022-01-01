@@ -1,5 +1,6 @@
 ---
-title: Hair. It is less than you think
+title: Hair
+subtitle: It takes less than you think
 author: viwrastupr
 type: guide
 ---

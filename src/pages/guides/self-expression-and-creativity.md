@@ -1,5 +1,6 @@
 ---
-title: Self-expression and creativity – a guide to find art in yourself
+title: Self-expression and creativity
+subtitle: A guide to find art in yourself
 author: popprocks
 type: guide
 ---

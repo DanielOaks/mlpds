@@ -1,9 +1,11 @@
 ---
-title: "Critical thinking: The most important skill to have"
+title: Critical thinking
+subtitle: The most important skill to have
 author: viwrastupr
 type: guide
 ---
 <Ponymote mote="lunasad" text="Sorry, this guide does not give you magic thinking powers."/>
+
 The number 1 skill to have. The way to solve all your problems. The way to improve at art and learn learn learn. **Critical thinking!**
 
 To be an amazing artist you have to solve problems constantly, reason through when presented with new situations, and come up with an entirely different way of putting things together. Or sometimes it just takes something slightly different from what you did before.

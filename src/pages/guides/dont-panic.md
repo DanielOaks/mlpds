@@ -1,5 +1,6 @@
 ---
-title: DON'T PANIC! A drawing guide – from beginner to expert, and everything inbetween
+title: DON'T PANIC!
+subtitle: A drawing guide – from beginner to expert, and everything inbetween
 author: viwrastupr
 type: guide
 ---

@@ -1,5 +1,6 @@
 ---
-title: Gesturing, what is it and why do I need it?
+title: Gesturing
+subtitle: What is it and why do I need it?
 author: viwrastupr
 type: guide
 ---

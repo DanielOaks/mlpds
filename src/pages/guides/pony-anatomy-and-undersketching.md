@@ -1,5 +1,5 @@
 ---
-title: Pony anatomy and undersketching.
+title: Pony anatomy and undersketching
 author: viwrastupr
 type: guide
 ---

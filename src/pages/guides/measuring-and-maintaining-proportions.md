@@ -1,5 +1,6 @@
 ---
-title: "Rabbi's Guide To The Perplexed (or: how to measure, compare, and sketch your way to proportionality.)"
+title: Rabbi's Guide To The Perplexed
+subtitle: How to measure, compare, and sketch your way to proportionality
 author: dispatchrabbi
 type: guide
 ---

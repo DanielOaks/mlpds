@@ -1,5 +1,6 @@
 ---
-title: Shading. Everything Shading
+title: Shading
+subtitle: Everything Shading
 author: viwrastupr
 type: guide
 ---
