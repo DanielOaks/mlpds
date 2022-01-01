@@ -2,6 +2,7 @@
 title: The Keys to Success in Art
 author: viwrastupr
 type: guide
+nopagenav: true
 ---
 There are three key steps to success in art and they are as follows:
 

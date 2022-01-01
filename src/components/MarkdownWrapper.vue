@@ -94,6 +94,9 @@
       .tagH2 {
         padding-top: 1em;
         padding-left: 0;
+        + .tagH2 {
+          padding-top: .4em;
+        }
       }
       .tagH3 {
         padding-left: 1em;

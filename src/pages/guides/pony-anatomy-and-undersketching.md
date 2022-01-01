@@ -2,6 +2,7 @@
 title: Pony anatomy and undersketching
 author: viwrastupr
 type: guide
+nopagenav: true
 ---
 Hello everypony.
 <Ponymote mote="flutteryay" text="Its time for another tutorial with your second favorite mod,"/>

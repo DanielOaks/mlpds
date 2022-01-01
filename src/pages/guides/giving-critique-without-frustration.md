@@ -27,18 +27,34 @@ It is up to the artist themselves to build their interpretation of how the pony 
 <Ponymote mote="derpwizard" text="I now know that as a very derpy thing to do, as too much at a time is impossible to and only gives answers to very specific questions and doesn't provide future process answers."/>
 <Ponymote mote="ajhappy" text="Link to the guides!"/>
 
-It's not about the particulars of what would fix this drawing but rather, how the person can change their process in the future. **So how do you help people?**
+It's not about the particulars of what would fix this drawing but rather, how the person can change their process in the future. So,
+
+
+## How do you help people?
 <Ponymote mote="ajhappy" text="Link to the guides!"/>
 
-1.  **Give them tools** to use. Measuring and comparing, angle observing, words about impressions, _link to guides_, words on volume, how you think about the problem, your personal experience, exercises to do.
+### Give them tools to use
 
-2.  **Answer questions** Seriously. Do it like a boss. Questions are them trying to learn. Why wouldn't you encourage that? <Ponymote mote="ajhappy" text="You can also link to the guides!"/>
+Measuring and comparing, angle observing, words about impressions, _link to guides_, words on volume, how you think about the problem, your personal experience, exercises to do.
 
-3.  **Have questions**. If they don't ask any, encourage them to. You should ask them some too. What do they want to learn? Where do they want to go in art? What artists do they like? Questions facilitate introspection and thinking. Something seems off, be it the composition, the pose, the eyes, the ear, the mood, what be it. Gvie hints, show off references and ask them questions like "what mood were you trying for?" or "what seems off about the eyes to you?" <Ponymote mote="derpyshock" text="Not... not critical thinking!"/> <Ponymote mote="noooo" text="That's not true... that's impossible!"/> <Ponymote mote="ajhappy" text="Hey you know those guides that're out there?  Link to them."/>
+### Answer questions
 
-4.  **Be positive**. This is the most important. A critique is not a disassembling, dry analysis. It's a discussion. Talk to the artist like they're a person, not a problem. Keep it simple stu-dent.
+Seriously. Do it like a boss. Questions are them trying to learn. Why wouldn't you encourage that?
+<Ponymote mote="ajhappy" text="You can also link to the guides!"/>
 
------
+### Have questions
+
+If they don't ask any, encourage them to. You should ask them some too. What do they want to learn? Where do they want to go in art? What artists do they like? Questions facilitate introspection and thinking. Something seems off, be it the composition, the pose, the eyes, the ear, the mood, what be it. Gvie hints, show off references and ask them questions like "what mood were you trying for?" or "what seems off about the eyes to you?"
+<Ponymote mote="derpyshock" text="Not... not critical thinking!"/>
+<Ponymote mote="noooo" text="That's not true... that's impossible!"/>
+<Ponymote mote="ajhappy" text="Hey you know those guides that're out there?  Link to them."/>
+
+### Be positive
+
+This is the most important. A critique is not a disassembling, dry analysis. It's a discussion. Talk to the artist like they're a person, not a problem. Keep it simple stu-dent.
+
+
+## Keep in mind
 
 <Ponymote mote="fluttershy" text="Just a little note... um... if you don't mind"/>
 <Ponymote mote="fluttershh" text="Art is subjective.  Ridiculously so."/>
@@ -46,8 +62,10 @@ It's not about the particulars of what would fix this drawing but rather, how th
 <Ponymote mote="flutterwink" text="So... just remember... we could all use a little kindness."/>
 <Ponymote mote="ajhappy" text="Also... about them there guides..."/>
 <Ponymote mote="ajsup" text="People come here expecting direction, why not give it to em?"/>
+<br>
 
-To facilitate the direction of critiques and their general improvement you may find me critiquing critiques.
+To facilitate the direction of critiques and their general improvement, you may find me critiquing critiques.
+
 <Ponymote mote="scootbrag" text="Because I'm a jerk."/>
 
 -----

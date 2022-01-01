@@ -3,6 +3,7 @@ title: Shadows
 subtitle: How to make something look like it's 3D when working only with two
 author: viwrastupr
 type: guide
+nopagenav: true
 ---
 <Ponymote mote="derp" text="Hello again!"/>
 <Ponymote mote="derpyhappy" text="I hope all of you find this guide useful."/>

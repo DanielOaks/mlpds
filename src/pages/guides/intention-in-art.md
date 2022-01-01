@@ -3,6 +3,7 @@ title: Intention in art
 subtitle: What you want to do vs What actually happens
 author: viwrastupr
 type: guide
+nopagenav: true
 ---
 Alternate title: **Responding to what you make, not what you intend**
 <Ponymote mote="sbstare" text="Alternate alternate title 'You made your bed, now lie in it'."/>

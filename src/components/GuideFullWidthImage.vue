@@ -5,6 +5,7 @@
         :src="src"
       />
       <figcaption v-if="artist" v-text="'art by '+artist"/>
+      <figcaption v-if="photographer" v-text="'photo by '+photographer"/>
       <figcaption v-if="caption" v-text="caption"/>
     </figure>
   </a>
@@ -41,6 +42,7 @@ const props = defineProps({
   src: String,
   href: String,
   artist: String,
+  photographer: String,
   caption: String,
 })
 </script>

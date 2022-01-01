@@ -2,6 +2,7 @@
 title: Heads
 author: whatsapokemon
 type: guide
+nopagenav: true
 ---
 This guide is available as a [Flash file (SWF)](https://www.deviantart.com/whatsapokemon/art/Drawing-Ponies-with-Whatsapokemon-Heads-371021639) and as <a :href="HeadsPDF">a PDF</a>.
 

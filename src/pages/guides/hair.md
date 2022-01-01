@@ -9,6 +9,9 @@ type: guide
 
 This guide's focus: Hair.
 
+
+## The Intuitive Approach
+
 To start out with, many people approach hair like this, as separate individual strands:
 <GuideFullWidthImage :src="TheJayOwlVinyl" href="https://www.deviantart.com/thejayowl/art/Vinyl-scratch-293044962" artist="thejayowl"/>
 
@@ -17,6 +20,9 @@ This is the intuitive approach. After all, hair is a bunch of unique strands, ri
 Nope. Not at all. Well... it _is_ a bunch of unique strands, but in the same sense that you're a bunch of unique cells. Ah, so now you've got it eh? Your going to approach it as value and lines at the same time and save yourself some trouble right? Well, no. We don't draw all the cells and it is _**absolutely insane**_ to draw the individual strands and try and get value in there at the same time.
 
 So what is hair? How to approach it?
+
+
+## The Basic Approach
 
 Hair is shape. Look at this:
 <GuideFullWidthImage :src="Mn27Twi" href="http://mn27.deviantart.com/art/Twilight-Sparkle-199782102" artist="mn27"/>
@@ -33,7 +39,8 @@ How to approach hair, from the beginning:
 
 There is another, entirely different and faster way to approach hair. Why didn't I do that first? Because it isn't as intuitive and an understanding of hair as shape/volume is needed first before this becomes successful. **Do the other one first** to help your understanding of hair as shape.
 
------
+
+## The Advanced Approach
 
 Hair shapes as volume and texture: **suggesting strands** without giving them.
 

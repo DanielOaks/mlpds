@@ -8,9 +8,10 @@ type: guide
 
 Many people view learning art is a process about knowledge of visual things. Undersketching, anatomy, copying references, and so on. Then, people start pushing for more complexity in shadows, and compositional elements, texture, and such things. We often look for help on developing the various techniques in art, but sometimes the most difficult part is turning your imagination into reality. As artists we draw to share who we are and what is important to us, and every skill set we learn allows us to make that possible.
 
-But like all other things in art, creativity takes knowledge and practice. Understanding how to look into yourself and the world around you can be a confusing and frustrating process. Let us ponder a few ways to discover our minds before we draw -- before we even think about the physical processes of creating art.
+But like all other things in art, creativity takes knowledge and practice. Understanding how to look into yourself and the world around you can be a confusing and frustrating process. Let us ponder a few ways to discover our minds before we draw – before we even think about the physical processes of creating art.
 
--   Exploring an emotion
+
+## Exploring an emotion
 
 Perhaps you want to draw a picture based on how you feel, or have felt in the past. The key to turning this kind of inspiration into something special is _how you specifically and descriptively identify your emotion._ Saying that you feel good or you feel bad is not descriptive enough to create a full composition. Saying that you feel happy or you feel sad or you feel lonely or you feel love is perhaps still not enough. Drawing a pony with a smile or a frown ... is not expressive in a meaningful way.
 
@@ -24,19 +25,18 @@ How do _**you**_ feel? Ask yourself honestly, and try to find a unique yet descr
 
 Emotions are complex, and they can be represented in unique ways. This is one way to utilize art. To use art to explore what you feel in a way that no other form of expression can capture, so that artists may feel your emotion.
 
--   Exploring a character
+
+## Exploring a character
 
 Characters are often very important in art, especially in a community dedicated to drawing fan art of sorts. Whether you are drawing fan art of an MLPFIM pony, or you are drawing an Original Character, you can often find great ideas for interesting pictures by drawing a composition that emphasizes and expands upon the personality and the viewer's perception of the character.
 
 There are lots of ways to make a character's identity important and real to the audience. Examples: drawing a well-known character experiencing something new to him or her; drawing an established character in extreme circumstances that causes them to do something we wouldn't expect; drawing a character in a situation that exposes his or her true values. Maybe an artist will try putting a little bit of him- or herself into a character that they identify with. Or one might put characters together who share a common emotion towards an external influence, in order to explore the resulting interaction. There are unlimited ways to find interest in a character, and these examples only scratch the surface of how deep your portrayal of a character can become.
-
-<br>
-
 <Ponymote mote="cheerilee" text="The ponies have great personalities to explore."/>
 
 In the absence of other inspirations, you can _explore a character in new ways._ A character is not just an appearance -- it is an identity. A great source of inspiration can be exploring how you view a character, what you think is special about them, and to put them in the situations that you have always wanted to see. Draw the identity behind the pony, not the body in front of it.
 
--   Exploring an environment
+
+## Exploring an environment
 
 There is a world around every character, but exactly what that world contains is up to you. Many times people draw with no background, or solid color, or just a grassy ground and sky. These are standard choices that lack individuality or interest.
 
@@ -46,11 +46,15 @@ There are times where we simply imagine the mood, or emotion, of a more simple e
 
 If you're having trouble thinking about what to draw, maybe start with a background. Make an environment that builds mood and relevant context, using tools of value, saturation, shape, or any other ideas that you study as an artist.
 
--   What will you create?
+
+## What will you create?
 
 <Ponymote mote="rdsitting" text="You might have more in your brain than you think."/>
 
 The bottom line of this guide, is that art is all up to you. You are free make pictures about anything you want, and other people can only give examples and suggestions. Think poetically, feel emotions for what you do, and try to turn your ideas into a visual reality. Allow each picture to be an _experience_, even if you're just drawing to practice. You never have to draw a simple character and background again; there is always some part of your life that could be represented in art. Art is not made in a vacuum, and you can find inspiration from any number of places.
+
+
+## Limitless Possibilities
 
 The possibilities don't stop with my suggestions of this guide. There are more routes to creative art than what I have mentioned. Using the same general techniques of exploration that I mentioned (metaphors, interaction, emotion, character development, and so on) you can also interact with other art forms and with life itself in magnificent ways. I can't tell you where your mind should travel, but after a little wandering you may find a path to creativity.
 

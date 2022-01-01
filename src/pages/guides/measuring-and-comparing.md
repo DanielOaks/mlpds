@@ -2,6 +2,7 @@
 title: Measuring and Comparing
 author: viwrastupr
 type: guide
+nopagenav: true
 ---
 <GuideFullWidthImage :src="ViwMeasuringAndComparing" href="https://www.deviantart.com/viwrastupr/art/Tutorial-2-Measuring-and-comparing-349639929" artist="viwrastupr"/>
 

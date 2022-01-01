@@ -2,6 +2,7 @@
 title: Understanding References
 author: viwrastupr
 type: guide
+nopagenav: true
 ---
 <GuideFullWidthImage :src="ViwUnderstandingReferences" href="https://www.deviantart.com/viwrastupr/art/Tutorial-1-Understanding-references-347629747" artist="viwrastupr"/>
 
