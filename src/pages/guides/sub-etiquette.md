@@ -2,6 +2,7 @@
 title: Sub etiquette. The first stop guide.
 author: viwrastupr
 type: guide
+nopagenav: true
 ---
 Hello, and welcome to the MLP Drawing School! We provide resources and critique for pony artists of all levels. We do have a few rules, listed in the sidebar and there are a couple of guides that everypony should look at.
 
