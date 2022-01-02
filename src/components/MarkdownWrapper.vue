@@ -262,7 +262,7 @@ if (props.frontmatter && props.frontmatter.type === 'guide') {
 import AnchorJS from 'anchor-js';
 const anchors = new AnchorJS();
 
-import { onMounted, onUpdated, onUnmounted } from 'vue'
+import { onMounted, onUpdated, onUnmounted, nextTick } from 'vue'
 const headerSelector = '.content h2, .content h3, .content h4';
 
 // setup page nav
@@ -302,7 +302,7 @@ function updatePageNavScroll(scrollPos: number): void {
 let lastKnownScrollPosition = 0;
 let ticking = false;
 
-document.addEventListener('scroll', function(e) {
+function tryUpdatePageNavScroll(e) {
   lastKnownScrollPosition = window.scrollY;
 
   if (!ticking) {
@@ -313,9 +313,7 @@ document.addEventListener('scroll', function(e) {
 
     ticking = true;
   }
-});
-
-window.addEventListener('resize', renderPageNav);
+}
 
 function renderPageNav(): void {
   const nav = document.getElementById('mdPageNav');
@@ -360,17 +358,26 @@ function renderPageNav(): void {
 
     pageNavInfo.nav = newNav;
     updatePageNavScroll(window.scrollY);
+
+    // console.log(pageNavScrollInfo);
   }
 }
 
 anchors.add(headerSelector);
 renderPageNav();
-onMounted(() => {
-  anchors.add(headerSelector);
-  renderPageNav();
-})
+
 onUpdated(() => {
   anchors.add(headerSelector);
   renderPageNav();
+})
+onMounted(() => {
+  window.addEventListener('load', renderPageNav);
+  window.addEventListener('resize', renderPageNav);
+  window.addEventListener('scroll', tryUpdatePageNavScroll);
+})
+onUnmounted(() => {
+  window.removeEventListener('load', renderPageNav);
+  window.removeEventListener('resize', renderPageNav);
+  window.removeEventListener('scroll', tryUpdatePageNavScroll);
 })
 </script>
