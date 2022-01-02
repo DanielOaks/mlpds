@@ -47,8 +47,22 @@
 }
 .wrapper-guideindex, .wrapper-guide.nopagenav {
   width: 55em !important;
-  .pageNav {
+  #mdPageNav {
     display: none;
+  }
+}
+.wrapper-guide:not(.nopagenav) {
+  $pagenav-breakpoint-shrunk: 968px;
+  $pagenav-breakpoint-hidden: 700px;
+  @media (max-width: $pagenav-breakpoint-shrunk) and (min-width: $pagenav-breakpoint-hidden) {
+    #mdPageNav {
+      width: 10em;
+    }
+  }
+  @media (max-width: $pagenav-breakpoint-hidden) {
+    #mdPageNav {
+      display: none;
+    }
   }
 }
 .wrapper-guide, .wrapper-guideindex {
@@ -72,7 +86,7 @@
 
     .nav {
       height: calc(100vh - 5em);
-      padding-bottom: 1em;
+      padding-bottom: calc(100vh - 7em);
       overflow-y: scroll;
 
       .title {
@@ -87,7 +101,7 @@
       a {
         display: block;
         text-decoration: none;
-        opacity: .75;
+        opacity: .69;
         padding: .25em 0;
         font-size: .85em;
       }
@@ -251,6 +265,58 @@ const anchors = new AnchorJS();
 import { onMounted, onUpdated, onUnmounted } from 'vue'
 const headerSelector = '.content h2, .content h3, .content h4';
 
+// setup page nav
+type NavInfo = {
+  nav?: HTMLElement;
+  currentIndex: number;
+}
+const pageNavInfo: NavInfo = {
+  currentIndex: 0,
+};
+type NavScrollItem = {
+  top: number;
+  link?: HTMLElement;
+  navTop: number;
+}
+let pageNavScrollInfo: Array<NavScrollItem> = [];
+
+function updatePageNavScroll(scrollPos: number): void {
+  if (!pageNavInfo.nav) {
+    // not ready yet
+    return
+  }
+
+  pageNavScrollInfo.every((item, index) => {
+    // scrollPos+5 to feel a touch more responsive
+    if (scrollPos+5 <= pageNavScrollInfo[index+1]?.top) {
+      if (index != pageNavInfo.currentIndex) {
+        pageNavInfo.currentIndex = index;
+        pageNavInfo.nav.scroll(0, item.navTop);
+      }
+      return false;
+    }
+    return true;
+  });
+}
+
+let lastKnownScrollPosition = 0;
+let ticking = false;
+
+document.addEventListener('scroll', function(e) {
+  lastKnownScrollPosition = window.scrollY;
+
+  if (!ticking) {
+    window.requestAnimationFrame(function() {
+      updatePageNavScroll(lastKnownScrollPosition);
+      ticking = false;
+    });
+
+    ticking = true;
+  }
+});
+
+window.addEventListener('resize', renderPageNav);
+
 function renderPageNav(): void {
   const nav = document.getElementById('mdPageNav');
 
@@ -263,6 +329,11 @@ function renderPageNav(): void {
     newTitle.innerText = props.frontmatter && props.frontmatter.title ? props.frontmatter.title : 'MLPDS Guide';
     newNav.appendChild(newTitle);
 
+    pageNavScrollInfo = [{
+      'top': 0,
+      'navTop': 0,
+    }];
+
     document.querySelectorAll('.content h2, .content h3, .content h4').forEach(element => {
       const newLink = document.createElement('a');
       newLink.href = `#${element.id}`;
@@ -270,12 +341,25 @@ function renderPageNav(): void {
       newLink.classList.add(`tag${element.tagName.toUpperCase()}`)
 
       newNav.append(newLink);
+
+      // this element's top point:
+      pageNavScrollInfo.push({
+        'top': window.scrollY + element.getBoundingClientRect().top,
+        'link': newLink,
+        'navTop': 0,
+      });
     });
 
     // empty out nav element
     nav.textContent = '';
     // replace content with the new one
     nav.appendChild(newNav);
+    newNav.querySelectorAll('a').forEach((element, index) => {
+      pageNavScrollInfo[index+1].navTop = element.offsetTop;
+    });
+
+    pageNavInfo.nav = newNav;
+    updatePageNavScroll(window.scrollY);
   }
 }
 
