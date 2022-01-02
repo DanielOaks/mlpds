@@ -15,7 +15,7 @@
           <span v-if="!nextPage" v-text="'Next'"/>
         </div>
         <hr v-if="!frontmatter.banner" />
-        <div :class="{'post-wrapper': true}">
+        <div id="mdPageContent" :class="{'post-wrapper': true}">
             <slot></slot>
         </div>
       </div>
@@ -371,6 +371,11 @@ onUpdated(() => {
   renderPageNav();
 })
 onMounted(() => {
+  anchors.add(headerSelector);
+  renderPageNav();
+  document.getElementById('mdPageContent')?.querySelectorAll('img').forEach((element) => {
+    element.addEventListener('load', renderPageNav);
+  });
   window.addEventListener('load', renderPageNav);
   window.addEventListener('resize', renderPageNav);
   window.addEventListener('scroll', tryUpdatePageNavScroll);
