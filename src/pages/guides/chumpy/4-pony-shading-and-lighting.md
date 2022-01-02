@@ -12,9 +12,8 @@ Hey guys, here's the fourth lesson in this weekly thing. I've intended to split 
 
 We'll have a couple of activities down below, so keep your pencil or tablet handy.
 
-<!-- [](https://www.reddit.com/sp) -->
 
------
+## Intro
 
 Previous lesson, I mentioned splitting up the pony into several basic shapes, much like this picture here:
 
@@ -34,9 +33,8 @@ I used a single tone and a single highlight for simplicity.
 
 [Just shades](http://i.imgur.com/4kZ2D.jpg)
 
------
 
-**Activity**
+## Activity
 
 Now, try it out yourself.
 
@@ -54,7 +52,8 @@ Now, try it out yourself.
 
 _If you're having trouble with figuring out how a pony is shaded, take a gander at this _[_shading helper_](https://www.dropbox.com/s/6dodc7mn0nqqnfo/flexe.zip)_ I made. Don't worry. It's perfectly safe, and pretty useful, imo. Right click pans, and light direction is adjustable using the GUI on the top left._
 
------
+
+## Types of shading
 
 Alright, lets go over a few examples of the different types of shading you can do: [list](http://i.imgur.com/GHAZ7.jpg)
 
@@ -66,9 +65,8 @@ Alright, lets go over a few examples of the different types of shading you can d
 
 <!-- [](https://www.reddit.com/derpwizard "It might sound like i'm biased towards more realistic shading, but every shading style is fine, and it doesn't really matter what type of shading you wish to employ. Whatever works best for you works.") -->
 
-<!-- [](https://www.reddit.com/sp) -->
 
------
+## Light directions
 
 Keepin it simple. Now, lets see a few examples of how different light directions can affect how ponies/people are shaded.
 
@@ -96,9 +94,8 @@ Happens when the light source is directly below the subject. This light directio
 
 This happens when the light source is directly behind the subject. Like rimlight, but the slivers of light kind of hug the shape of the figure. James Gurney akins this light to be like a cloud of light moving in towards the viewer. In more dramatic lighting, any detail in the figure will be shrouded in dark, much like if you put your hand up against a bright light source and blocked it.
 
------
 
-**Activity time again**
+## Activity time again
 
 Now, take this [outline of a pony](http://i.imgur.com/cKyrD.jpg) and try to shade it using a couple of lighting techniques that I have described above. (eg. one rim lit and one top front-lit).
 

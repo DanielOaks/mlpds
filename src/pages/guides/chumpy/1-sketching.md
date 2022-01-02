@@ -37,9 +37,7 @@ Lots of beginners use short lines for sketching, and it's a bad habit to keep. W
 
 Also, use BIG strokes! Don't sketch a teeny pony like the doodles people leave on the top of their exam papers. You've got an entire sheet of paper to doodle on. GO BIG.
 
------
-
-**ACTIVITY TIME**
+### Activity Time!
 
 Nuff talk. Lets have a short break here and practice how to actually make swooshy, flowy stuff. Alrighty. Grab a pencil or your tablet, and lets practice drawing shapes.
 
@@ -68,7 +66,7 @@ The idea behind this is to get your idea down on paper quick. People tend to be 
 When you've got the general lines down you can move on to more specific lines. 'This leg should be right here. This mess of lines is an ear.' [Specific lines example](http://i.imgur.com/FiNSS.jpg) _Keep in mind that this is still not your finished product._ If something looks wrong, keep refining things! [Even more specific by Cooley](http://fc01.deviantart.net/fs71/f/2012/222/5/f/ponyponypony_cooley_by_cooley-d5annw9.jpg)
 
 
-## Messiness.
+## Messiness
 
 Be messy! How messy you'll want to be is up to you, though. Don't be shy. Sketches are _meant_ to be imperfect things. No one will judge you. If you're judging yourself, stop it, you. Remember that the idea is merely your idea fleshed out on paper, and not your final piece. Look at how messy [Lauren (Faust)'s sketches were](http://fc01.deviantart.net/fs71/i/2011/268/9/4/big_baddie_by_fyre_flye-d4axlhy.jpg).
 
@@ -83,9 +81,7 @@ The problem with this is that these lines don't come magically to them. They are
 
 While we're on the topic of experience, i'd like to bring up the fact that even experienced artists make under-sketches. I'm absolutely not making this 'under-sketch' thing up! Let's take a break from the text-wall and take a look at how our friendly neighbourhood Egophilliac sketches.
 
------
-
-**Video:**
+### Video:
 
 [Egophiliac sketch](http://www.youtube.com/watch?v=k5NS_SAq_HM&feature=plcp)
 
@@ -93,9 +89,8 @@ Notice how she uses those ginormous loose lines to plan out her picture, before 
 
 If you want to see more sketch videos, links are in the supporting comment.
 
------
 
-**TLDR; The essence of sketching**
+## TLDR; The essence of sketching
 
 -   The sketch is not your final product. Nothing is permanent. Make mistakes. Change. Adapt.
 
@@ -105,7 +100,7 @@ If you want to see more sketch videos, links are in the supporting comment.
 
 -   Long swooshy lines. With short scratchy lines your picture loses flow.
 
-**Pony sketching**
+## Pony sketching
 
 'Okay I get it', you say, 'bring on the ponies', you say.
 
@@ -123,9 +118,7 @@ Along with these circles, it's important to understand the underlying skeleton i
 
 _Even as I say this, it is important that you do not rely too much on these circles for poses. Being flexible is a good skill to have when arting, and guiding yourself along circles and shapes is quite the opposite of flexible. Its good to start off with, but move on after you've got a good grasp of pony anatomy._
 
------
-
-**ACTIVITY TIME**
+### Activity Time
 
 I'd like you to sketch out a pony. Use guide circles, or if you're confident enough, don't. Its up to you.
 
@@ -135,15 +128,13 @@ Hence, my only conditions for the sketches are that you: Use swooshy lines. Are 
 
 What I _don't_ want you to do is make your sketch overtly clean. Refinement comes later. If its messy, leave it messy. Cleanliness is not what I intend to teach at this present time. When you're done, post your stuff down below in the comments. Don't worry if it looks good or not. We're all here to learn, so it really doesn't matter who's better or worse.
 
------
 
-**Thumbnail sketches:**
+## Thumbnail sketches
 
 The sketch has a smaller cousin called the thumbnail sketch.The thumbnail sketch, like its name implies, is in essence a sketch, only its the _teeny tiniest_ thing. What you'll use it for is to quickly get ideas out. You use it not as a replacement for a sketch, but for planning _prior_ to your sketch. Art is a very adaptive process, its all about trying things out and seeing what works best. The faster and easier this process is, the better. [Example](http://i.imgur.com/jae3Y.jpg) It also really helps with planning composition. What's composition? Well, that's something i'll cover at a later date. (Or you could google it, ya bum.)☨Composition
 
------
 
-**End Note**
+## End Note
 
 Right! That should cover the things I want to teach for today. So leave your stuff down below and i'll see if me or some other people from the sub can help you out with anything you have problems with and such. Don't be afraid to ask questions. Quetions like: How do I set my opacity in program 'X'? Where can I find more sketching videos? Will I ever find true love?
 
@@ -153,19 +144,17 @@ Oh, and if you have sketches/sketch videos from artists you enjoy, feel free to 
 
 Thanks, and have fun.
 
------
 
-**Next week's lesson:**
+## Next week's lesson
 
 This lesson post is the first of hopefully many lesson posts on the sub. Should all go well, next week's lesson will move onto the next step: Linework. The good clean stuff.
 
-**The week after:**
+### The week after
 
 The week after that, I would like to teach you guys about a very important skill to have, that is drawing things _as you see them_. This can be from references (and even real life), how to go about doing gestures, and I will go a little more in depth into pony anatomy.
 
------
 
-**Further reading:**
+## Further reading
 
 ☨Anatomy [Pony anatomy and undersketching](http://www.reddit.com/r/MLPdrawingschool/comments/pxmj9/the_basics_pony_anatomy_and_undersketching/)
 
@@ -179,9 +168,8 @@ For bone references: [Vertev's pony anatomy reference](http://vertrev.deviantart
 
 [Guide on composition](http://www.reddit.com/r/MLPdrawingschool/comments/qd2uq/composition_how_does_your_drawing_feel_to_look_at/)
 
------
 
-**Extra sketch videos for reference:**
+## Extra sketch videos for reference
 
 [Saurabhinator's speedsketch/paint](http://www.youtube.com/watch?v=jzh06kkwMSU&feature=plcp)
 
@@ -189,7 +177,7 @@ For bone references: [Vertev's pony anatomy reference](http://vertrev.deviantart
 
 [League of Legends art assets](http://www.youtube.com/watch?v=KZo25fFBJsA): Excellent use of quick thumbnail sketching and painting to flesh out ideas and concepts.
 
-**Some Example Sketches:**
+## Some Example Sketches
 
 [kale2](http://i.imgur.com/oqj49.png)
 
@@ -211,13 +199,14 @@ For bone references: [Vertev's pony anatomy reference](http://vertrev.deviantart
 
 [zef](http://zefyruss.deviantart.com/gallery/?catpath=/#/d56ooyr)
 
-**Footnotes**
+
+## Footnotes
 
 ☨2 There is some method to this madness. Sometimes people work in lots of detail into individual parts in sketches, while everything else is left undone. Is bad practice. When drawing a piece it's important to note that _everything is drawn in relation to everything else_. 'That leg needs to be yay big in comparison to the other, or Twi will look like she's tilting sideways.' Nothing is solitary in a picture. If you approach each individual body part separately, things will look weird.
 
 ☨3 Traditional artists: Given that sketches are basically messy throwaway napkins, light pencil strokes during the sketch phase help to keep your final product (when you dish out the pens/darker pencils) looking cleaner. A lighter grade pencil will help lots with this. For digital artists, this is equivalent to setting your opacity/density lower. I personally like to keep it at around 75.
 
-**Extra footnote:**
+### Extra footnote
 
 The sketch is not the only thing you can use to flesh out ideas. In digital painting, some people enjoy starting off a piece with large brushes because of how easy it is to define shape with it. That's a perfectly fine thing to do. I can't go too deeply into this because it's not something I fully understand. I hesitate to give out information that I can't back up without a reasonable experience and understanding of the subject.
 

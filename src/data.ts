@@ -96,10 +96,6 @@ export const guides: GuideMap = {
     name: 'Lesson 5: Common anatomy errors',
     author: 'mynameischumpy',
   },
-  'chumpy/6-pony-anatomy': {
-    name: 'Lesson 6: Pony Anatomy',
-    author: 'mynameischumpy',
-  },
   'composition': {
     name: 'Composition. How does your drawing feel to look at, and why?',
     author: 'viwrastupr',
@@ -305,7 +301,6 @@ export const guideLists = {
           'chumpy/3-greyscale-shading',
           'chumpy/4-pony-shading-and-lighting',
           'chumpy/5-common-anatomy-errors',
-          'chumpy/6-pony-anatomy',
         ],
       },
     ],

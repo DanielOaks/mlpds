@@ -11,9 +11,8 @@ I'll be here to try to answer as many questions you guys have, so leave a commen
 
 _Although this is a weekly 'Thursday' lesson, i'll try to answer your questions well after this is over. Don't hesitate to leave a comment!_
 
------
 
-**Think different.**
+## Think different.
 
 Okay, you've done a sketch, but it kinda looks a little flat. You want your drawing to look more realish. Thats where shading comes in. When you shade things, you're moving from the realm of the flat and shape, into the plane of volume and form. The first thing you should do is try to think differently - in terms of values and volume.
 
@@ -21,9 +20,8 @@ To clarify, what i mean by shape: Imagine taking a piece of paper and cutting it
 
 Now, grab the mouse on your table. Grasp it and turn it around. You can feel the form of the mouse. It has volume that you can perceive. Its got different levels of light and dark on it. Despite the fact that you can't feel things in your drawing like you can in real life, this illusion - the illusion of form - is what we want to give to a painting.*
 
------
 
-**Value**
+## Value
 
 The first thing to understand about shading is the concept of value. When talking about shade, we will use the word 'value' a lot. What this means is basically the _brightness or darkness_ of something. We will refer to this [grayscale here](http://i.imgur.com/9YXZ8.jpg) to define value, because value is essentially the range of gray on your from white to black. Woah there, before you stuff that into your head, know that _colour can have values too_. To make things easier to understand, i'll hold back explaining colour values for now.
 <!-- [](https://www.reddit.com/celestia "Colour is a whole new ballpark, really and just seeks to complicate things in the value department.") -->
@@ -34,15 +32,12 @@ The magic of value is that when you add the different ranges of value to a paint
 
 When talking about value, we will refer to things as _lights_, _halftone_ and _shadow_. This [image here](http://georgetownatelier.com/wp-content/uploads/2010/08/sphere_example_valuefamilies.jpg) defines these different levels of lighting on a sphere. You don't have to memorize them, just know that they exist, and i'm not blabbering some art gibberish.
 
------
 
-**Basic shapes**
+## Basic shapes
 
 All objects can be broken down into basic shapes: Spheres, cylinders, cubes. Modifying, combining, slicing these basic shapes will get you more complex shapes. [That's how ponies are made](http://i.imgur.com/miTH8.jpg). In its simplest form, the pony is made out of combinations of cubes, spheres and cylinders. We base ponies off of these shapes, which we eventually refine until it looks more believably pony.
 
------
-
-**Your light source and shadow shapes**
+### Your light source and shadow shapes
 
 Light sources are pretty simple. Put your hand against the light and see which part of your hand is the brightest. It'll be the part that's facing the light.
 
@@ -56,9 +51,8 @@ The shadow shape of an object is the mass of shadow that starts where the light 
 
 Cel shades on its own doesn't really give an accurate representation of form, though, and we'll see why in a bit. Even in realistic shading, we start off with shadow shapes first to simplify things, and then we move on to refining things from there.
 
------
 
-**Transitions**
+## Transitions
 
 Transitions of dark to light is important in defining form. _How quick your shades transition determine how sharp or how round something is_. Round objects like spheres, cylinders, have soft edges, and so transition is slow where there is roundness. Cubes and pyramids have sharply edges, and so transitions are quick where things are sharp and pointy.
 
@@ -70,15 +64,16 @@ _For simplicity's sake, these shapes will be shaded using directional lights (su
 <!-- [](https://www.reddit.com/raritywhy "But, but, you just said quickly sharply!") -->
 <!-- [](https://www.reddit.com/c17 "Dammit, woman! I know what I said!") -->
 
------
 
-**Shading cubes**
+## Shading shapes
+
+### Shading cubes
 
 [Cubes](http://i.imgur.com/3rEWA.jpg)
 
 Shading cubes is pretty straightforward. Depending on the direction of the light each plane will have different values. These flat planes will be equally lit throughout. Transitions between planes of shade are quick. (Sharply fastly)
 
-**Shading a cylinder**
+### Shading a cylinder
 
 [A cylinder](http://i.imgur.com/6cuM0.jpg)
 
@@ -91,7 +86,7 @@ Take a look at where the shade stops changing and enters the core shadow. See th
 
 Look around at objects around you. Most of them have varied values _past_ the terminator. What gives? Welp, the main culprit here is reflected light. Reflected light bounces off surfaces onto other surfaces, and things get brighter. More on that later.
 
-**Shading a sphere**
+### Shading a sphere
 
 [Sphere](http://i.imgur.com/xneAW.jpg)
 
@@ -99,15 +94,13 @@ The sphere is approached much like a cylinder, only instead of horizontal shades
 
 Like a cylinder, most of your shade transitions occur before it hits the middle of the shape.
 
------
 
-**Cast shadows**
+## Cast shadows
 
 [Cast shadows](http://i.imgur.com/yhLbu.jpg) are the blobs of shadow that get left behind on a surface because the light can't get to it. Cast shadows make your objects feel 'grounded', when things are on the ground, and make it feel like they belong in the picture. Seeing an object on the ground without a shadow is like seeing a vampire without a reflection. Its off putting. You wonder if it'll come and take away your shadow in the night.
 
------
 
-**Reflected light**
+## Reflected light
 
 Now that we understand shades, we can move back to reflected light. If you look at your arms, you can see that the darkest spot is not at the very bottom edge of your arm. Its somewhere in the middle. What's up with that? The cylinders above aren't like that. Welp, this is reflected light's fault.
 
@@ -123,9 +116,8 @@ Hence, your reflected light will not be as bright as your initial light.
 
 Speaking of cast shadows, keep in mind that reflected light will be reflected _yet again_, only with less intensity. This will make the cast shadow near your object a little lighter than the ones directly underneath an object, where light can't get to. This lil pocket of little to no light is called an [_occlusion shadow_](http://attachments.conceptart.org/forums/attachment.php?attachmentid=1266354&d=1309368829)_._ (ow. my brain hurts.)
 
------
 
-**Specular lights**
+## Specular lights
 
 To explain specular lights: Remember when I said light bounces off of stuff into your eyes and thats how you see? Well at a certain angle, there exists a point where the largest amount of light is reflected into your eye. This will create a specular light. This is what makes things look shiny. Although, note that for muddy things like cloth won't have nearly a bright a specular as, say, a metal bar. Reflectivity plays a big part giving the illusion of material.
 
@@ -133,9 +125,8 @@ If this is hard to understand, try to [imagine holding a shiny metal ball](http:
 
 This can be a point specular light, as shown above, or can be slightly more distributed along the form. It really depends on your light source.
 
------
 
-**Relative values**
+## Relative values
 
 Without the influence of lighting, a black shape be black and a white shape will be white.
 <!-- [](https://www.reddit.com/c14 "Ah know that, but what's yer point?") -->
@@ -148,9 +139,8 @@ Inversely, on a dark night indoors, the soft moonlight shining in through your w
 
 Take a look at these squares, specifically the ones in the middle of the squares. They look like they're different colours, right?That middle square is the exact same colour. That's relativity at work. In a dark environment, light things look light because everything else is bloody dark.
 
------
 
-**Modelling factors**
+## Modelling factors
 
 When trying to bring form into flat shapes, you should try to look at the _planes of value_ in a form.
 
@@ -164,11 +154,11 @@ Take a look at that [sphere lighting](http://georgetownatelier.com/wp-content/up
 
 [This guide](http://georgetownatelier.com/tutorials/monochromatic-painting-tutorial/) is an excellent start on how to go on doing this plane of light thing.
 
------
 
-**Activity!**
+## Activity!
 
 <!-- [](https://www.reddit.com/c05 "All the ways down here?") -->
+
 This will be a simple one. Or not so simple. I want you to [shade a cube](http://www.stanprokopenko.com/blog/images/directlight/direct_light_elements.jpg), a [cylinder](http://studio.angoulvant.net/uploads/term2/vc/viscom2-week8-cylinders2.jpg), and a [sphere](http://i.imgur.com/ePLsB.jpg). Take into consideration all the things above:
 
 -   Start with a light grey floor
