@@ -26,11 +26,11 @@ However it goes a bit deeper for the artist. It is your responsibility to come t
 
 ### For the Critiquer: Another new person needs to learn the culture of the MLPDS...
 
-This is supposed to happen. New people aren't magic. <Ponymote mote="twismile" text="We need more magic in the sub."/> Now we have a [brand new guide here to introduce new peoples to the sub](http://www.reddit.com/r/MLPdrawingschool/comments/r84ig/sub_etiquette_the_first_stop_guide/).
+This is supposed to happen. New people aren't magic. <Ponymote mote="twismile" text="We need more magic in the sub."/> Now we have a <router-link to="/guides/sub-etiquette">brand new guide here to introduce new peoples to the sub</router-link>.
 
 ### For the Artist: I'm brand new, what's going on?
 
-To help you on your way we've got a large number of guides here, start at the guide above, move on to [DON'T PANIC](http://www.reddit.com/r/MLPdrawingschool/comments/nxdpy/dont_panic_a_drawing_guide_from_beginner_to/) and go from there. Explore the guides and ask any questions that come to mind.
+To help you on your way we've got a large number of guides here, start at the guide above, move on to <router-link to="/guides/dont-panic">DON'T PANIC</router-link> and go from there. Explore the guides and ask any questions that come to mind.
 
 
 ## Problem 3. Giving and Receiving Advice
@@ -52,7 +52,7 @@ There are attention seekers, yes, but give your artists the benefit of the doubt
 
 ### For the Artist: Critics aren't commenting on the posts
 
-This can be an issue of timing. If there have been a large number of posts at once (particularly if they're all yours) it can be tiring to critics. Also, give back to the community and they shall give to you. Critique! How? [Well we have a how to critique guide as well.](http://www.reddit.com/r/MLPdrawingschool/comments/p93po/how_to_critique_for_critics_and_artists_alike/)
+This can be an issue of timing. If there have been a large number of posts at once (particularly if they're all yours) it can be tiring to critics. Also, give back to the community and they shall give to you. Critique! How? Well we have a <router-link to="/guides/how-to-critique">how to critique guide</router-link> as well.
 
 
 ## Problem 5. Defeated artists

@@ -27,12 +27,13 @@ Same as above two. How much color an object is is more in front, less as we go b
 
 ### Colors
 
-Yes, they are a part of space. This will blow your mind. Colors blend together in a landscape or large spaced area. They are dependent on the environment around them for their light/color.
+Yes, they are a part of space. This will blow your mind. Colors blend together in a landscape or large spaced area. They are dependent on the environment around them for their light/color. This means that grass is not green, the sky is not blue and no, Luna is not blue either:
+<GuideFullWidthImage :src="BlitzponyLuna" artist="blitzpony"/>
 
-<Ponymote mote="raritywhine" text="But grass is green!"/>
-<Ponymote mote="twisquint" text="No!  Bad Rarity!"/>
+<Ponymote mote="raritywhine" text="But grass *is* green!"/>
+<Ponymote mote="twisquint" text="No! Bad Rarity!"/>
 
-This means that grass is not green, the sky is not blue and no, [Luna is not blue either](http://imgur.com/I7kpb). Everything is dependent on the environment in which it is perceived. [For further information](http://crappyunicorn.deviantart.com/gallery/27244630#/d4n34ey) this guide goes deeper down the space rabbit hole.
+Everything is dependent on the environment in which it's perceived. If the light is a deep red, things aren't going to look the same as they usually do.
 
 
 ## General stuffs
@@ -55,7 +56,10 @@ This one is mildly true. But there are things that are just staring you in the f
 
 ### Proportions
 
-[There are a lot of set proportions out there](http://inkwell-pony.deviantart.com/art/My-Little-Pony-Study-199639760) on ponies. These are a good start, but by no means are they absolute. Perspective makes all the circles and lines of your undersketch change size and overlap and everything is very circumstantial. Try to understand the anatomy of your reference and its perspective. Solve it as a whole to figure out its individual parts.
+There are a lot of set proportions out there on show-style ponies:
+<GuideFullWidthImage :src="MuniversalartsStudy" artist="MuniversalArts" href="https://inkwell-pony.deviantart.com/art/My-Little-Pony-Study-199639760"/>
+
+These are a good start, but by no means are they absolute. Perspective makes all the circles and lines of your undersketch change size and overlap and everything is very circumstantial. Try to understand the anatomy of your reference and its perspective. Solve it as a whole to figure out its individual parts.
 
 ### "None of this applies to me" attitude
 
@@ -70,3 +74,8 @@ Many people like to skip or skim the guides or critiques. Others just read them.
 ## Conclusion
 
 Knowledge doesn't poof into your head and you aren't better without trying. People learn in different ways and rates, but in all of these ways there is a constant of practice and study. This doesn't mean you can't be awesome, in fact it means the opposite, that **you will be awesome**. As long as you keep submitting, practicing, and studying.
+
+<script setup lang="ts">
+import BlitzponyLuna from './blitzpony-luna.jpg'
+import MuniversalartsStudy from './muniversalarts-study.jpg'
+</script>

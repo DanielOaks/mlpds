@@ -21,11 +21,17 @@ Variety in art is something to **Balance**. A matter of how much of an element, 
 
 ### Value
 
-This one is a shading miracle. [The 17th bi-weekly](http://redd.it/vw6cn) covers it compositionally, but it's also is important in your pony as well. Approach each limb/section a little differently. Make sure that there is enough of a change in value as we go from one part of another to see that they are different. This is the difference between a flat pony and [one that is just a little different](http://imgur.com/bBDcl). Highlights, shadows and in betweens all there, but in slightly different sizes and unified together as being similar... there's that balance again.
+This one is a shading miracle. [The 17th bi-weekly](http://redd.it/vw6cn) covers it compositionally, but it's also is important in your pony as well. Approach each limb/section a little differently. Make sure that there is enough of a change in value as we go from one part of another to see that they are different. This is the difference between a flat pony and one that is just a little different:
+<GuideFullWidthImage :src="NikohlShy" artist="nikohl" href="https://www.deviantart.com/nikohl/art/A-Little-Shy-213480664"/>
+
+Highlights, shadows and in betweens all there, but in slightly different sizes and unified together as being similar... there's that balance again.
 
 ### Placement
 
-For figure, again, approach each limb/section differently. A standing pony with all legs straight down may be orderly, but it certainly isn't interesting. [A little change with each limb](http://imgur.com/Aaej9) adds movement and interest to the pony. For a whole composition, or pieces within a composition
+For figure, again, approach each limb/section differently. A standing pony with all legs straight down may be orderly, but it certainly isn't interesting. A little change in each limb adds a lot of movement and interest to the pony:
+<GuideFullWidthImage :src="AerisPoni"/>
+
+And you can do this for a whole composition or pieces within a composition.
 
 ### Shape sizes
 
@@ -33,7 +39,10 @@ This one is especially noticeable in hair.
 
 <Ponymote mote="twismile" text="References, references, references."/>
 
-Hair isn't a regular set of spikes, though the brain does like to think of it that way. [Take a look at Dash's hair here](http://th01.deviantart.net/fs70/PRE/i/2011/099/5/b/rainbow_dash_derping_by_moongazeponies-d3dmg7l.png). Each tail and hair spike is a different size or different pointyness, but they still seem like the same style. Unity with variety... balanced together...
+Hair isn't a regular set of spikes, though the brain does like to think of it that way. Take a look at Dash's hair here:
+<GuideFullWidthImage :src="MoongazeRd" artist="MoongazePonies" href="https://www.deviantart.com/moongazeponies/art/Rainbow-Dash-Derping-204280977"/>
+
+Each tail and hair spike is a different size or different pointyness, but they still seem like the same style. Unity with variety... balanced together...
 
 ### Unity / Harmony
 <Ponymote mote="twismug" text="Unity is a method of similarity normally, but this guide is about variety, thus this is the combination of unity and variety in a way that achieves bala-"/>
@@ -43,7 +52,10 @@ This is making shapes belong together but still look different overall. There ar
 <Ponymote mote="twiponder" text="Different things... are different..."/>
 <Ponymote mote="ajhappy" text="Told ya!"/>
 
-The [cloud shapes in this piece](http://imgur.com/WYipG) are a good example of keeping things similar enough that they look the same, but various enough that they're different clouds and create space.
+Let's look at this picture:
+<GuideFullWidthImage :src="RdFlying"/>
+
+The cloud shapes here are a good example of keeping things similar enough that they look the same, but various enough that they're different clouds and create space.
 
 ### Repetition / Patterns
 
@@ -51,23 +63,28 @@ Repetition, patterns, strong horizontal and vertical lines all create stability.
 <Ponymote mote="twismile" text="Patterns... everywhere..."/>
 <Ponymote mote="ajugh" text="Augh..."/>
 
-They conform to our brain's idea of order and are nice ways to add this order to a piece of art. Fortunately/unfortunately our brains tend to make this order as a default. This order is also very boring on its own. So it is the job of variety to break up the monotone of patterns and bring interest in. [The cloud swirls in this piece all look similar, and kinda patterned](http://imgur.com/JdkWj), but they are various enough to not trigger something looking artificial rather than organic.
+They conform to our brain's idea of order and are nice ways to add this order to a piece of art. Fortunately/unfortunately our brains tend to make this order as a default. This order is also very boring on its own. So it is the job of variety to break up the monotone of patterns and bring interest in. The cloud swirls in this piece all look similar, and kinda patterned, but they are various enough to not trigger something looking artificial rather than organic:
+<GuideFullWidthImage :src="ChromamancerRd" artist="Chromamancer" href="https://www.deviantart.com/chromamancer/art/Open-Skies-207201032"/>
 
 ### Organic vs. Created Spaces
 
 Variety in man made objects is just as important as variety in organic things. Organics vary in size, shape and everything quite naturally. In sharp contrast artificial space and objects like buildings, fences, bricks and other man made objects are quite patterned in a rigid manner that doesn't lend itself easily to variety... at first glance.
 
-[Take a look at the wall in this piece](http://fc08.deviantart.net/fs70/i/2011/159/b/2/mlp_ancient_castle_chamber_by_pageturner1988-d3if76w.png). Adding perspective, shading or foreground objects in front of or choosing not to describe every brick can add all important variety to a part of a composition.
+Take a look at the wall in this piece:
+<GuideFullWidthImage :src="MlpCastle"/>
+
+Adding perspective, shading or foreground objects in front of or choosing not to describe every brick can add all important variety to a part of a composition.
 
 ### Contrast
 
-Variety in contrast is fun. Like variety in value, variety in contrast is about approaching each part of the pony differently. Different sizes of shadows and highlights. Different speeds of transition from shadow to highlight. It all depends on your light source and the way your pony is positioned. Experiment with things. Have some fun! [A nice varied contrast piece for example](http://imgur.com/cC5bL).
+Variety in contrast is fun. Like variety in value, variety in contrast is about approaching each part of the pony differently. Different sizes of shadows and highlights. Different speeds of transition from shadow to highlight. It all depends on your light source and the way your pony is positioned. Experiment with things. Have some fun! A nice varied-contrast piece for example:
+<GuideFullWidthImage :src="GlitchyfoxesYay" artist="glitchyfoxes" href="https://www.deviantart.com/glitchyfoxes/art/YAY-269731346"/>
 
 ### Accents
 <Ponymote mote="ajsup" text="Accents, ah got this one."/>
 <Ponymote mote="facehoof" text="It's not that kind of accent..."/>
 
-Accents are little things, just a bit, but they add a lot to a piece. [The white lines in here count as accents for this purpose](http://kp-shadowsquirrel.deviantart.com/gallery/#/d55221c). Variety in accents is knowing not to do the same exact shape and size for every accent... but still making them look unified... see a pattern?
+Accents are little things, just a bit, but they add a lot to a piece. For example, small white lines to break up large areas of other colours, etc. Variety in accents is knowing not to do the same exact shape and size for every accent – but still making them look unified... see a pattern?
 
 ### Balance
 <Ponymote mote="notagain" text="Not more balance..."/>
@@ -84,3 +101,13 @@ To sum up:
 
 <Ponymote mote="ajsly" text="Ah, that's easy."/>
 <Ponymote mote="twicrazy" text="NO!"/>
+
+<script setup lang="ts">
+import NikohlShy from './nikohl-shy.jpg'
+import AerisPoni from './aeris-poni.jpg'
+import MoongazeRd from './moongaze-rd-derping.png'
+import RdFlying from './rd-flying.jpg'
+import ChromamancerRd from './chromamancer-rd.jpg'
+import MlpCastle from './mlp-castle.jpg'
+import GlitchyfoxesYay from './glitchyfoxes-yay.jpg'
+</script>

@@ -17,7 +17,7 @@ I hear a lot of you say, well I didn't think of that because I was thinking abou
 
 This kind of tunnel vision is dangerous in art.
 
-While it is nice to separate art into different components, the undersketch, sketch, ink, color, shadows, and atmosphere, they are never all that mutually exclusive. While working in each of these stages you still have to consider anatomy, composition, impression, concept, and all the little things in the [composition guide](http://www.reddit.com/r/MLPdrawingschool/comments/qd2uq/composition_how_does_your_drawing_feel_to_look_at/). Once you take that into consideration then any one of these stages can be revisited at any time.
+While it is nice to separate art into different components, the undersketch, sketch, ink, color, shadows, and atmosphere, they are never all that mutually exclusive. While working in each of these stages you still have to consider anatomy, composition, impression, concept, and all the little things in <router-link to="/guides/composition">the composition guide</router-link>. Once you take that into consideration then any one of these stages can be revisited at any time.
 
 So what's the point of this post?
 

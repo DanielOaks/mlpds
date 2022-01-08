@@ -57,7 +57,7 @@ export const guides: GuideMap = {
     author: 'thebestwes',
   },
   'art-isnt-made-in-a-vacuum': {
-    name: 'A look at exploring new things and how to prevent art statementing',
+    name: 'A look at exploring new things and how to prevent art stagnation',
     author: 'viwrastupr',
   },
   'backgrounds': {

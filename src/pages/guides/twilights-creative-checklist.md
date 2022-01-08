@@ -41,7 +41,7 @@ This means no fear. How to do that? Well, that's another checklist.
 
 ## 2. That @#$%&ing blank piece of paper
 
-Art isn't made in a vacuum. Don't start with a piece of paper, brainstorm! Look at other people's art, [look at the composition guide and try something new](http://www.reddit.com/r/MLPdrawingschool/comments/qd2uq/), watch an episode (the horror). Art doesn't come from nowhere and it isn't fair of you to expect your head to make things from nowhere. Where do ideas come from? Other people. That movie you saw that one time. Language. Other art. It is a response, not a vacuum.
+Art isn't made in a vacuum. Don't start with a piece of paper, brainstorm! Look at other people's art, look at <router-link to="/guides/composition">the composition guide</router-link> and try a new technique, watch an episode (the horror). Art doesn't come from nowhere, and it isn't fair of you to expect your head to make things out of thin air. Where do ideas come from? Other people. That movie you saw that one time. Language. Other art. It is a response, not a vacuum.
 
 
 ## 3. Problem solving. Building the problem

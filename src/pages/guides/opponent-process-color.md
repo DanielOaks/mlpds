@@ -63,11 +63,11 @@ So looking back on my initial line of inquiry, it's easy to see where the red, y
 
 I found a filter for GIMP a little while ago that simulates the effects of various kinds of (common) color deficiency/color blindness. I was fascinated by the results of the protonopia (red blindness) and deuteranopia (green blindness) filter.
 
--   [Source image](http://i.imgur.com/VF5jC.jpg)
+<GuideFullWidthImage :src="ColorBlindness1" caption="source image"/>
 
--   [Total protonopia](http://i.imgur.com/4ndtc.jpg) (red blindess)
+<GuideFullWidthImage :src="ColorBlindness2" caption="total protonopia (red blindness)"/>
 
--   [Total deuteranopia](http://i.imgur.com/OEyQH.jpg) (green blindness)
+<GuideFullWidthImage :src="ColorBlindness3" caption="total deuteranopia (green blindness)"/>
 
 The results are strikingly similar, which I found unexpected. Both images become starkly blue-yellow-white-black, the difference largely being just a matter of where the neutral point falls. Knowing about the opponency process, it now makes perfect sense. In reality, red and green are actually much closer together than it seems to those of us with "normal" vision. Whether your red receptors or green receptors are defective, the end result is that the red-green opponency channel is broken, leaving you with just yellow-blue and black-white channels.
 
@@ -88,3 +88,9 @@ Using your image software of choice, fill a layer with pure red (#FF000). Drop a
 ### JPEG compression
 
 An interesting aspect of JPEG compression (and a number of other compression methods) is that they don't use the RGB or CMYK color space. Instead they use YCbCr: Y = luminance, Cb = blue chrominance, Cr = red chrominance. More or less, these correspond to the black-white, blue-yellow, and red-green opponency channels respectively. JPEG compression exploits the relative sensitivity of these channels to achieve higher compression without lower impact on fidelity. There is considerably more compression in the Cr and Cb channels than in the Y channel because our rod receptors are more sensitive than our cone receptors. That is, we can see small differences in luminosity more readily than we can see small differences in hue.
+
+<script setup lang="ts">
+import ColorBlindness1 from './color-blindness-1.jpg'
+import ColorBlindness2 from './color-blindness-2.jpg'
+import ColorBlindness3 from './color-blindness-3.jpg'
+</script>

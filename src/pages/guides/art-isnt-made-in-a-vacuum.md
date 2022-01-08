@@ -9,7 +9,7 @@ Many of you have heard me say that "art isn't made in a vacuum" over and over. B
 
 It means there are many resources out there to help you improve your art and you should take advantage of them.
 
-When I asked about learning textures [Nakira](http://nakira.deviantart.com/) had the following to say:
+When I asked about learning textures, [Nakira](http://nakira.deviantart.com/) had the following to say:
 
 > It's definitely a hard thing to come to understand - most of my understanding of it comes from having absolutely no idea what I'm doing and just messing around with line, shape, texture, etc. until I find something that looks okay. I also browse a lot of artist's on dA, tumblr, reddit, textbooks, any resource I can find, and see how they've come to describe similar textures.
 >
@@ -33,7 +33,10 @@ For many of us this comes as a natural part of the daily routine. Other artists/
 
 ### Do studies
 
-What's a study? Repetition of a certain object or method. Confused about hands [do dozens of them](http://www.art-wallpaper.com/13764/Da+Vinci+Leonardo/Hand+Study-1024x768-13764.jpg) like these da vinci studies. Don't understand pony muzzles? Find pony pictures/references and draw from them. Want to know about hatching? Study artists and integrate/expand your library by drawing from them.
+What's a study? Repetition of a certain object or method. If you're confused about hands, then do dozens of them like these da Vinci studies:
+<GuideFullWidthImage :src="DavinciHands" artist="Leonardo da Vinci"/>
+
+Don't understand pony muzzles? Find pony pictures/references and draw from them. Want to know about hatching? Study artists and integrate/expand your library by drawing from them.
 
 ### Practice
 
@@ -59,3 +62,7 @@ You can't expect yourself to get better all alone and you don't have to reinvent
 
 <Ponymote mote="cheerteach" text="Also, tonight I will be hosting a livestream during which I hope to explore the critique and exercises Nakira offered me."/>
 <Ponymote mote="fluttershy" text="You can come too... if you'd like.  I enjoy the interaction."/>
+
+<script setup lang="ts">
+import DavinciHands from './davinci-hands.jpg'
+</script>

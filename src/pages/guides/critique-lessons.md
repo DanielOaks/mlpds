@@ -85,7 +85,11 @@ There are a few tools as a critic you can use, **use these**. They will save you
 
 -   Your own experience
 
-A few anatomy guides might be nice to point me to for example. [They're in the sidebar](http://www.reddit.com/r/MLPdrawingschool/wiki/guides). I've read a bunch of them myself, some are just things you see first and then continue using. [Think of this one](http://vertrev.deviantart.com/gallery/?offset=24#/d3c5364) or [this one](http://inkwell-pony.deviantart.com/art/My-Little-Pony-Study-199639760). I had seen those before I got onto the sub. [I got this one a while back but I think it explains this case very nicely with a little more advanced knowledge which is very useful later on](http://fav.me/d5q8u4l).
+A few anatomy guides might be nice to point me to for example. You can <router-link to="/guides/">find them here</router-link>. I've read a bunch of them myself, some are just things you see first and then continue using. Think of these two:
+<GuideFullWidthImage :src="VertreVimg" href="https://www.deviantart.com/vertrev/art/AMG-so-much-pony-VertreV-201791308" artist="VertreV"/>
+<GuideFullWidthImage :src="MuniversalartsStudy" artist="MuniversalArts" href="https://inkwell-pony.deviantart.com/art/My-Little-Pony-Study-199639760"/>
+
+I had seen those before I got onto the sub. I got <router-link to="/guides/legs">this one a while back</router-link> but I think it explains this case very nicely with a little more advanced knowledge which is very useful later on.
 
 <Ponymote mote="ppdevious" text="how devious, making them learn this way"/>
 
@@ -110,7 +114,7 @@ How much they do this is dependent on their drive and involvement and is out of 
 
 Basically this is what a critique amounts to, and for the most this will be what will happen. Most posts I have covered are of people who put up one or two images and do not show up anymore. You can always start with this. **You don't have to make huge or walls of text to help others, even small single things will be useful.**
 
-However what I did there was very specific, I noticed the leg was off and explained how to look into how legs are and behave. But you can always go into more material. [Remember this guide](http://fav.me/d5q8u4l)? It covers skeletons and the bone structure of a pony. This is inherently tied into knowing how ponies behave and move around.
+However what I did there was very specific, I noticed the leg was off and explained how to look into how legs are and behave. But you can always go into more material. <router-link to="/guides/legs">Remember this guide</router-link>? It covers skeletons and the bone structure of a pony. This is inherently tied into knowing how ponies behave and move around.
 
 You now have given me something more useful than I thought I needed. I just wanted to fix the leg, but now I've learned **HOW** the leg actually is and behaves. By giving me those tools you have given me the possibility to learn new things and use those.
 
@@ -135,4 +139,6 @@ Also point errors and things to me, I'll adjust them accordingly.
 import CritLessons1 from './critique-lessons-1.jpg'
 import CritLessons2 from './critique-lessons-2.jpg'
 import CritLessons3 from './critique-lessons-3.jpg'
+import VertreVimg from './VertreV-201791308.jpg'
+import MuniversalartsStudy from './muniversalarts-study.jpg'
 </script>
