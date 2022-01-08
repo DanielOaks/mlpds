@@ -116,7 +116,7 @@ The bottom sphere's shaded areas tint towards red, and the lit areas tint toward
 
 -----
 
-Because we're shifting the hue, we don't need to change the value as much to get the same visual effect.
+Because we're shifting the hue, we _also_ don't need to change the value as much to get the same visual effect.
 
 ### Colour Examples
 
@@ -152,7 +152,11 @@ Let's say we have an aqua object: <HSV h="170"/>
 
 If we look at our colour wheel, the lit areas will tint towards yellow/green and the shadow areas will tint towards blue.
 
-Shadow <HSV h="208" v="45%"/><HSV h="196" v="46%"/><HSV h="185" v="48%"/><HSV big h="170"/><HSV h="150" v="70%"/><HSV h="130" v="80%"/> Light
+Shadow <HSV h="198" v="45%"/><HSV h="186" v="46%"/><HSV h="180" v="47%"/><HSV big h="170"/><HSV h="150" v="70%"/><HSV h="130" v="80%"/> Light – with hue shifting
+
+vs
+
+Shadow <HSV h="170" v="33%"/><HSV h="170" v="40%"/><HSV h="170" v="45%"/><HSV big h="170"/><HSV h="170" v="70%"/><HSV h="170" v="80%"/> Light – no hue shifting
 
 <br>
 
@@ -170,7 +174,11 @@ Let's say we have a pink object: <HSV h="-30"/>
 
 If we look at our colour wheel, the lit areas will tint towards purple and the shadow areas will tint towards red/orange.
 
-Shadow <HSV h="23" v="39%"/><HSV h="12" v="42%"/><HSV h="-10" v="45%"/><HSV big h="-30"/><HSV h="-45" v="60%"/><HSV h="-60" v="73%"/> Light
+Shadow <HSV h="10" v="39%"/><HSV h="0" v="42%"/><HSV h="-15" v="45%"/><HSV big h="-30"/><HSV h="-45" v="60%"/><HSV h="-60" v="73%"/> Light – with hue shifting
+
+vs
+
+Shadow <HSV h="-30" v="39%"/><HSV h="-30" v="42%"/><HSV h="-30" v="45%"/><HSV big h="-30"/><HSV h="-30" v="60%"/><HSV h="-30" v="73%"/> Light – no hue shifting
 
 -----
 
@@ -178,13 +186,16 @@ Let's say we have a green object: <HSV h="100"/>
 
 If we look at our colour wheel, the lit areas will tint towards aqua/blue and the shadow areas will tint towards yellow.
 
-Shadow <HSV h="67" v="32%"/><HSV h="75" v="40%"/><HSV h="80" v="44%"/><HSV big h="100"/><HSV h="130" v="72%"/><HSV h="155" v="75%"/> Light
+Shadow <HSV h="70" v="32%"/><HSV h="80" v="40%"/><HSV h="90" v="44%"/><HSV big h="100"/><HSV h="130" v="72%"/><HSV h="155" v="75%"/> Light – with hue shifting
+
+vs
+
+Shadow <HSV h="100" v="32%"/><HSV h="100" v="40%"/><HSV h="100" v="44%"/><HSV big h="100"/><HSV h="100" v="72%"/><HSV h="100" v="85%"/> Light – no hue shifting
 
 <Ponymote mote="raritydress" text="And that's how you integrate the light source into your scene, darlings."/>
-<Ponymote mote="ajfrown" text="I'll need to see this being used in an actual picture to compare…"/>
+<Ponymote mote="ajfrown" text="I think I'll need to see this being used in an actual picture to compare…"/>
 
-
-## More Examples
+### More Examples
 
 From <router-link to="/guide/shading">viw's shading guide</router-link>, here's some art from Hobbular:
 <GuideFullWidthImage :src="HobbularHueShifting" artist="Hobbular"/>
@@ -193,7 +204,7 @@ On the left image, you can see the hues being changed in the shaded areas of Flu
 
 <Ponymote mote="ajsup" text="Hot dang, Fluttershy. Nice hue shifting!"/>
 <Ponymote mote="raritydaww" right text="I agree, darling. Wonderful work."/>
-<Ponymote mote="fluttershh" text="Th-thank you…"/>
+<Ponymote mote="fluttershh" text="Th-thank you girls…"/>
 
 
 
