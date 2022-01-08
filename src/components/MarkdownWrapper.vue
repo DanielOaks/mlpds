@@ -186,6 +186,11 @@
       padding-top: 4em;
       margin-top: -3em;
     }
+    h4 {
+      // make anchors work
+      padding-top: 5em;
+      margin-top: -3.5em;
+    }
 
     .post-wrapper {
       font-size: 1.1em;

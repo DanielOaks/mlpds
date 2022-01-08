@@ -8,6 +8,7 @@ import Ponymote from '@/components/Ponymote.vue'
 import GuideFullWidthImage from '@/components/GuideFullWidthImage.vue'
 import GuideImageGallery from '@/components/GuideImageGallery.vue'
 import GuideNote from '@/components/GuideNote.vue'
+import HSV from '@/components/HSV.vue'
 
 import router from './routes'
 
@@ -21,4 +22,5 @@ createApp(App)
   .component('GuideFullWidthImage', GuideFullWidthImage)
   .component('GuideImageGallery', GuideImageGallery)
   .component('GuideNote', GuideNote)
+  .component('HSV', HSV)
   .mount('#app')
