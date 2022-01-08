@@ -11,13 +11,6 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 
 const modules = [Navigation];
-
-// const props = defineProps({
-//   src: String,
-//   href: String,
-//   artist: String,
-//   caption: String,
-// })
 </script>
 
 <style lang="scss">

@@ -206,6 +206,30 @@ On the left image, you can see the hues being changed in the shaded areas of Flu
 <Ponymote mote="raritydaww" right text="I agree, darling. Wonderful work."/>
 <Ponymote mote="fluttershh" text="Th-thank you girls…"/>
 
+### Videos
+
+<YouTube videoId="RL_5va7jEx8"/>
+
+<YouTube videoId="gwLQ0cDb4cE"/>
+
+<YouTube videoId="6hmWUfH_wOo"/>
+
+
+## In Conclusion
+
+While you're painting:
+
+- Keep the colour of your light source in mind.
+  - If you have multiple light sources, try to figure out how the effective colours change – and in which parts of the scene they'd merge and where they'd stay separate.
+- Use that to determine the hue/tone your shadows would take on.
+- Shift the hues in the lit areas _towards_ the hue of your light sources.
+- Shift the hues in the shaded areas _away from_ the hue of your light sources.
+
+And that's about all you need to do! Go out there and use some effective colours!
+
+<Ponymote mote="ajhappy" text="Wow, that was a mighty helpful lesson. Ah learned a lot!"/>
+<Ponymote mote="rarityjudge" text="'Ah'? Dear, you don't need to *write* in your accent, I'm sure they'll be able to get it themselves."/>
+<br>
 
 
 <style scoped lang="scss">

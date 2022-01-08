@@ -9,6 +9,7 @@ import GuideFullWidthImage from '@/components/GuideFullWidthImage.vue'
 import GuideImageGallery from '@/components/GuideImageGallery.vue'
 import GuideNote from '@/components/GuideNote.vue'
 import HSV from '@/components/HSV.vue'
+import YouTube from '@/components/YouTube.vue'
 
 import router from './routes'
 
@@ -23,4 +24,5 @@ createApp(App)
   .component('GuideImageGallery', GuideImageGallery)
   .component('GuideNote', GuideNote)
   .component('HSV', HSV)
+  .component('YouTube', YouTube)
   .mount('#app')
