@@ -132,6 +132,10 @@ export const guides: GuideMap = {
     name: 'How to Critique: For critics and artists alike',
     author: 'viwrastupr',
   },
+  'hue-shifting': {
+    name: 'Hue Shifting: Making natural tones in lights and shadows',
+    author: 'pixienop',
+  },
   'identifying-compositional-awkwardness': {
     name: 'Identifying Compositional Awkwardness',
     author: 'viwrastupr',
@@ -255,6 +259,7 @@ export const guideLists = {
           'shading',
           'shadows-making-objects-appear-3d',
           'applying-value-to-shading',
+          'hue-shifting',
         ],
       },
       {
