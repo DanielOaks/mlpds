@@ -5,6 +5,7 @@ type Author = {
   name: string;
   reddit?: string;
   twitter?: string;
+  youtube?: string;
   homepage?: string;
   icon?: string;
 }
@@ -20,8 +21,8 @@ export const authors: AuthorMap = {
     icon: '/authors/dispatchrabbi.png',
   },
   idrawponiessometimes: {
-    name: 'idrawponiessometimes',
-    reddit: 'idrawponiessometimes',
+    name: 'IDrawPoniesSometimes',
+    reddit: 'IDrawPoniesSometimes',
   },
   mynameischumpy: {
     name: 'mynameischumpy',
@@ -30,6 +31,7 @@ export const authors: AuthorMap = {
   pixienop: {
     name: 'pixienop',
     twitter: 'pixienop',
+    youtube: 'https://www.youtube.com/channel/UC0WlyM5MFTVDOZqNRxhixnQ',
     homepage: 'https://pixienop.net/',
     icon: '/authors/pixienop.png',
   },

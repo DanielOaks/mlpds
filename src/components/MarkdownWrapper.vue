@@ -4,7 +4,17 @@
     <div :class="'wrapper-'+frontmatter.type + ' ' + (frontmatter.nopagenav ? 'nopagenav' : '')">
       <div class="content">
         <h1 :class="{'banner': frontmatter.banner}">{{ frontmatter.title }}
-          <span class="authorName" v-if="frontmatter.author" v-text="frontmatter.author"/>
+          <div class="author" v-if="!author">
+            <span class="name" v-text="frontmatter.author"/>
+          </div>
+          <div class="author" v-if="author">
+            <img class="avatar" v-if="author.icon" :src="author.icon"/>
+            <span class="name" v-text="author.name"/>
+            <a v-if="author.youtube" :href="author.youtube"><v-icon color="#FF0000">mdi-youtube</v-icon></a>
+            <a v-if="author.twitter" :href="`https://twitter.com/${author.twitter}`"><v-icon color="#1DA1F2">mdi-twitter</v-icon></a>
+            <a v-if="author.reddit" :href="`https://reddit.com/u/${author.reddit}`"><v-icon color="#FF5700">mdi-reddit</v-icon></a>
+            <a v-if="author.homepage" :href="author.homepage"><v-icon color="indigo">mdi-link-variant</v-icon></a>
+          </div>
           <span class="subtitle" v-if="frontmatter.subtitle" v-text="frontmatter.subtitle"/>
         </h1>
         <div class="homeLinks" v-if="prevPage || home || nextPage">
@@ -168,11 +178,24 @@
         font-weight: 400;
         opacity: .83;
       }
-      .authorName {
+      .author {
+        display: inline-block;
         font-size: .7em;
-        font-weight: 400;
-        opacity: .55;
         margin-left: .35em;
+        a {
+          text-decoration: none;
+          padding: 0 .25em;
+        }
+        .avatar {
+          height: 2.5em;
+          border-radius: 50%;
+          vertical-align: -.6em;
+          margin-right: .3em;
+        }
+        .name {
+          font-weight: 400;
+          opacity: .55;
+        }
       }
     }
     h2 {
@@ -228,7 +251,9 @@ const props = defineProps({
 import Banner1 from '@/assets/banner-1.jpg'
 
 import { useRoute } from 'vue-router'
-import { guideLists } from '../data'
+import { authors, guideLists } from '../data'
+
+const author = authors[props.frontmatter?.author];
 
 // set the front-matter
 document.title = props.frontmatter ? `${props.frontmatter.title} | MLP Drawing School` : 'MLP Drawing School';

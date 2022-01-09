@@ -23,7 +23,7 @@ Since we're talking about 'hue shifting', I should explain what 'hue' means – 
 
 ### Colour
 
-To me, this is a combo of a hue, saturation, and value. But when artist talk about colours, we also can just mean the hue. It's a bit confusing. For example, I'd say that <HSV h="0" v="50%"/> and <HSV h="0" v="30%"/> are different 'colours', even though they're just different brightnesses…
+To me, this is a combo of a hue, saturation, and value. But when artist talk about colours, we also can just mean the hue. It's a bit confusing. For example, I'd say that <HSV :h="0" v="50%"/> and <HSV :h="0" v="30%"/> are different 'colours', even though they're just different brightnesses…
 
 ### Hue
 
@@ -35,13 +35,13 @@ The 'colour' part of a colour. All of these are the same saturation / value, but
 
 How intense the colour is. All of these are the same hue / value, but **different saturations**:
 
-<p><HSV v-for="(_, i) in 11" h="335" :s="`${10*i}%`"/></p>
+<p><HSV v-for="(_, i) in 11" :h="335" :s="`${10*i}%`"/></p>
 
 ### Value
 
 How light or dark a colour is. All of these are the same hue / saturation, but **different values**:
 
-<p><HSV v-for="(_, i) in 11" h="335" :v="`${10*i}%`"/></p>
+<p><HSV v-for="(_, i) in 11" :h="335" :v="`${10*i}%`"/></p>
 
 <Ponymote mote="ajcower" text="The less-saturated colours look so dull and ugly, even I can't stand it!"/>
 <Ponymote mote="rarityjudge" text="Everything has its place, darling – just wait a little while."/>
@@ -77,11 +77,11 @@ These are supposed to feel cool and damp, like you're sitting under the stars.
 
 How cool or warm a colour is depends on context! Where it is in the picture, the colours around it, and even more. In particular, cool colours are usually less-saturated than warm colours when you use them. In traditional painting kits you normally get a set of warm and cool colours to play with, with the each one's hue leaning towards the warmer or cooler side of the wheel.
 
-Cool and Warm Reds: <HSV h="-30" s="85%"/><HSV h="0"/>
+Cool and Warm Reds: <HSV :h="-30" s="85%"/><HSV :h="0"/>
 
-Cool and Warm Yellows: <HSV h="63" s="90%"/><HSV h="53"/>
+Cool and Warm Yellows: <HSV :h="63" s="90%"/><HSV :h="53"/>
 
-Cool and Warm Blues: <HSV h="233" s="90%"/><HSV h="253"/>
+Cool and Warm Blues: <HSV :h="233" s="90%"/><HSV :h="253"/>
 
 <Ponymote mote="ajbaffle" text="Wait, why do we need to know this?"/>
 <Ponymote mote="raritydress" text="Well this affects how lights and shadows work, darling! Lit areas are *usually* warm and shadows are *usually* cool. We use hue shifting to show these differences more naturally on the objects in our scene."/>
@@ -106,13 +106,13 @@ Take a look at these two spheres:
 
 The top sphere's shaded areas get a darker value and the lit areas just get a lighter value. Nothing too complex, just moving towards black and towards white:
 
-<p><HSV h="57" v="43%"/> <HSV h="57"/> <HSV h="57" v="80%"/></p>
+<p><HSV :h="57" v="43%"/> <HSV :h="57"/> <HSV :h="57" v="80%"/></p>
 
 -----
 
 The bottom sphere's shaded areas tint towards red, and the lit areas tint towards green. This makes it look like the sphere's being lit by a light, cool-ish light source:
 
-<p><HSV h="46" v="47%"/> <HSV h="57"/> <HSV h="63" v="73%"/></p>
+<p><HSV :h="46" v="47%"/> <HSV :h="57"/> <HSV :h="63" v="73%"/></p>
 
 -----
 
@@ -126,37 +126,37 @@ In this section we'll have a few lights and example objects. The hue shifts here
 
 <div class="chart smol"></div>
 
-This is the colour of our light source: <HSV big h="60"/>
+This is the colour of our light source: <HSV big :h="60"/>
 
-So the shadows for this light source would be: <HSV big h="240"/>
+So the shadows for this light source would be: <HSV big :h="240"/>
 
 -----
 
-Let's say we have a red object: <HSV h="0"/>
+Let's say we have a red object: <HSV :h="0"/>
 
 This could be a wall, a sphere, a cube, or a pony's coat! If we look at our colour wheel, the lit areas will tint towards orange and the shadow areas will tint towards purple.
 
 Compare:
 
-Shadow <HSV h="-32" v="30%"/><HSV h="-26" v="39%"/><HSV h="-16" v="42%"/><HSV big h="0"/><HSV h="15" v="55%"/><HSV h="23" v="60%"/> Light – with hue shifting
+Shadow <HSV :h="-32" v="30%"/><HSV :h="-26" v="39%"/><HSV :h="-16" v="42%"/><HSV big :h="0"/><HSV :h="15" v="55%"/><HSV :h="23" v="60%"/> Light – with hue shifting
 
 vs
 
-Shadow <HSV h="0" v="30%"/><HSV h="0" v="39%"/><HSV h="0" v="42%"/><HSV big h="0"/><HSV h="0" v="60%"/><HSV h="0" v="70%"/> Light – no hue shifting
+Shadow <HSV :h="0" v="30%"/><HSV :h="0" v="39%"/><HSV :h="0" v="42%"/><HSV big :h="0"/><HSV :h="0" v="60%"/><HSV :h="0" v="70%"/> Light – no hue shifting
 
 The effect is subtle, but noticable when applied across your scene. Your shadows and lit areas end up looking **much** more dynamic, interesting, and natural. It also helps it feel like your light source is actually interacting with your scene.
 
 -----
 
-Let's say we have an aqua object: <HSV h="170"/>
+Let's say we have an aqua object: <HSV :h="170"/>
 
 If we look at our colour wheel, the lit areas will tint towards yellow/green and the shadow areas will tint towards blue.
 
-Shadow <HSV h="198" v="45%"/><HSV h="186" v="46%"/><HSV h="180" v="47%"/><HSV big h="170"/><HSV h="150" v="70%"/><HSV h="130" v="80%"/> Light – with hue shifting
+Shadow <HSV :h="198" v="45%"/><HSV :h="186" v="46%"/><HSV :h="180" v="47%"/><HSV big :h="170"/><HSV :h="150" v="70%"/><HSV :h="130" v="80%"/> Light – with hue shifting
 
 vs
 
-Shadow <HSV h="170" v="33%"/><HSV h="170" v="40%"/><HSV h="170" v="45%"/><HSV big h="170"/><HSV h="170" v="70%"/><HSV h="170" v="80%"/> Light – no hue shifting
+Shadow <HSV :h="170" v="33%"/><HSV :h="170" v="40%"/><HSV :h="170" v="45%"/><HSV big :h="170"/><HSV :h="170" v="70%"/><HSV :h="170" v="80%"/> Light – no hue shifting
 
 -----
 
@@ -170,40 +170,40 @@ Here's an example scene painted up with this light source and some very subtle h
 
 <div class="chart smol"></div>
 
-This is the colour of our light source: <HSV big h="200"/>
+This is the colour of our light source: <HSV big :h="200"/>
 
-So the shadows for this light source would be: <HSV big h="20"/>
+So the shadows for this light source would be: <HSV big :h="20"/>
 
 -----
 
-Let's say we have a pink object: <HSV h="-30"/>
+Let's say we have a pink object: <HSV :h="-30"/>
 
 If we look at our colour wheel, the lit areas will tint towards purple and the shadow areas will tint towards red/orange.
 
-Shadow <HSV h="10" v="39%"/><HSV h="0" v="42%"/><HSV h="-15" v="45%"/><HSV big h="-30"/><HSV h="-45" v="60%"/><HSV h="-60" v="73%"/> Light – with hue shifting
+Shadow <HSV :h="10" v="39%"/><HSV :h="0" v="42%"/><HSV :h="-15" v="45%"/><HSV big :h="-30"/><HSV :h="-45" v="60%"/><HSV :h="-60" v="73%"/> Light – with hue shifting
 
 vs
 
-Shadow <HSV h="-30" v="39%"/><HSV h="-30" v="42%"/><HSV h="-30" v="45%"/><HSV big h="-30"/><HSV h="-30" v="60%"/><HSV h="-30" v="73%"/> Light – no hue shifting
+Shadow <HSV :h="-30" v="39%"/><HSV :h="-30" v="42%"/><HSV :h="-30" v="45%"/><HSV big :h="-30"/><HSV :h="-30" v="60%"/><HSV :h="-30" v="73%"/> Light – no hue shifting
 
 -----
 
-Let's say we have a green object: <HSV h="100"/>
+Let's say we have a green object: <HSV :h="100"/>
 
 If we look at our colour wheel, the lit areas will tint towards aqua/blue and the shadow areas will tint towards yellow.
 
-Shadow <HSV h="70" v="32%"/><HSV h="80" v="40%"/><HSV h="90" v="44%"/><HSV big h="100"/><HSV h="130" v="72%"/><HSV h="155" v="75%"/> Light – with hue shifting
+Shadow <HSV :h="70" v="32%"/><HSV :h="80" v="40%"/><HSV :h="90" v="44%"/><HSV big :h="100"/><HSV :h="130" v="72%"/><HSV :h="155" v="75%"/> Light – with hue shifting
 
 vs
 
-Shadow <HSV h="100" v="32%"/><HSV h="100" v="40%"/><HSV h="100" v="44%"/><HSV big h="100"/><HSV h="100" v="72%"/><HSV h="100" v="85%"/> Light – no hue shifting
+Shadow <HSV :h="100" v="32%"/><HSV :h="100" v="40%"/><HSV :h="100" v="44%"/><HSV big :h="100"/><HSV :h="100" v="72%"/><HSV :h="100" v="85%"/> Light – no hue shifting
 
 <Ponymote mote="raritydress" text="And that's how you integrate the light source into your scene, darlings."/>
 <Ponymote mote="ajfrown" text="I think I'll need to see this being used in an actual picture to compare…"/>
 
 ### More Examples
 
-From <router-link to="/guide/shading">viw's shading guide</router-link>, here's some art from Hobbular:
+From <router-link to="/guides/shading">viw's shading guide</router-link>, here's some art from Hobbular:
 <GuideFullWidthImage :src="HobbularHueShifting" artist="Hobbular"/>
 
 On the left image, you can see the hues being changed in the shaded areas of Fluttershy. On the right image only the value is changed, so it ends up looking washed-out.
