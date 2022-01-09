@@ -158,6 +158,12 @@ vs
 
 Shadow <HSV h="170" v="33%"/><HSV h="170" v="40%"/><HSV h="170" v="45%"/><HSV big h="170"/><HSV h="170" v="70%"/><HSV h="170" v="80%"/> Light – no hue shifting
 
+-----
+
+Here's an example scene painted up with this light source and some very subtle hue shifting:
+
+<GuideFullWidthImage :src="PixExample1" artist="pixienop"/>
+
 <br>
 
 #### Blue Light
@@ -275,5 +281,6 @@ $radius:0.9;
 
 <script setup lang="ts">
 import PixieHueshifting1 from './pixienop-hueshifting-1.jpg'
+import PixExample1 from './pixienop-hueshift-1.jpg'
 import HobbularHueShifting from './hobbular-hue-shifting.png'
 </script>
