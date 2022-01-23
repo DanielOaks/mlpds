@@ -2,6 +2,12 @@
 
 This is an app for MLPDS.
 
+
+## Backend
+
+To connect the backend, set the environment variable `MLPDS_CLIENT_BACKEND_URL` to the backend's URL without the trailing slash. You can set this in the `.env.local` file and it'll get automatically picked up.
+
+
 -----
 
 This template should help get you started developing with Vue 3 and Typescript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
