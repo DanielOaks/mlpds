@@ -53,7 +53,7 @@
       <v-app-bar-nav-icon @click="drawer = !drawer" color="primary"></v-app-bar-nav-icon>
       <v-app-bar-title>MLPDS</v-app-bar-title>
       <v-spacer/>
-      <v-btn v-if="backend" style="margin-right: 1.3em;" :href="`${backend}/auth/discord`">Login</v-btn>
+      <v-btn v-if="backend" style="margin-right: 1.3em;" :href="login_url">Login</v-btn>
       <v-icon style="margin-right: .2em;">mdi-theme-light-dark</v-icon>
       <v-switch
         v-model="darkTheme"
@@ -98,6 +98,7 @@ import mlpdsBanner from '@/assets/mlpds-banner-dark.png'
 import { ref } from 'vue'
 
 const backend = import.meta.env.MLPDS_CLIENT_BACKEND_URL;
+const login_url = new URL(`${backend}/auth/discord?fe`);
 
 const drawer = ref(false);
 const darkTheme = useStoredRef(false, 'useDarkTheme');
