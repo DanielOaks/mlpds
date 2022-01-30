@@ -98,7 +98,10 @@ import mlpdsBanner from '@/assets/mlpds-banner-dark.png'
 import { ref } from 'vue'
 
 const backend = import.meta.env.MLPDS_CLIENT_BACKEND_URL;
-const login_url = new URL(`${backend}/auth/discord?fe`);
+let login_url = '';
+if (backend) {
+  login_url = (new URL(`${backend}/auth/discord?fe`)).toString();
+}
 
 const drawer = ref(false);
 const darkTheme = useStoredRef(false, 'useDarkTheme');
