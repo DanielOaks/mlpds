@@ -7,11 +7,11 @@ export const routes = staticPageRoutes.concat([
     path: '/',
     component: () => import('@/views/Landing.vue'),
   },
-//   {
-//     name: 'landing',
-//     path: '/landing',
-//     component: () => import('@/views/Landing.vue'),
-//   },
+  {
+    name: 'create-account',
+    path: '/create-account',
+    component: () => import('@/views/CreateAccount.vue'),
+  },
 ])
 
 const router = createRouter({
