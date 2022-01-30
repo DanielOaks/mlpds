@@ -55,7 +55,7 @@
     margin-bottom: 1em;
   }
 }
-.wrapper-guideindex, .wrapper-guide.nopagenav {
+.wrapper-guideindex, .wrapper-guide.nopagenav, .wrapper-policy {
   width: 55em !important;
   #mdPageNav {
     display: none;
@@ -75,7 +75,7 @@
     }
   }
 }
-.wrapper-guide, .wrapper-guideindex {
+.wrapper-guide, .wrapper-guideindex, .wrapper-policy {
   width: 69em;
   max-width: 90%;
   max-width: calc(100% - 2em);
