@@ -25,11 +25,26 @@
         >Page expired, click Login again</v-alert>
       </v-col>
     </v-row>
+
+    <v-row class="text-center mt-6" justify="center">
+      <v-col cols="4">
+        <form>
+          <v-text-field id="accountID" v-model="accountID" label="id" prefix="@"/>
+          <v-text-field label="name" v-model="accountName" hint="www.example.com/page"
+            persistent-hint/>
+
+          <v-btn :disabled="!valid || secondsLeft <= 0" color="success" class="mr-4">
+            Submit
+          </v-btn>
+        </form>
+      </v-col>
+    </v-row>
   </v-container>
 </template>
 
 <script setup lang="ts">
 import { computed, ref } from 'vue'
+import slugify from 'slugify'
 import DiscordAccountCard from '@/components/DiscordAccountCard.vue';
 
 import { useRoute } from 'vue-router'
@@ -45,6 +60,24 @@ setInterval(() => {
 
 const secondsLeft = computed(() => {
   return parseInt(((Date.parse(route.query.expiry ? route.query.expiry.toString() : '') - now.value) / 1000).toFixed());
+});
+
+const valid = true;
+
+const id = ref(slugify(route.query.name, {strict: true, lower: true}));
+const accountID = computed({
+  get: () => id.value,
+  set: val => {
+    id.value = val;
+  },
+});
+
+const name = ref(route.query.name);
+const accountName = computed({
+  get: () => name.value,
+  set: val => {
+    name.value = val;
+  },
 });
 </script>
 
