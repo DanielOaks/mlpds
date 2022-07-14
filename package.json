@@ -8,11 +8,6 @@
     "preview": "vite preview",
     "update-json": "ts-node ./updateJson.ts"
   },
-  "overrides": {
-    "vite-plugin-vuetify": {
-      "vite": "^3.0.0"
-    }
-  },
   "dependencies": {
     "@mdi/font": "6.9.96",
     "@types/anchor-js": "^4.2.1",
@@ -26,13 +21,12 @@
     "webfontloader": "^1.0.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^3.0.0",
+    "@vitejs/plugin-vue": "^2.3.3",
     "@vue/cli-plugin-babel": "5.0.8",
     "@vue/cli-service": "5.0.8",
     "sass": "^1.53.0",
-    "sass-loader": "^13.0.2",
     "typescript": "^4.7.4",
-    "vite": "^3.0.0",
+    "vite": "^2.9.14",
     "vite-plugin-pages": "^0.25.0",
     "vite-plugin-vuetify": "^1.0.0-alpha.12",
     "vite-plugin-vue-markdown": "^0.20.1",

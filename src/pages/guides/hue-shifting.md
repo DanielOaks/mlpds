@@ -244,7 +244,7 @@ $totalStops:36;
 $radius:0.9;
 
 @for $i from 0 through $totalStops{
-  $stops:  append($stops,hsl($i *(360deg/$totalStops),100%,50%),comma);
+  $stops:  append($stops,hsl($i * calc(360deg/$totalStops),100%,50%),comma);
 }
 
 .chart {

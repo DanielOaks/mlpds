@@ -8,6 +8,7 @@ import path from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  // mode: 'development',
   envPrefix: 'MLPDS_CLIENT_',
   plugins: [
     vue({
@@ -16,6 +17,7 @@ export default defineConfig({
     // https://github.com/vuetifyjs/vuetify-loader/tree/next/packages/vite-plugin
     vuetify({
       autoImport: true,
+      // styles: 'expose',
     }),
     // https://github.com/hannoeru/vite-plugin-pages
     pages({
