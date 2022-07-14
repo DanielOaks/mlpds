@@ -43,7 +43,7 @@
   .topBanner {
     width: calc(100% + 2em);
     height: 15em;
-    margin: -.8em -1em 0;
+    margin: -1em -1em 0;
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto 100%;

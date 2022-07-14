@@ -71,7 +71,7 @@ When you are laying out your drawing, laying out those circles and the skeleton 
 
 <Ponymote mote="a03" text="Time for some examples!"/>
 
-<!-- TODO: new images for the below examples, since those have been deleted :< -->
+<!-- TODO: new images for the below examples, since those have been deleted :( -->
 
 [Here](http://www.reddit.com/tb/p4f9p) is an undersketch from Almost_Awesome, who often posts his.
 [Here](http://www.reddit.com/tb/p1iko) is another, though this is a little further along than what I'm talking about.

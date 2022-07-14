@@ -1,8 +1,8 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
-import vuetify from '@vuetify/vite-plugin'
-import markdown from 'vite-plugin-md'
 import pages from "vite-plugin-pages";
+import markdown from 'vite-plugin-vue-markdown'
+import vuetify from 'vite-plugin-vuetify'
 
 import path from 'path'
 

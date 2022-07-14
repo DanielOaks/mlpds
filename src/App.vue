@@ -17,6 +17,12 @@
             <subtitle>We're a supportive and nurturing art community.</subtitle>
           </v-list-item-content>
         </v-list-item>
+        <v-list-item key="home" href="/">
+          <v-list-item-icon color="#4455aa" icon="mdi-home-circle-outline"></v-list-item-icon>
+          <v-list-item-content>
+            <v-list-item-title>&nbsp;&nbsp;Home</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
         <v-list-item
           v-for="item in socialMediaLinks"
           :key="item.title"
@@ -24,9 +30,7 @@
           :href="item.link"
           target="_blank"
         >
-          <v-list-item-icon>
-            <v-icon :color="item.iconColor">{{ item.icon }}</v-icon>
-          </v-list-item-icon>
+          <v-list-item-icon :color="item.iconColor" :icon="item.icon"></v-list-item-icon>
           <v-list-item-content>
             <v-list-item-title>&nbsp;&nbsp;{{ item.title }}</v-list-item-title>
           </v-list-item-content>
@@ -39,9 +43,7 @@
           :href="item.link"
           :target="item.inlineLink ? '' : '_blank'"
         >
-          <v-list-item-icon>
-            <v-icon :color="item.iconColor">{{ item.icon }}</v-icon>
-          </v-list-item-icon>
+          <v-list-item-icon :color="item.iconColor" :icon="item.icon"></v-list-item-icon>
           <v-list-item-content>
             <v-list-item-title>&nbsp;&nbsp;{{ item.title }}</v-list-item-title>
           </v-list-item-content>
@@ -50,14 +52,13 @@
     </v-navigation-drawer>
 
     <v-app-bar density="compact" flat color="primary" app>
-      <v-app-bar-nav-icon @click="drawer = !drawer" color="primary"></v-app-bar-nav-icon>
+      <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
       <v-app-bar-title>MLPDS</v-app-bar-title>
       <v-spacer/>
       <v-btn v-if="backend" style="margin-right: 1.3em;" :href="login_url">Login</v-btn>
       <v-icon style="margin-right: .2em;">mdi-theme-light-dark</v-icon>
       <v-switch
         v-model="darkTheme"
-        inset
         compact
         hide-details
         class="flex-grow-0"
