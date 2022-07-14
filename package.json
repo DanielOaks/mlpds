@@ -8,6 +8,11 @@
     "preview": "vite preview",
     "update-json": "ts-node ./updateJson.ts"
   },
+  "overrides": {
+    "vite-plugin-vuetify": {
+      "vite": "^3.0.0"
+    }
+  },
   "dependencies": {
     "@mdi/font": "6.9.96",
     "@types/anchor-js": "^4.2.1",
