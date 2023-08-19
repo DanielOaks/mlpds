@@ -7,6 +7,10 @@ This is an app for MLPDS.
 
 To connect the backend, set the environment variable `MLPDS_CLIENT_BACKEND_URL` to the backend's URL without the trailing slash. You can set this in the `.env.local` file and it'll get automatically picked up.
 
+## Submitting Fineline images
+
+Set the environment variable `MLPDS_CLIENT_SUBMIT_FINELINE_URL` to set the URL where we should send new fineline add requests. You can set this in the `.env.local` file and it'll get automatically picked up.
+
 
 -----
 

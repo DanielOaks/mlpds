@@ -59,6 +59,7 @@
       <v-col class="mt-5" cols="12">
         <h2 class="headline mb-4">
           Fineline
+          <subtitle>Fineline is our mascot, and you can see her here!</subtitle>
         </h2>
         <v-row justify="center">
           <v-card
@@ -86,11 +87,14 @@
           </v-card>
         </v-row>
       </v-col>
+
+      <FinelineSubmitForm/>
     </v-row>
   </v-container>
 </template>
 
 <script setup lang="ts">
+import FinelineSubmitForm from '@/components/FinelineSubmitForm.vue';
 import { socialMediaLinks, externalLinks } from '@/links'
 import logo from '@/assets/logo.png'
 

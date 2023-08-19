@@ -3,6 +3,7 @@
 
 interface ImportMetaEnv {
   readonly MLPDS_CLIENT_BACKEND_URL: string
+  readonly MLPDS_CLIENT_SUBMIT_FINELINE_URL: string
   // more env variables...
 }
 
