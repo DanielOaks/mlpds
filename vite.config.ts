@@ -10,6 +10,9 @@ import path from 'path'
 export default defineConfig({
   // mode: 'development',
   envPrefix: 'MLPDS_CLIENT_',
+  // esbuild: {
+  //   exclude: ['*.md']
+  // },
   plugins: [
     // https://github.com/posva/unplugin-vue-router
     VueRouter({
