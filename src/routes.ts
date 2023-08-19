@@ -1,22 +1,20 @@
-import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
-import staticPageRoutes from "~pages";
+import { createRouter, createWebHistory } from 'vue-router/auto'
 
-export const routes = staticPageRoutes.concat([
-  {
-    name: 'main',
-    path: '/',
-    component: () => import('@/views/Landing.vue'),
-  },
-  {
-    name: 'create-account',
-    path: '/create-account',
-    component: () => import('@/views/CreateAccount.vue'),
-  },
-])
+// export const routes = [
+//   {
+//     name: 'main',
+//     path: '/',
+//     component: () => import('@/views/Landing.vue'),
+//   },
+//   {
+//     name: 'create-account',
+//     path: '/create-account',
+//     component: () => import('@/views/CreateAccount.vue'),
+//   },
+// ]
 
 const router = createRouter({
   history: createWebHistory(),
-  routes,
   scrollBehavior (to, from, savedPosition) {
     if (savedPosition) {
       return savedPosition

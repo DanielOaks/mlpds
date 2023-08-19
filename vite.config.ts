@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
-import vue from '@vitejs/plugin-vue'
-import pages from "vite-plugin-pages";
+import Vue from '@vitejs/plugin-vue'
 import Markdown from 'unplugin-vue-markdown/vite'
+import VueRouter from 'unplugin-vue-router/vite'
 import vuetify from 'vite-plugin-vuetify'
 
 import path from 'path'
@@ -11,7 +11,13 @@ export default defineConfig({
   // mode: 'development',
   envPrefix: 'MLPDS_CLIENT_',
   plugins: [
-    vue({
+    // https://github.com/posva/unplugin-vue-router
+    VueRouter({
+      routesFolder: 'src/pages',
+      extensions: ['.vue', '.md'],
+      dts: './src/typed-router.d.ts',
+    }),
+    Vue({
       include: [/\.vue$/, /\.md$/],
     }),
     // https://github.com/vuetifyjs/vuetify-loader/tree/next/packages/vite-plugin
@@ -19,17 +25,9 @@ export default defineConfig({
       autoImport: true,
       // styles: 'expose',
     }),
-    // https://github.com/hannoeru/vite-plugin-pages
-    pages({
-      dirs: [
-        { dir: "src/pages", baseRoute: "" },
-      //   { dir: "src/features/**/pages", baseRoute: "features" },
-      //   { dir: "src/admin/pages", baseRoute: "admin" },
-      ],
-      extensions: ['vue', 'ts', 'js', 'md'],
-    }),
-    // https://github.com/antfu/vite-plugin-md
+    // https://github.com/mdit-vue/unplugin-vue-markdown
     Markdown({
+      headEnabled: true,
       wrapperComponent: 'MarkdownWrapper',
     }),
   ],

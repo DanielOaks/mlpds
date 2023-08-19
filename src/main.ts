@@ -1,4 +1,5 @@
 import { createApp } from 'vue'
+import { createHead } from '@unhead/vue'
 import App from './App.vue'
 import vuetify from './plugins/vuetify'
 import { loadFonts } from './plugins/webfontloader'
@@ -16,7 +17,10 @@ import router from './routes'
 
 loadFonts()
 
+const head = createHead()
+
 createApp(App)
+  .use(head)
   .use(router)
   .use(vuetify)
   .component('MarkdownWrapper', MarkdownWrapper)

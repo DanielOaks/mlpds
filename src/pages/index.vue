@@ -94,6 +94,12 @@
 </template>
 
 <script setup lang="ts">
+import { definePage } from 'vue-router/auto'
+definePage({
+  name: 'index',
+  path: '/',
+})
+
 import FinelineSubmitForm from '@/components/FinelineSubmitForm.vue';
 import { socialMediaLinks, externalLinks } from '@/links'
 import logo from '@/assets/logo.png'
