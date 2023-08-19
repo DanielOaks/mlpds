@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite'
 import Vue from '@vitejs/plugin-vue'
-import Markdown from 'unplugin-vue-markdown/vite'
+import Markdown from 'vite-plugin-md'
 import VueRouter from 'unplugin-vue-router/vite'
 import vuetify from 'vite-plugin-vuetify'
 
@@ -30,7 +30,7 @@ export default defineConfig({
     }),
     // https://github.com/mdit-vue/unplugin-vue-markdown
     Markdown({
-      headEnabled: true,
+      // headEnabled: true,
       wrapperComponent: 'MarkdownWrapper',
     }),
   ],

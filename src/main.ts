@@ -1,5 +1,5 @@
 import { createApp } from 'vue'
-import { createHead } from '@unhead/vue'
+// import { createHead } from '@unhead/vue'
 import App from './App.vue'
 import vuetify from './plugins/vuetify'
 import { loadFonts } from './plugins/webfontloader'
@@ -17,13 +17,14 @@ import router from './routes'
 
 loadFonts()
 
-const head = createHead()
+// const head = createHead()
 
 createApp(App)
-  .use(head)
+  // .use(head)
   .use(router)
   .use(vuetify)
   .component('MarkdownWrapper', MarkdownWrapper)
+  .component('markdownwrapper', MarkdownWrapper)
   .component('ColourWheel', ColourWheel)
   .component('Ponymote', Ponymote)
   .component('GuideFullWidthImage', GuideFullWidthImage)
