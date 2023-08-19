@@ -51,7 +51,7 @@ How light or dark a colour is. All of these are the same hue / saturation, but *
 
 Here's the colour wheel:
 
-<div class="chart"></div>
+<ColourWheel/>
 
 There are a lot of colour wheel variants, but this is the one we'll be using in this guide.
 
@@ -124,7 +124,7 @@ In this section we'll have a few lights and example objects. The hue shifts here
 
 #### Yellow Light
 
-<div class="chart smol"></div>
+<ColourWheel small/>
 
 This is the colour of our light source: <HSV big :h="60"/>
 
@@ -168,7 +168,7 @@ Here's an example scene painted up with this light source and some very subtle h
 
 #### Blue Light
 
-<div class="chart smol"></div>
+<ColourWheel small/>
 
 This is the colour of our light source: <HSV big :h="200"/>
 
@@ -237,47 +237,6 @@ And that's about all you need to do! Go out there and use some effective colours
 <Ponymote mote="rarityjudge" text="'Ah'? Dear, you don't need to *write* in your accent, I'm sure they'll be able to get it themselves."/>
 <br>
 
-
-<style scoped lang="scss">
-$stops: ();
-$totalStops:36;
-$radius:0.9;
-
-@for $i from 0 through $totalStops{
-  $stops:  append($stops,hsl($i * calc(360deg/$totalStops),100%,50%),comma);
-}
-
-.chart {
-  margin: 1.5em auto;
-  width: 25em;
-  height: 25em;
-  max-width: 100%;
-  &.smol {
-    width: 10em;
-    height: 10em;
-    border: 2px solid #fff;
-  }
-  /* width: 100vh * $radius;
-  height: 100vh * $radius;
-  position: absolute; 
-  top: 50%; 
-  left:50%;
-  transform:translate(-50%, -50%); */
-  
-  background: #000;
-  background: 
-    radial-gradient(
-      circle closest-side,
-      hsl(0,0%,100%),
-      hsl(0,0%,0%) 90%
-    ),
-    conic-gradient($stops);
-  border: 5px solid #fff;
-  box-shadow: 0px 5px 10px rgba(#000,0.5);
-  background-blend-mode: screen;
-  border-radius: 50%
-}
-</style>
 
 <script setup lang="ts">
 import PixieHueshifting1 from './pixienop-hueshifting-1.jpg'

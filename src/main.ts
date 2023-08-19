@@ -5,6 +5,7 @@ import { loadFonts } from './plugins/webfontloader'
 
 import MarkdownWrapper from './components/MarkdownWrapper.vue'
 import Ponymote from '@/components/Ponymote.vue'
+import ColourWheel from '@/components/ColourWheel.vue'
 import GuideFullWidthImage from '@/components/GuideFullWidthImage.vue'
 import GuideImageGallery from '@/components/GuideImageGallery.vue'
 import GuideNote from '@/components/GuideNote.vue'
@@ -19,6 +20,7 @@ createApp(App)
   .use(router)
   .use(vuetify)
   .component('MarkdownWrapper', MarkdownWrapper)
+  .component('ColourWheel', ColourWheel)
   .component('Ponymote', Ponymote)
   .component('GuideFullWidthImage', GuideFullWidthImage)
   .component('GuideImageGallery', GuideImageGallery)
