@@ -51,16 +51,14 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 
-const props = defineProps({
-  finelineImageLink: String,
-  finelineArtistName: String,
-  finelineArtistLink: String,
-})
-
 const submit_url = import.meta.env.MLPDS_CLIENT_SUBMIT_FINELINE_URL;
 
-var status = ref('start')
-var loading = ref(false)
+const finelineImageLink = ref('');
+const finelineArtistName = ref('');
+const finelineArtistLink = ref('');
+
+const status = ref('start')
+const loading = ref(false)
 
 const submitFineline = async (e: Event) => {
   loading.value = true
@@ -68,9 +66,9 @@ const submitFineline = async (e: Event) => {
   const results = await fetch(submit_url, {
     method: "POST",
     body: JSON.stringify({
-      "image": props.finelineImageLink,
-      "artistName": props.finelineArtistName,
-      "artistLink": props.finelineImageLink,
+      "image": finelineImageLink.value,
+      "artistName": finelineArtistName.value,
+      "artistLink": finelineArtistLink.value,
     }),
     headers: {
       "Content-type": "application/json; charset=UTF-8"

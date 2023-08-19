@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import pages from "vite-plugin-pages";
-import markdown from 'vite-plugin-vue-markdown'
+import Markdown from 'unplugin-vue-markdown/vite'
 import vuetify from 'vite-plugin-vuetify'
 
 import path from 'path'
@@ -29,7 +29,7 @@ export default defineConfig({
       extensions: ['vue', 'ts', 'js', 'md'],
     }),
     // https://github.com/antfu/vite-plugin-md
-    markdown({
+    Markdown({
       wrapperComponent: 'MarkdownWrapper',
     }),
   ],
