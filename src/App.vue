@@ -1,13 +1,13 @@
 <template>
   <v-app :theme="darkTheme ? 'dark' : 'light'">
     <v-navigation-drawer v-model="drawer" app>
-      <v-sheet flat color="secondary" height="12em">
+      <!-- <v-sheet flat color="secondary" height="12em">
         <router-link to="/">
         <v-img
           :src="logo"
         />
         </router-link>
-      </v-sheet>
+      </v-sheet> -->
       <v-divider></v-divider>
       <v-list dense nav>
         <v-list-item key="logo">
