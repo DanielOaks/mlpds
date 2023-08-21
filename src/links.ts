@@ -37,7 +37,8 @@ export const externalLinks = [
     icon: 'mdi-text-box-check',
     iconColor: 'teal',
     title: 'Critique Guide',
-    link: 'https://www.reddit.com/r/MLPdrawingschool/comments/p93po/how_to_critique_for_critics_and_artists_alike/',
+    link: '/guides/how-to-critique',
+    inlineLink: true,
   },
   {
     icon: 'mdi-trophy-variant',
