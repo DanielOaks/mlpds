@@ -74,6 +74,7 @@
         compact
         hide-details
         class="flex-grow-0"
+        style="margin-inline-end: 10px;"
       />
     </v-app-bar>
 
