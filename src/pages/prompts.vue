@@ -9,14 +9,23 @@
       </v-col>
     </v-row>
     <v-row class="form">
-      <v-checkbox v-model="requireCharacterImages" label="Require character images"/>
+      <v-checkbox density="compact" v-model="requireCharacterImages" label="Require character images"/>
+      <v-checkbox density="compact" v-model="allowUnnamed" label="Allow unnamed characters"/>
     </v-row>
     <v-row class="form">
       <p>Include:</p>
     </v-row>
     <v-row class="form">
-      <v-checkbox v-model="includeFiM" label="Friendship is Magic (Gen 5)"/>
-      <v-checkbox v-model="includeANG" label="A New Generation (Gen 6)"/>
+      <v-select
+        label="Select"
+        density="compact"
+        v-model="includeKind"
+        :items="['All'].concat(Object.keys(characterKindGroups).map(key => key.charAt(0).toUpperCase() + key.slice(1)), Object.keys(characterKindMap).map(key => key.charAt(0).toUpperCase() + key.slice(1)))"
+      ></v-select>
+    </v-row>
+    <v-row class="form">
+      <v-checkbox density="compact" v-model="includeFiM" label="Friendship is Magic (Gen 5)"/>
+      <v-checkbox density="compact" v-model="includeANG" label="A New Generation (Gen 6)"/>
     </v-row>
     <v-row class="form" style="justify-content: center;">
       <v-btn prepend-icon="mdi-dice-3" @click="generate()">
@@ -72,6 +81,8 @@ var characterKindMap: {[key: string]: boolean} = {
 }
 
 var requireCharacterImages = ref(true)
+var allowUnnamed = ref(true)
+var includeKind = ref('All')
 var includeFiM = ref(true)
 var includeANG = ref(true)
 
@@ -120,7 +131,12 @@ const generate = () => {
   const potentialChars: string[] = []
   const resultCharNames: string[] = []
 
+  const desiredKind = includeKind.value.toLowerCase()
+
   for (const [key, value] of Object.entries(characters)) {
+    if (value.name.toLowerCase().includes('unnamed') && !allowUnnamed.value) {
+      continue
+    }
     if (value.imageName === undefined && requireCharacterImages.value) {
       continue
     }
@@ -132,16 +148,27 @@ const generate = () => {
       continue
     }
 
+    if (desiredKind != 'all' && !value.kinds.includes(desiredKind)) {
+      continue
+    }
+
     potentialChars.push(key)
   }
 
   // assume 3 chars for now
   var i = 3
-  while (i > 0) {
-    const newName = potentialChars[(Math.floor(Math.random() * potentialChars.length))]
-    if (!resultCharNames.includes(newName)) {
-      resultCharNames.push(newName)
-      i -= 1
+  if (potentialChars.length <= i) {
+    // shuffle results
+    potentialChars.sort(() => Math.random() - 0.5).forEach(name => {
+      resultCharNames.push(name)
+    })
+  } else {
+    while (i > 0) {
+      const newName = potentialChars[(Math.floor(Math.random() * potentialChars.length))]
+      if (!resultCharNames.includes(newName)) {
+        resultCharNames.push(newName)
+        i -= 1
+      }
     }
   }
 
