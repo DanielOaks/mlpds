@@ -22,6 +22,11 @@ export default defineConfig({
     }),
     Vue({
       include: [/\.vue$/, /\.md$/],
+      template: {
+        compilerOptions: {
+          isCustomElement: (tag) => ['subtitle'].includes(tag),
+        }
+      }
     }),
     // https://github.com/vuetifyjs/vuetify-loader/tree/next/packages/vite-plugin
     vuetify({
