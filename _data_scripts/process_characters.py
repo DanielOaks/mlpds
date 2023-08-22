@@ -52,13 +52,22 @@ for k, v in characters.items():
             download(image_url, final_filename)
 
 # remove image urls now that we're done with them
+# also do other post-processing
 for k, v in characters.items():
     try:
         del v['imageURL']
-        characters[k] = v
     except KeyError:
         # no image on this character, this is okay
         ...
+
+    if v['group'].startswith('f') and 'discuss' in v['group']:
+        v['group'] = 'f'
+
+    v['kind'] = v['kind'].lower()
+    if v['kind'].startswith('draconequus') and 'discuss' in v['kind']:
+        v['kind'] = 'draconequus'
+
+    characters[k] = v
 
 # write final json file
 with open('../src/assets/characters.json', 'w') as f:
