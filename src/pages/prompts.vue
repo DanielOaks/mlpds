@@ -41,6 +41,16 @@
         <span class="name mt-1">{{ char.name }}</span>
       </div>
     </v-row>
+    <v-row class="form mt-12">
+      <p>Location:</p>
+    </v-row>
+    <v-row class="results">
+      <div class="location" v-for="location in resultLocations">
+        <div v-if="location.image !== undefined" class="image-bg"><img :src="'/locations/'+location.image"/></div>
+        <span class="subPlace mt-1">{{ location.subPlace }}</span>
+        <span class="place">{{ location.place }}</span>
+      </div>
+    </v-row>
     <v-row class="footer mt-10">
       <p>Includes content from <a href="https://mlp.fandom.com/">mlp.fandom.com</a> and <a href="https://g5mlp.fandom.com/">g5mlp.fandom.com</a> used under CC-BY-SA</p>
     </v-row>
@@ -50,6 +60,11 @@
 <script setup lang="ts">
 import { reactive, ref } from 'vue'
 import characters from '@/assets/characters.json'
+import locations from '@/assets/locations.json'
+
+//
+// characters
+//
 
 type Character = {
   slug: string,
@@ -123,11 +138,52 @@ for (const [key, value] of Object.entries(characters)) {
   }
 }
 
-console.log(characters)
-console.log(kinds)
-console.log(firstSeasons)
+//
+// locations
+//
+
+type Location = {
+  slug: string,
+  place: string,
+  subPlace: string,
+  image?: string,
+}
+
+var resultLocations: Location[] = reactive([])
+
+//
+// generation
+//
 
 const generate = () => {
+  // generate location
+  const potentialLocations: string[] = []
+
+  for (const [key, value] of Object.entries(locations)) {
+    if (value.series === 'fim' && !includeFiM.value) {
+      continue
+    }
+    if (value.series === 'ang' && !includeANG.value) {
+      continue
+    }
+
+    potentialLocations.push(key)
+  }
+
+  const resultLocationName = potentialLocations[(Math.floor(Math.random() * potentialLocations.length))]
+
+  // set resulting locations
+  while (resultLocations.length > 0) {
+    resultLocations.pop()
+  }
+
+  resultLocations.push({
+    slug: resultLocationName,
+    place: locations[resultLocationName].place,
+    subPlace: locations[resultLocationName].subPlace,
+  })
+
+  // generate characters
   const potentialChars: string[] = []
   const resultCharNames: string[] = []
 
@@ -202,6 +258,19 @@ h1 subtitle {
 }
 .results {
   justify-content: center;
+  .image-bg {
+    width: 10em;
+    height: 10em;
+    background: #fff;
+    border-radius: .5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      max-width: 10em;
+      max-height: 10em;
+    }
+  }
   .character {
     display: flex;
     flex-direction: column;
@@ -213,21 +282,16 @@ h1 subtitle {
     color: rgb(var(--v-theme-on-secondary));
     font-weight: 500;
     margin: .5em;
-    .image-bg {
-      width: 10em;
-      height: 10em;
-      background: #fff;
-      border-radius: .5em;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      img {
-        max-width: 10em;
-        max-height: 10em;
-      }
+  }
+  .location {
+    text-align: center;
+    .subPlace {
+      display: block;
+      font-size: 1.6em;
+      font-weight: 600;
     }
-    .name {
-
+    .place {
+      display: block;
     }
   }
 }
