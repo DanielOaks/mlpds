@@ -71,4 +71,4 @@ for k, v in characters.items():
 
 # write final json file
 with open('../src/assets/characters.json', 'w') as f:
-    f.write(json.dumps(characters))
+    f.write(json.dumps(characters, indent=2))
