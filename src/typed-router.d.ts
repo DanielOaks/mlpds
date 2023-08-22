@@ -85,6 +85,7 @@ declare module 'vue-router/auto/routes' {
     '/guides/variety-in-art': RouteRecordInfo<'/guides/variety-in-art', '/guides/variety-in-art', Record<never, never>, Record<never, never>>,
     '/guides/what-is-critique': RouteRecordInfo<'/guides/what-is-critique', '/guides/what-is-critique', Record<never, never>, Record<never, never>>,
     '/guides/where-to-shade': RouteRecordInfo<'/guides/where-to-shade', '/guides/where-to-shade', Record<never, never>, Record<never, never>>,
+    '/prompts': RouteRecordInfo<'/prompts', '/prompts', Record<never, never>, Record<never, never>>,
     '/wip-privacy': RouteRecordInfo<'/wip-privacy', '/wip-privacy', Record<never, never>, Record<never, never>>,
     '/wip-tos': RouteRecordInfo<'/wip-tos', '/wip-tos', Record<never, never>, Record<never, never>>,
   }
