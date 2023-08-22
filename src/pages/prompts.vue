@@ -205,7 +205,7 @@ const generate = () => {
       continue
     }
 
-    var includedInSelection = desiredKinds.includes('all')
+    var includedInSelection = desiredKinds.length === 1 ? desiredKinds.includes('all') : false
     if (!includedInSelection) {
       desiredKinds.forEach(kind => {
         if (value.kinds.includes(kind)) {
