@@ -6,18 +6,18 @@
           :src="logo"
           class="landingLogo"
           contain
-          height="200"
+          height="150"
         />
       </v-col>
 
-      <v-col>
+      <v-col class="pt-2 pb-2">
         <h1 class="display-2 font-weight-bold mb-3">
           MLP Drawing School
           <subtitle>We're a supportive and nurturing art community.</subtitle>
         </h1>
       </v-col>
 
-      <v-col cols="12">
+      <v-col class="pt-2 pb-2" cols="12">
         <v-row justify="center">
           <a
             v-for="item in socialMediaLinks"
@@ -35,7 +35,29 @@
       <v-col class="mt-5" cols="12">
         <v-row justify="center">
           <v-card
-            v-for="item in externalLinks"
+            v-for="item in externalLinks1"
+            elevation="2"
+            tile
+            class="lpGalleryCard lpLinksCard rounded-b-xl rounded-t-xl"
+          >
+            <v-sheet class="fill-height img">
+              <a
+                link
+                :href="item.link"
+                :target="item.inlineLink ? '' : '_blank'"
+              >
+                <v-icon size="70" :color="item.iconColor">{{ item.icon }}</v-icon>
+              </a>
+            </v-sheet>
+            <v-card-subtitle class="subtitle">
+              <a :href="item.link">{{ item.title }}</a>
+            </v-card-subtitle>
+          </v-card>
+        </v-row>
+
+        <v-row justify="center">
+          <v-card
+            v-for="item in externalLinks2"
             elevation="2"
             tile
             class="lpGalleryCard lpLinksCard rounded-b-xl rounded-t-xl"
@@ -101,7 +123,7 @@ definePage({
 })
 
 import FinelineSubmitForm from '@/components/FinelineSubmitForm.vue';
-import { socialMediaLinks, externalLinks } from '@/links'
+import { socialMediaLinks, externalLinks1, externalLinks2 } from '@/links'
 import logo from '@/assets/logo.png'
 
 import fluffyxaiFineline1 from '@/assets/fineline/fluffyxai-fineline-1.png'

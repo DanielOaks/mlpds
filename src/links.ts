@@ -19,7 +19,7 @@ export const socialMediaLinks = [
   },
 ]
 
-export const externalLinks = [
+export const externalLinks1 = [
   {
     icon: 'mdi-compass',
     iconColor: 'amber',
@@ -40,10 +40,20 @@ export const externalLinks = [
     link: '/guides/how-to-critique',
     inlineLink: true,
   },
+]
+
+export const externalLinks2 = [
   {
     icon: 'mdi-trophy-variant',
     iconColor: 'pink',
     title: 'MLPDS Challenges',
     link: 'https://www.reddit.com/r/MLPdrawingschool/wiki/biweekly',
+  },
+  {
+    icon: 'mdi-dice-3',
+    iconColor: '#4895ce',
+    title: 'Prompt Generator',
+    link: '/prompts',
+    inlineLink: true,
   },
 ]

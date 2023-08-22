@@ -37,7 +37,19 @@
         </v-list-item>
         <v-card flat height="1.2em"/>
         <v-list-item
-          v-for="item in externalLinks"
+          v-for="item in externalLinks1"
+          :key="item.title"
+          link
+          :href="item.link"
+          :target="item.inlineLink ? '' : '_blank'"
+        >
+          <v-list-item-icon :color="item.iconColor" :icon="item.icon"></v-list-item-icon>
+          <v-list-item-content>
+            <v-list-item-title>&nbsp;&nbsp;{{ item.title }}</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+        <v-list-item
+          v-for="item in externalLinks2"
           :key="item.title"
           link
           :href="item.link"
@@ -93,7 +105,7 @@
 
 <script setup lang="ts">
 import { useStoredRef } from './refs'
-import { socialMediaLinks, externalLinks } from './links'
+import { socialMediaLinks, externalLinks1, externalLinks2 } from './links'
 import logo from '@/assets/logo.png'
 import mlpdsBanner from '@/assets/mlpds-banner-dark.png'
 import { ref } from 'vue'

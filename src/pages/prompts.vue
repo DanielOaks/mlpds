@@ -32,7 +32,7 @@
         Generate
       </v-btn>
     </v-row>
-    <v-row class="form mt-12">
+    <v-row class="form mt-12" v-if="resultChars.length > 0">
       <p>Characters:</p>
     </v-row>
     <v-row class="results">
@@ -41,7 +41,7 @@
         <span class="name mt-1">{{ char.name }}</span>
       </div>
     </v-row>
-    <v-row class="form mt-12">
+    <v-row class="form mt-12" v-if="resultLocations.length > 0">
       <p>Location:</p>
     </v-row>
     <v-row class="results">
