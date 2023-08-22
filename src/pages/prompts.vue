@@ -32,19 +32,19 @@
         Generate
       </v-btn>
     </v-row>
-    <v-row class="form mt-12" v-if="resultChars.length > 0">
+    <!-- <v-row class="form mt-12" v-if="resultChars.length > 0">
       <p>Characters:</p>
-    </v-row>
-    <v-row class="results">
+    </v-row> -->
+    <v-row class="results mt-12">
       <div class="character" v-for="char in resultChars">
         <div class="image-bg"><img v-if="char.image !== undefined" :src="'/characters/'+char.image"/></div>
         <span class="name mt-1">{{ char.name }}</span>
       </div>
     </v-row>
-    <v-row class="form mt-12" v-if="resultLocations.length > 0">
+    <!-- <v-row class="form mt-12" v-if="resultLocations.length > 0">
       <p>Location:</p>
-    </v-row>
-    <v-row class="results">
+    </v-row> -->
+    <v-row class="results mt-3">
       <div class="location" v-for="location in resultLocations">
         <div v-if="location.image !== undefined" class="image-bg"><img :src="'/locations/'+location.image"/></div>
         <span class="subPlace mt-1">{{ location.subPlace }}</span>
