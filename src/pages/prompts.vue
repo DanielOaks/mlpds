@@ -19,7 +19,8 @@
       <v-select
         label="Select"
         density="compact"
-        v-model="includeKind"
+        v-model="includeKinds"
+        multiple
         :items="['All'].concat(Object.keys(characterKindGroups).map(key => key.charAt(0).toUpperCase() + key.slice(1)), Object.keys(characterKindMap).map(key => key.charAt(0).toUpperCase() + key.slice(1)))"
       ></v-select>
     </v-row>
@@ -97,7 +98,7 @@ var characterKindMap: {[key: string]: boolean} = {
 
 var requireCharacterImages = ref(true)
 var allowUnnamed = ref(true)
-var includeKind = ref('All')
+var includeKinds = ref(['All'])
 var includeFiM = ref(true)
 var includeANG = ref(true)
 
@@ -187,7 +188,7 @@ const generate = () => {
   const potentialChars: string[] = []
   const resultCharNames: string[] = []
 
-  const desiredKind = includeKind.value.toLowerCase()
+  const desiredKinds = includeKinds.value.map(name => name.toLowerCase())
 
   for (const [key, value] of Object.entries(characters)) {
     if (value.name.toLowerCase().includes('unnamed') && !allowUnnamed.value) {
@@ -204,7 +205,15 @@ const generate = () => {
       continue
     }
 
-    if (desiredKind != 'all' && !value.kinds.includes(desiredKind)) {
+    var includedInSelection = desiredKinds.includes('all')
+    if (!includedInSelection) {
+      desiredKinds.forEach(kind => {
+        if (value.kinds.includes(kind)) {
+          includedInSelection = true
+        }
+      })
+    }
+    if (!includedInSelection) {
       continue
     }
 
