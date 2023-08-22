@@ -1,6 +1,7 @@
 #!/bin/env python3
 from slugify import slugify
 import json
+import requests
 import yaml
 import os
 
