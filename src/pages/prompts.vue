@@ -24,8 +24,8 @@
       ></v-select>
     </v-row>
     <v-row class="form">
-      <v-checkbox density="compact" v-model="includeFiM" label="Friendship is Magic (Gen 5)"/>
-      <v-checkbox density="compact" v-model="includeANG" label="A New Generation (Gen 6)"/>
+      <v-checkbox density="compact" v-model="includeFiM" label="Friendship is Magic (Gen 4)"/>
+      <v-checkbox density="compact" v-model="includeANG" label="A New Generation (Gen 5)"/>
     </v-row>
     <v-row class="form" style="justify-content: center;">
       <v-btn prepend-icon="mdi-dice-3" @click="generate()">

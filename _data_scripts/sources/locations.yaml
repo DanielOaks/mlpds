@@ -2,7 +2,7 @@
 # gets processed and turned into json
 
 locations:
-  # friendship is magic, gen 5
+  # friendship is magic, gen 4
   fim:
     Canterlot:
       - Twilight Sparkle's tower
@@ -171,7 +171,7 @@ locations:
       - Fluttershy's cottage
       - Ponyville Day Spa
 
-  # a new generation, gen 6
+  # a new generation, gen 5
   ang:
     Bridlewood:
       - Izzy's house
