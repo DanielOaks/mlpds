@@ -13,4 +13,4 @@ These source files are processed by the scripts here, and turned into the source
 
 ## Attribution
 
-The characters and character images are collected from the MLP FiM Fandom Wiki and their contributors, and used under CC-BY-SA. Please feel free to use the json files and collection of associated images of these characters under CC-BY-SA as well!!
+The characters and character images are collected from the MLP FiM Fandom Wiki and G5 MLP Fandom Wiki and their contributors, and used under CC-BY-SA. Please feel free to use the json files and collection of associated images of these characters under CC-BY-SA as well!!

@@ -42,7 +42,7 @@
       </div>
     </v-row>
     <v-row class="footer mt-10">
-      <p>Includes content from <a href="https://mlp.fandom.com/">mlp.fandom.com</a> used under CC-BY-SA</p>
+      <p>Includes content from <a href="https://mlp.fandom.com/">mlp.fandom.com</a> and <a href="https://g5mlp.fandom.com/">g5mlp.fandom.com</a> used under CC-BY-SA</p>
     </v-row>
   </v-container>
 </template>

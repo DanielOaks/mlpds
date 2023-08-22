@@ -1,0 +1,807 @@
+{
+  "fim-canterlot-twilight-sparkle-s-tower": {
+    "series": "fim",
+    "place": "Canterlot",
+    "subPlace": "Twilight Sparkle's tower"
+  },
+  "fim-canterlot-canterlot-castle": {
+    "series": "fim",
+    "place": "Canterlot",
+    "subPlace": "Canterlot Castle"
+  },
+  "fim-canterlot-sculpture-garden": {
+    "series": "fim",
+    "place": "Canterlot",
+    "subPlace": "Sculpture garden"
+  },
+  "fim-canterlot-crystal-caves": {
+    "series": "fim",
+    "place": "Canterlot",
+    "subPlace": "Crystal caves"
+  },
+  "fim-canterlot-canterlot-tower": {
+    "series": "fim",
+    "place": "Canterlot",
+    "subPlace": "Canterlot Tower"
+  },
+  "fim-canterlot-school-for-gifted-unicorns": {
+    "series": "fim",
+    "place": "Canterlot",
+    "subPlace": "School for Gifted Unicorns"
+  },
+  "fim-canterlot-library-of-magic": {
+    "series": "fim",
+    "place": "Canterlot",
+    "subPlace": "Library of Magic"
+  },
+  "fim-canterlot-cloud-stadium": {
+    "series": "fim",
+    "place": "Canterlot",
+    "subPlace": "Cloud Stadium"
+  },
+  "fim-canterlot-opera-house": {
+    "series": "fim",
+    "place": "Canterlot",
+    "subPlace": "Opera House"
+  },
+  "fim-canterlot-canterlot-archives": {
+    "series": "fim",
+    "place": "Canterlot",
+    "subPlace": "Canterlot Archives"
+  },
+  "fim-canterlot-sapphire-shores-dance-studio": {
+    "series": "fim",
+    "place": "Canterlot",
+    "subPlace": "Sapphire Shores' Dance Studio"
+  },
+  "fim-canterlot-canterlot-historical-society": {
+    "series": "fim",
+    "place": "Canterlot",
+    "subPlace": "Canterlot Historical Society"
+  },
+  "fim-canterlot-best-of-the-best-boutique": {
+    "series": "fim",
+    "place": "Canterlot",
+    "subPlace": "Best of the Best Boutique"
+  },
+  "fim-canterlot-joe-s-donut-shop": {
+    "series": "fim",
+    "place": "Canterlot",
+    "subPlace": "Joe's donut shop"
+  },
+  "fim-canterlot-cinnamon-chai-s-tea-and-cake-shop": {
+    "series": "fim",
+    "place": "Canterlot",
+    "subPlace": "Cinnamon Chai's Tea and Cake Shop"
+  },
+  "fim-canterlot-art-gallery": {
+    "series": "fim",
+    "place": "Canterlot",
+    "subPlace": "Art gallery"
+  },
+  "fim-canterlot-auction-house": {
+    "series": "fim",
+    "place": "Canterlot",
+    "subPlace": "Auction house"
+  },
+  "fim-canterlot-curio-shop": {
+    "series": "fim",
+    "place": "Canterlot",
+    "subPlace": "Curio shop"
+  },
+  "fim-canterlot-canterlot-carousel": {
+    "series": "fim",
+    "place": "Canterlot",
+    "subPlace": "Canterlot Carousel"
+  },
+  "fim-canterlot-restaurant-row": {
+    "series": "fim",
+    "place": "Canterlot",
+    "subPlace": "Restaurant Row"
+  },
+  "fim-canterlot-the-tasty-treat": {
+    "series": "fim",
+    "place": "Canterlot",
+    "subPlace": "The Tasty Treat"
+  },
+  "fim-canterlot-the-grand-galloping-gala": {
+    "series": "fim",
+    "place": "Canterlot",
+    "subPlace": "The Grand Galloping Gala"
+  },
+  "fim-cloudsdale-cloudsdale": {
+    "series": "fim",
+    "place": "Cloudsdale",
+    "subPlace": "Cloudsdale"
+  },
+  "fim-cloudsdale-the-cloudeseum": {
+    "series": "fim",
+    "place": "Cloudsdale",
+    "subPlace": "The Cloudeseum"
+  },
+  "fim-cloudsdale-weather-factory": {
+    "series": "fim",
+    "place": "Cloudsdale",
+    "subPlace": "Weather Factory"
+  },
+  "fim-cloudsdale-flight-camp": {
+    "series": "fim",
+    "place": "Cloudsdale",
+    "subPlace": "Flight Camp"
+  },
+  "fim-crystal-empire-crystal-empire": {
+    "series": "fim",
+    "place": "Crystal Empire",
+    "subPlace": "Crystal Empire"
+  },
+  "fim-crystal-empire-crystal-square": {
+    "series": "fim",
+    "place": "Crystal Empire",
+    "subPlace": "Crystal Square"
+  },
+  "fim-crystal-empire-crystal-castle": {
+    "series": "fim",
+    "place": "Crystal Empire",
+    "subPlace": "Crystal Castle"
+  },
+  "fim-crystal-empire-library": {
+    "series": "fim",
+    "place": "Crystal Empire",
+    "subPlace": "Library"
+  },
+  "fim-crystal-empire-spa": {
+    "series": "fim",
+    "place": "Crystal Empire",
+    "subPlace": "Spa"
+  },
+  "fim-crystal-empire-stadium": {
+    "series": "fim",
+    "place": "Crystal Empire",
+    "subPlace": "Stadium"
+  },
+  "fim-crystal-empire-sunburst-s-house": {
+    "series": "fim",
+    "place": "Crystal Empire",
+    "subPlace": "Sunburst's house"
+  },
+  "fim-crystal-empire-crystal-faire": {
+    "series": "fim",
+    "place": "Crystal Empire",
+    "subPlace": "Crystal Faire"
+  },
+  "fim-equestria-saddle-lake": {
+    "series": "fim",
+    "place": "Equestria",
+    "subPlace": "Saddle Lake"
+  },
+  "fim-equestria-white-tail-woods": {
+    "series": "fim",
+    "place": "Equestria",
+    "subPlace": "White Tail Woods"
+  },
+  "fim-equestria-froggy-bottom-bogg": {
+    "series": "fim",
+    "place": "Equestria",
+    "subPlace": "Froggy Bottom Bogg"
+  },
+  "fim-equestria-rambling-rock-ridge": {
+    "series": "fim",
+    "place": "Equestria",
+    "subPlace": "Rambling Rock Ridge"
+  },
+  "fim-equestria-pie-family-rock-farm": {
+    "series": "fim",
+    "place": "Equestria",
+    "subPlace": "Pie Family Rock Farm"
+  },
+  "fim-equestria-ghastly-gorge": {
+    "series": "fim",
+    "place": "Equestria",
+    "subPlace": "Ghastly Gorge"
+  },
+  "fim-equestria-winsome-falls": {
+    "series": "fim",
+    "place": "Equestria",
+    "subPlace": "Winsome Falls"
+  },
+  "fim-equestria-tenochtitlan-basin": {
+    "series": "fim",
+    "place": "Equestria",
+    "subPlace": "Tenochtitlan Basin"
+  },
+  "fim-equestria-rainbow-falls": {
+    "series": "fim",
+    "place": "Equestria",
+    "subPlace": "Rainbow Falls"
+  },
+  "fim-equestria-fillydelphia": {
+    "series": "fim",
+    "place": "Equestria",
+    "subPlace": "Fillydelphia"
+  },
+  "fim-equestria-applewood": {
+    "series": "fim",
+    "place": "Equestria",
+    "subPlace": "Applewood"
+  },
+  "fim-equestria-baltimare": {
+    "series": "fim",
+    "place": "Equestria",
+    "subPlace": "Baltimare"
+  },
+  "fim-equestria-hollow-shades": {
+    "series": "fim",
+    "place": "Equestria",
+    "subPlace": "Hollow Shades"
+  },
+  "fim-equestria-the-well-of-shade": {
+    "series": "fim",
+    "place": "Equestria",
+    "subPlace": "The Well of Shade"
+  },
+  "fim-equestria-galloping-gorge": {
+    "series": "fim",
+    "place": "Equestria",
+    "subPlace": "Galloping Gorge"
+  },
+  "fim-equestria-foal-mountain": {
+    "series": "fim",
+    "place": "Equestria",
+    "subPlace": "Foal Mountain"
+  },
+  "fim-equestria-ponhenge": {
+    "series": "fim",
+    "place": "Equestria",
+    "subPlace": "Ponhenge"
+  },
+  "fim-equestria-vanhoover": {
+    "series": "fim",
+    "place": "Equestria",
+    "subPlace": "Vanhoover"
+  },
+  "fim-equestria-hill-top": {
+    "series": "fim",
+    "place": "Equestria",
+    "subPlace": "Hill Top"
+  },
+  "fim-equestria-san-palomino-desert": {
+    "series": "fim",
+    "place": "Equestria",
+    "subPlace": "San Palomino Desert"
+  },
+  "fim-equestria-the-badlands": {
+    "series": "fim",
+    "place": "Equestria",
+    "subPlace": "The Badlands"
+  },
+  "fim-equestria-breezie-village": {
+    "series": "fim",
+    "place": "Equestria",
+    "subPlace": "Breezie Village"
+  },
+  "fim-equestria-flame-geyser-swamp": {
+    "series": "fim",
+    "place": "Equestria",
+    "subPlace": "Flame Geyser Swamp"
+  },
+  "fim-equestria-tartarus": {
+    "series": "fim",
+    "place": "Equestria",
+    "subPlace": "Tartarus"
+  },
+  "fim-equestria-neighagra-falls": {
+    "series": "fim",
+    "place": "Equestria",
+    "subPlace": "Neighagra Falls"
+  },
+  "fim-equestria-our-town": {
+    "series": "fim",
+    "place": "Equestria",
+    "subPlace": "Our Town"
+  },
+  "fim-equestria-sire-s-hollow": {
+    "series": "fim",
+    "place": "Equestria",
+    "subPlace": "Sire's Hollow"
+  },
+  "fim-equestria-seaward-shoals": {
+    "series": "fim",
+    "place": "Equestria",
+    "subPlace": "Seaward Shoals"
+  },
+  "fim-equestria-stratusburg": {
+    "series": "fim",
+    "place": "Equestria",
+    "subPlace": "Stratusburg"
+  },
+  "fim-equestria-somnambula": {
+    "series": "fim",
+    "place": "Equestria",
+    "subPlace": "Somnambula"
+  },
+  "fim-equestria-hayseed-swamp": {
+    "series": "fim",
+    "place": "Equestria",
+    "subPlace": "Hayseed Swamp"
+  },
+  "fim-equestria-the-peaks-of-peril": {
+    "series": "fim",
+    "place": "Equestria",
+    "subPlace": "The Peaks of Peril"
+  },
+  "fim-equestria-kirin-village": {
+    "series": "fim",
+    "place": "Equestria",
+    "subPlace": "Kirin Village"
+  },
+  "fim-equestria-autumn-blaze-s-cottage": {
+    "series": "fim",
+    "place": "Equestria",
+    "subPlace": "Autumn Blaze's Cottage"
+  },
+  "fim-equestria-sweet-acorn-orchard": {
+    "series": "fim",
+    "place": "Equestria",
+    "subPlace": "Sweet Acorn Orchard"
+  },
+  "fim-equestria-silver-stable-community": {
+    "series": "fim",
+    "place": "Equestria",
+    "subPlace": "Silver Stable Community"
+  },
+  "fim-equestria-mt-everhoof": {
+    "series": "fim",
+    "place": "Equestria",
+    "subPlace": "Mt. Everhoof"
+  },
+  "fim-equestria-hope-hollow": {
+    "series": "fim",
+    "place": "Equestria",
+    "subPlace": "Hope Hollow"
+  },
+  "fim-equestria-salt-lick-city": {
+    "series": "fim",
+    "place": "Equestria",
+    "subPlace": "Salt Lick City"
+  },
+  "fim-equestria-whinnyapolis": {
+    "series": "fim",
+    "place": "Equestria",
+    "subPlace": "Whinnyapolis"
+  },
+  "fim-equestria-austailia": {
+    "series": "fim",
+    "place": "Equestria",
+    "subPlace": "Austailia"
+  },
+  "fim-everfree-forest-everfree-forest": {
+    "series": "fim",
+    "place": "Everfree Forest",
+    "subPlace": "Everfree Forest"
+  },
+  "fim-everfree-forest-zecora-s-house": {
+    "series": "fim",
+    "place": "Everfree Forest",
+    "subPlace": "Zecora's House"
+  },
+  "fim-everfree-forest-the-castle-of-the-two-sisters": {
+    "series": "fim",
+    "place": "Everfree Forest",
+    "subPlace": "The Castle of the Two Sisters"
+  },
+  "fim-everfree-forest-the-tree-of-harmony": {
+    "series": "fim",
+    "place": "Everfree Forest",
+    "subPlace": "The Tree of Harmony"
+  },
+  "fim-las-pegasus-las-pegasus": {
+    "series": "fim",
+    "place": "Las Pegasus",
+    "subPlace": "Las Pegasus"
+  },
+  "fim-las-pegasus-gladmane-s-resort": {
+    "series": "fim",
+    "place": "Las Pegasus",
+    "subPlace": "Gladmane's resort"
+  },
+  "fim-manehattan-manehattan": {
+    "series": "fim",
+    "place": "Manehattan",
+    "subPlace": "Manehattan"
+  },
+  "fim-manehattan-crystaller-building": {
+    "series": "fim",
+    "place": "Manehattan",
+    "subPlace": "Crystaller Building"
+  },
+  "fim-manehattan-the-mare-statue": {
+    "series": "fim",
+    "place": "Manehattan",
+    "subPlace": "The Mare Statue"
+  },
+  "fim-manehattan-babs-seed-s-school": {
+    "series": "fim",
+    "place": "Manehattan",
+    "subPlace": "Babs Seed's school"
+  },
+  "fim-manehattan-maneway-station": {
+    "series": "fim",
+    "place": "Manehattan",
+    "subPlace": "Maneway Station"
+  },
+  "fim-manehattan-bridleway-theater-district": {
+    "series": "fim",
+    "place": "Manehattan",
+    "subPlace": "Bridleway Theater District"
+  },
+  "fim-manehattan-bronclyn": {
+    "series": "fim",
+    "place": "Manehattan",
+    "subPlace": "Bronclyn"
+  },
+  "fim-manehattan-ice-skating-rink": {
+    "series": "fim",
+    "place": "Manehattan",
+    "subPlace": "Ice-skating rink"
+  },
+  "fim-manehattan-manehattan-park": {
+    "series": "fim",
+    "place": "Manehattan",
+    "subPlace": "Manehattan Park"
+  },
+  "fim-manehattan-manefair-hotel": {
+    "series": "fim",
+    "place": "Manehattan",
+    "subPlace": "Manefair Hotel"
+  },
+  "fim-manehattan-newspaper-stand": {
+    "series": "fim",
+    "place": "Manehattan",
+    "subPlace": "Newspaper stand"
+  },
+  "fim-manehattan-the-cantering-cook": {
+    "series": "fim",
+    "place": "Manehattan",
+    "subPlace": "The Cantering Cook"
+  },
+  "fim-manehattan-rock-pouch-store": {
+    "series": "fim",
+    "place": "Manehattan",
+    "subPlace": "Rock pouch store"
+  },
+  "fim-manehattan-flea-market": {
+    "series": "fim",
+    "place": "Manehattan",
+    "subPlace": "Flea market"
+  },
+  "fim-manehattan-saddle-row": {
+    "series": "fim",
+    "place": "Manehattan",
+    "subPlace": "Saddle Row"
+  },
+  "fim-manehattan-rarity-for-you": {
+    "series": "fim",
+    "place": "Manehattan",
+    "subPlace": "Rarity For You"
+  },
+  "fim-manehattan-manehattan-escapes": {
+    "series": "fim",
+    "place": "Manehattan",
+    "subPlace": "Manehattan Escapes"
+  },
+  "fim-manehattan-manehattan-fashion-week": {
+    "series": "fim",
+    "place": "Manehattan",
+    "subPlace": "Manehattan Fashion Week"
+  },
+  "fim-manehattan-the-daring-do-convention": {
+    "series": "fim",
+    "place": "Manehattan",
+    "subPlace": "The Daring Do Convention"
+  },
+  "fim-manehattan-carneighie-hall": {
+    "series": "fim",
+    "place": "Manehattan",
+    "subPlace": "Carneighie Hall"
+  },
+  "fim-manehattan-the-manehattan-museum-of-art": {
+    "series": "fim",
+    "place": "Manehattan",
+    "subPlace": "The Manehattan Museum of Art"
+  },
+  "fim-manehattan-the-diamond-district": {
+    "series": "fim",
+    "place": "Manehattan",
+    "subPlace": "The Diamond District"
+  },
+  "fim-manehattan-madisoat-square-garden": {
+    "series": "fim",
+    "place": "Manehattan",
+    "subPlace": "Madisoat Square Garden"
+  },
+  "fim-old-west-equestria-appleloosa": {
+    "series": "fim",
+    "place": "Old West Equestria",
+    "subPlace": "Appleloosa"
+  },
+  "fim-old-west-equestria-the-salt-block-saloon": {
+    "series": "fim",
+    "place": "Old West Equestria",
+    "subPlace": "The Salt Block Saloon"
+  },
+  "fim-old-west-equestria-apple-orchard": {
+    "series": "fim",
+    "place": "Old West Equestria",
+    "subPlace": "Apple Orchard"
+  },
+  "fim-old-west-equestria-appleloosian-wastes": {
+    "series": "fim",
+    "place": "Old West Equestria",
+    "subPlace": "Appleloosian Wastes"
+  },
+  "fim-old-west-equestria-county-fair": {
+    "series": "fim",
+    "place": "Old West Equestria",
+    "subPlace": "County Fair"
+  },
+  "fim-old-west-equestria-dodge-junction": {
+    "series": "fim",
+    "place": "Old West Equestria",
+    "subPlace": "Dodge Junction"
+  },
+  "fim-outside-equestria-the-dragon-lands": {
+    "series": "fim",
+    "place": "Outside Equestria",
+    "subPlace": "The Dragon Lands"
+  },
+  "fim-outside-equestria-the-frozen-north": {
+    "series": "fim",
+    "place": "Outside Equestria",
+    "subPlace": "The Frozen North"
+  },
+  "fim-outside-equestria-the-crystal-mountains": {
+    "series": "fim",
+    "place": "Outside Equestria",
+    "subPlace": "The Crystal Mountains"
+  },
+  "fim-outside-equestria-saddle-arabia": {
+    "series": "fim",
+    "place": "Outside Equestria",
+    "subPlace": "Saddle Arabia"
+  },
+  "fim-outside-equestria-griffonstone": {
+    "series": "fim",
+    "place": "Outside Equestria",
+    "subPlace": "Griffonstone"
+  },
+  "fim-outside-equestria-klugetown": {
+    "series": "fim",
+    "place": "Outside Equestria",
+    "subPlace": "Klugetown"
+  },
+  "fim-outside-equestria-mount-aris": {
+    "series": "fim",
+    "place": "Outside Equestria",
+    "subPlace": "Mount Aris"
+  },
+  "fim-outside-equestria-hippogriffia": {
+    "series": "fim",
+    "place": "Outside Equestria",
+    "subPlace": "Hippogriffia"
+  },
+  "fim-outside-equestria-seaquestria": {
+    "series": "fim",
+    "place": "Outside Equestria",
+    "subPlace": "Seaquestria"
+  },
+  "fim-outside-equestria-basalt-beach": {
+    "series": "fim",
+    "place": "Outside Equestria",
+    "subPlace": "Basalt Beach"
+  },
+  "fim-outside-equestria-the-moon": {
+    "series": "fim",
+    "place": "Outside Equestria",
+    "subPlace": "The Moon"
+  },
+  "fim-ponyville-town-square": {
+    "series": "fim",
+    "place": "Ponyville",
+    "subPlace": "Town Square"
+  },
+  "fim-ponyville-town-hall": {
+    "series": "fim",
+    "place": "Ponyville",
+    "subPlace": "Town Hall"
+  },
+  "fim-ponyville-the-schoolhouse": {
+    "series": "fim",
+    "place": "Ponyville",
+    "subPlace": "The Schoolhouse"
+  },
+  "fim-ponyville-ponyville-hospital": {
+    "series": "fim",
+    "place": "Ponyville",
+    "subPlace": "Ponyville Hospital"
+  },
+  "fim-ponyville-train-station": {
+    "series": "fim",
+    "place": "Ponyville",
+    "subPlace": "Train station"
+  },
+  "fim-ponyville-ponyville-theatre": {
+    "series": "fim",
+    "place": "Ponyville",
+    "subPlace": "Ponyville theatre"
+  },
+  "fim-ponyville-cmc-clubhouse": {
+    "series": "fim",
+    "place": "Ponyville",
+    "subPlace": "CMC Clubhouse"
+  },
+  "fim-ponyville-castle-of-friendship": {
+    "series": "fim",
+    "place": "Ponyville",
+    "subPlace": "Castle of Friendship"
+  },
+  "fim-ponyville-school-of-friendship": {
+    "series": "fim",
+    "place": "Ponyville",
+    "subPlace": "School of Friendship"
+  },
+  "fim-ponyville-ponyville-s-marketplace": {
+    "series": "fim",
+    "place": "Ponyville",
+    "subPlace": "Ponyville's marketplace"
+  },
+  "fim-ponyville-sweet-apple-acres": {
+    "series": "fim",
+    "place": "Ponyville",
+    "subPlace": "Sweet Apple Acres"
+  },
+  "fim-ponyville-sugarcube-corner": {
+    "series": "fim",
+    "place": "Ponyville",
+    "subPlace": "Sugarcube Corner"
+  },
+  "fim-ponyville-ponyville-day-spa": {
+    "series": "fim",
+    "place": "Ponyville",
+    "subPlace": "Ponyville Day Spa"
+  },
+  "fim-ponyville-golden-oak-library": {
+    "series": "fim",
+    "place": "Ponyville",
+    "subPlace": "Golden Oak Library"
+  },
+  "fim-ponyville-carousel-boutique": {
+    "series": "fim",
+    "place": "Ponyville",
+    "subPlace": "Carousel Boutique"
+  },
+  "fim-ponyville-ponyville-bookstore": {
+    "series": "fim",
+    "place": "Ponyville",
+    "subPlace": "Ponyville bookstore"
+  },
+  "fim-ponyville-bowling-alley": {
+    "series": "fim",
+    "place": "Ponyville",
+    "subPlace": "Bowling alley"
+  },
+  "fim-ponyville-cafe-hay-ponyville": {
+    "series": "fim",
+    "place": "Ponyville",
+    "subPlace": "Caf\u00e9 Hay (Ponyville)"
+  },
+  "fim-ponyville-quills-and-sofas": {
+    "series": "fim",
+    "place": "Ponyville",
+    "subPlace": "Quills and Sofas"
+  },
+  "fim-ponyville-mr-breezy-s-fan-shop": {
+    "series": "fim",
+    "place": "Ponyville",
+    "subPlace": "Mr. Breezy's fan shop"
+  },
+  "fim-ponyville-jewelry-store": {
+    "series": "fim",
+    "place": "Ponyville",
+    "subPlace": "Jewelry store"
+  },
+  "fim-ponyville-rich-s-barnyard-bargains": {
+    "series": "fim",
+    "place": "Ponyville",
+    "subPlace": "Rich's Barnyard Bargains"
+  },
+  "fim-ponyville-the-hay-burger": {
+    "series": "fim",
+    "place": "Ponyville",
+    "subPlace": "The Hay Burger"
+  },
+  "fim-ponyville-tea-shop": {
+    "series": "fim",
+    "place": "Ponyville",
+    "subPlace": "Tea shop"
+  },
+  "fim-ponyville-fluttershy-s-cottage": {
+    "series": "fim",
+    "place": "Ponyville",
+    "subPlace": "Fluttershy's cottage"
+  },
+  "fim-ponyville-ponyville-day-spa-1": {
+    "series": "fim",
+    "place": "Ponyville",
+    "subPlace": "Ponyville Day Spa"
+  },
+  "ang-bridlewood-izzy-s-house": {
+    "series": "ang",
+    "place": "Bridlewood",
+    "subPlace": "Izzy's house"
+  },
+  "ang-bridlewood-crystal-tea-room": {
+    "series": "ang",
+    "place": "Bridlewood",
+    "subPlace": "Crystal Tea Room"
+  },
+  "ang-bridlewood-playground": {
+    "series": "ang",
+    "place": "Bridlewood",
+    "subPlace": "Playground"
+  },
+  "ang-maretime-bay-canterlogic-factory": {
+    "series": "ang",
+    "place": "Maretime Bay",
+    "subPlace": "Canterlogic factory"
+  },
+  "ang-maretime-bay-crystal-brighthouse": {
+    "series": "ang",
+    "place": "Maretime Bay",
+    "subPlace": "Crystal Brighthouse"
+  },
+  "ang-maretime-bay-lighthouse": {
+    "series": "ang",
+    "place": "Maretime Bay",
+    "subPlace": "Lighthouse"
+  },
+  "ang-maretime-bay-town-square": {
+    "series": "ang",
+    "place": "Maretime Bay",
+    "subPlace": "Town Square"
+  },
+  "ang-maretime-bay-sheriff-s-station": {
+    "series": "ang",
+    "place": "Maretime Bay",
+    "subPlace": "Sheriff's Station"
+  },
+  "ang-maretime-bay-movie-theatre": {
+    "series": "ang",
+    "place": "Maretime Bay",
+    "subPlace": "Movie theatre"
+  },
+  "ang-maretime-bay-tram": {
+    "series": "ang",
+    "place": "Maretime Bay",
+    "subPlace": "Tram"
+  },
+  "ang-maretime-bay-smoothie-trailer": {
+    "series": "ang",
+    "place": "Maretime Bay",
+    "subPlace": "Smoothie trailer"
+  },
+  "ang-maretime-bay-barbershop": {
+    "series": "ang",
+    "place": "Maretime Bay",
+    "subPlace": "Barbershop"
+  },
+  "ang-zephyr-heights-the-royal-palace": {
+    "series": "ang",
+    "place": "Zephyr Heights",
+    "subPlace": "The Royal Palace"
+  },
+  "ang-zephyr-heights-zephyr-heights-ancient-station": {
+    "series": "ang",
+    "place": "Zephyr Heights",
+    "subPlace": "Zephyr Heights' Ancient Station"
+  }
+}
