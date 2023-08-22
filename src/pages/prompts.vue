@@ -261,11 +261,12 @@ h1 subtitle {
   .image-bg {
     width: 10em;
     height: 10em;
-    background: #fff;
+    background: rgb(var(--v-theme-background));
     border-radius: .5em;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
     img {
       max-width: 10em;
       max-height: 10em;
