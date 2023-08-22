@@ -1,18 +1,18 @@
 export const socialMediaLinks = [
   {
-    icon: 'mdi-reddit',
+    icon: 'fa:fab fa-reddit',
     iconColor: '#FF5700',
     title: 'MLPDS Reddit',
     link: 'https://www.reddit.com/r/MLPdrawingschool/',
   },
   {
-    icon: 'mdi-discord',
+    icon: 'fa:fab fa-discord',
     iconColor: '#5865F2',
     title: 'MLPDS Discord',
     link: 'https://discord.gg/PhtDzZwbBR',
   },
   {
-    icon: 'mdi-youtube',
+    icon: 'fa:fab fa-youtube',
     iconColor: '#FF0000',
     title: 'MLPDS Youtube',
     link: 'https://www.youtube.com/channel/UCgwjWwwYwrgnNZX6VegUMWQ',

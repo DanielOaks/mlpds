@@ -102,6 +102,11 @@
 .v-application.v-theme--dark a {
   color: rgb(139, 191, 247);
 }
+// fix fontawesome icons
+.fa::before, .fab::before {
+  font: var(--fa-font-brands); // use bundled styling
+  font-size: .8em; // but make them fit better with mdi's icons
+}
 </style>
 
 <script setup lang="ts">

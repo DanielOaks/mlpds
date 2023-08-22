@@ -1,10 +1,12 @@
 // Styles
 import '@mdi/font/css/materialdesignicons.css'
+import '@fortawesome/fontawesome-free/css/brands.min.css'
 import 'vuetify/styles'
 
 // Vuetify
 import { createVuetify, ThemeDefinition } from 'vuetify'
 import { aliases, mdi } from 'vuetify/iconsets/mdi'
+import { fa } from 'vuetify/iconsets/fa'
 // @ts-ignore
 import colors from 'vuetify/lib/util/colors'
 
@@ -58,6 +60,7 @@ export default createVuetify({
     aliases,
     sets: {
       mdi,
+      fa,
     }
   },
 })
