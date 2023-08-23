@@ -115,13 +115,13 @@
   </v-container>
 </template>
 
+<script lang="ts">
+export const documentProps = {
+  title: "Welcome to the MLP Drawing School",
+  description: "We're a supportive a nurturing art community, focused on learning and sharing!",
+}
+</script>
 <script setup lang="ts">
-import { definePage } from 'vue-router/auto'
-definePage({
-  name: 'index',
-  path: '/',
-})
-
 import FinelineSubmitForm from '@/components/FinelineSubmitForm.vue';
 import { socialMediaLinks, externalLinks1, externalLinks2 } from '@/links'
 import logo from '@/assets/logo.png'

@@ -80,7 +80,7 @@
 
     <v-main>
       <v-container fluid>
-        <router-view></router-view>
+        <slot/>
       </v-container>
     </v-main>
 

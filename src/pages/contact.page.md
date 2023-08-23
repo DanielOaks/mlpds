@@ -1,5 +1,6 @@
 ---
-title: gsda
+title: Contact
+description: You can contact us using this page.
 ---
 # Contact Page
 

@@ -58,6 +58,12 @@
   </v-container>
 </template>
 
+<script lang="ts">
+export const documentProps = {
+  title: "Prompt Generator",
+  description: "Don't know what to draw? This page generates characters and locations!",
+}
+</script>
 <script setup lang="ts">
 import { reactive, ref } from 'vue'
 import characters from '@/assets/characters.json'

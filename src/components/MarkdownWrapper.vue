@@ -30,7 +30,7 @@
         </div>
       </div>
       <div id="mdPageNav" class="pageNav">
-        nav lmao
+        <!-- navigation will be placed here in browser -->
       </div>
     </div>
   </div>
@@ -255,8 +255,8 @@ import { authors, guideLists } from '../data'
 
 const author = authors[props.frontmatter?.author];
 
-// set the front-matter
-document.title = props.frontmatter ? `${props.frontmatter.title} | MLP Drawing School` : 'MLP Drawing School';
+// // set the front-matter
+// document.title = props.frontmatter ? `${props.frontmatter.title} | MLP Drawing School` : 'MLP Drawing School';
 
 // get this guide's path
 const guidesPrefix = '/guides/'
@@ -393,26 +393,30 @@ function renderPageNav(): void {
   }
 }
 
-anchors.add(headerSelector);
-renderPageNav();
+const isBrowser = typeof window !== 'undefined';
 
-onUpdated(() => {
+if (isBrowser) {
   anchors.add(headerSelector);
   renderPageNav();
-})
-onMounted(() => {
-  anchors.add(headerSelector);
-  renderPageNav();
-  document.getElementById('mdPageContent')?.querySelectorAll('img').forEach((element) => {
-    element.addEventListener('load', renderPageNav);
-  });
-  window.addEventListener('load', renderPageNav);
-  window.addEventListener('resize', renderPageNav);
-  window.addEventListener('scroll', tryUpdatePageNavScroll);
-})
-onUnmounted(() => {
-  window.removeEventListener('load', renderPageNav);
-  window.removeEventListener('resize', renderPageNav);
-  window.removeEventListener('scroll', tryUpdatePageNavScroll);
-})
+
+  onUpdated(() => {
+    anchors.add(headerSelector);
+    renderPageNav();
+  })
+  onMounted(() => {
+    anchors.add(headerSelector);
+    renderPageNav();
+    document.getElementById('mdPageContent')?.querySelectorAll('img').forEach((element) => {
+      element.addEventListener('load', renderPageNav);
+    });
+    window.addEventListener('load', renderPageNav);
+    window.addEventListener('resize', renderPageNav);
+    window.addEventListener('scroll', tryUpdatePageNavScroll);
+  })
+  onUnmounted(() => {
+    window.removeEventListener('load', renderPageNav);
+    window.removeEventListener('resize', renderPageNav);
+    window.removeEventListener('scroll', tryUpdatePageNavScroll);
+  })
+}
 </script>
