@@ -72,7 +72,7 @@ const config: UserConfig = {
       }
     }),
     md({
-      wrapperComponent: 'MarkdownWrapper',
+      wrapperComponent: 'markdown-wrapper',
     }),
   ],
   ssr: { noExternal: ['vuetify'] },

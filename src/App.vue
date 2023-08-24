@@ -111,7 +111,7 @@
 
 <script setup lang="ts">
 import { useStoredRef } from './refs'
-import { socialMediaLinks, externalLinks1, externalLinks2 } from './links'
+import { socialMediaLinks, externalLinks1, externalLinks2 } from './data/links'
 import logo from '@/assets/logo.png'
 import mlpdsBanner from '@/assets/mlpds-banner-dark.png'
 import { ref } from 'vue'

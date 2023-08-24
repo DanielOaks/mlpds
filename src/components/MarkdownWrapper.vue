@@ -251,22 +251,31 @@ const props = defineProps({
 import Banner1 from '@/assets/banner-1.jpg'
 
 import { useRoute } from 'vue-router'
-import { authors, guideLists } from '../data'
+import { authors, guideLists } from '@/data/guides'
+
+// Server-side pageContext built-in values
+import type { PageContextBuiltIn } from 'vite-plugin-ssr/types'
+import { inject } from 'vue'
+const pageContext = inject<PageContextBuiltIn>('pageContext')
+const isBrowser = typeof window !== 'undefined';
 
 const author = authors[props.frontmatter?.author];
-
-// // set the front-matter
-// document.title = props.frontmatter ? `${props.frontmatter.title} | MLP Drawing School` : 'MLP Drawing School';
 
 // get this guide's path
 const guidesPrefix = '/guides/'
 let home = ''
 let prevPage = ''
 let nextPage = ''
-if (props.frontmatter && props.frontmatter.type === 'guide') {
-  const route = useRoute()
-  const guidePath = route.path.replace(/^(\/guides\/)/,'')
+let guidePath = ''
 
+if (isBrowser) {
+  guidePath = window.location.pathname
+} else if (pageContext !== undefined) {
+  guidePath = pageContext.urlOriginal
+}
+
+if (props.frontmatter && props.frontmatter.type === 'guide' && guidePath != '') {
+  guidePath = guidePath.replace(/^(\/guides\/)/,'')
   const list = props.frontmatter.list || 'default';
 
   if(guideLists[list]) {
@@ -392,8 +401,6 @@ function renderPageNav(): void {
     // console.log(pageNavScrollInfo);
   }
 }
-
-const isBrowser = typeof window !== 'undefined';
 
 if (isBrowser) {
   anchors.add(headerSelector);

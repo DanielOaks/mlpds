@@ -26,6 +26,6 @@ function getPageDescription(pageContext: {
     (pageContext.exports.documentProps || {}).description ||
     // For dynamic tiles (defined in the `export addContextProps()` of the page's `.page.server.js`)
     (pageContext.documentProps || {}).description ||
-    "We're a supportive a nurturing art community, focused on learning and sharing!"
+    "We're a supportive and nurturing art community, focused on learning and sharing!"
   return title
 }

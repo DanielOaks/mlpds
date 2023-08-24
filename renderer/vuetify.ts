@@ -4,6 +4,7 @@ import '@fortawesome/fontawesome-free/css/brands.min.css'
 import 'vuetify/lib/styles/main.css'
 import * as components from 'vuetify/lib/components/index.mjs'
 import * as directives from 'vuetify/lib/directives/index.mjs'
+import "@fontsource/open-sans"; // Defaults to weight 400.
 
 // Vuetify
 import { createVuetify, ThemeDefinition } from 'vuetify'

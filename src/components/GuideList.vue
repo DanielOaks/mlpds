@@ -3,7 +3,7 @@
     <template v-for="section in guideLists[list].pages">
       <h2 v-text="section.name" v-if="titles !== 'none'"/>
       <div class="guideLink" v-for="p in section.pages">
-        <router-link :to="g(p).link || '/guides/'+p" v-text="g(p).name"/>
+        <router-link :to="g(p).link || '/guides/'+p">{{ g(p).name }}</router-link>
         <span class="author" v-text="g(p).author"/>
       </div>
     </template>
@@ -37,7 +37,7 @@ const props = defineProps({
   titles: String,
 })
 
-import { guides, guideLists } from '../data'
+import { guides, guideLists } from '../data/guides'
 
 function g(page: string) {
   return guides[page];

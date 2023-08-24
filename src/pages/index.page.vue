@@ -123,7 +123,7 @@ export const documentProps = {
 </script>
 <script setup lang="ts">
 import FinelineSubmitForm from '@/components/FinelineSubmitForm.vue';
-import { socialMediaLinks, externalLinks1, externalLinks2 } from '@/links'
+import { socialMediaLinks, externalLinks1, externalLinks2 } from '@/data/links'
 import logo from '@/assets/logo.png'
 
 import fluffyxaiFineline1 from '@/assets/fineline/fluffyxai-fineline-1.png'
